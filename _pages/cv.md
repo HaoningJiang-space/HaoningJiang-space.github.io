@@ -29,6 +29,11 @@ Work experience
   * SUSTech
   * Duties included: Analog integrated circuit design
   * Supervisor: Professor Jiang
+    
+* Fall 2023: Member of Supercomputer
+  * SUSTech
+  * Duties included: HPC and to involve competition
+  * Supervisor: Professor Fan
   
 Skills
 ======
