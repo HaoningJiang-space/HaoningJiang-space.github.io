@@ -21,7 +21,7 @@ repository               : "HaoningJiang-space/HaoningJiang-space.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "picture.png"
   name             : "Haoning Jiang(蒋浩宁)"
   pronouns         : # example: "she/her"  
   bio              : "All computing power will eventually be brought to justice."
