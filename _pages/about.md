@@ -26,5 +26,8 @@ Recent news:
 - 2024.3-2024.6  :NeRF
 - 2024.3-        :AIDD, GNN+LLM in drug design
 - 2024.4-2024.11 :APAC HPC-AI competition
+- 2024.4-        :National College Student Computer System Ability Competition,Intelligent System Innovation Design Competition
+- 2024.4         :Kaggle competition of clisim
+- 2024.6         :RAMD coding competition
 
 
