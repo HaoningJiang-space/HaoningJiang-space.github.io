@@ -24,5 +24,7 @@ Recent news:
 - 2024.2-2024.5  :Gradient inverting in Federated learning
 - 2024.5         :Mesh segmentation
 - 2024.3-2024.6  :NeRF
+- 2024.3-        :AIDD, GNN+LLM in drug design
+- 2024.4-2024.11 :APAC HPC-AI competition
 
 
