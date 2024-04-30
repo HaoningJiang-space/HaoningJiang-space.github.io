@@ -21,5 +21,8 @@ Recent news:
 - 2024.4         :Participate in the ASC World Supercomputing Finals and the High Performance Computing Summit,meeting the Turing Award winner Jack Dongarra
 - 2023.7-2024.2  :A auto generator of PowerFet using gdstk
 - 2024.2-        :Table Tennis Hawk Eye and Action Scoring System
-- 2024.2-        :Table Tennis Hawk Eye and Action Scoring System
+- 2024.2-2024.5  :Gradient inverting in Federated learning
+- 2024.5         :Mesh segmentation
+- 2024.3-2024.6  :NeRF
+
 
