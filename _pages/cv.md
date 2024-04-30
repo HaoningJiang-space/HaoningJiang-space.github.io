@@ -23,17 +23,22 @@ Work experience
 * Spring 2024: Intership
   * Hongkong University
   * Duties included: Algorithm in computer vision and graphics
-  * Supervisor: Professor Qu
+  * Supervisor: Professor LiangQiong Qu
 
 * Spring 2023: Research Assistant
   * SUSTech
   * Duties included: Analog integrated circuit design
-  * Supervisor: Professor Jiang
+  * Supervisor: Professor Junming Jiang
+ 
+* Summer 2024: Intership
+  * Peking University
+  * Duties included: EDA,layout
+  * Supervisor: Professor Yibo Lin
     
 * Fall 2023: Member of Supercomputer
   * SUSTech
   * Duties included: HPC and to involve competition
-  * Supervisor: Professor Fan
+  * Supervisor: Professor Fan JIn
   
 Skills
 ======
