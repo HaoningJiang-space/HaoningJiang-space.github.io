@@ -14,7 +14,7 @@ I am very fortunate to be advised by [Prof. JunmingJiang](https://www.sustech.ed
 My research interests span the area of artificial intelligence, computer vision, computer graphics, machine learning, AI4science, reinforcement learning, HPC, with a special focus on 1) AI in drug design,  2) the AI in circuit design, and 3) Inverting gradient in Federated learning.
 
 Recent news:
-- First item
+- 2023.11        :First Prize in the South China Division of National College Challenge Computer System Design
 - Second item
 - Third item
 - Fourth item
