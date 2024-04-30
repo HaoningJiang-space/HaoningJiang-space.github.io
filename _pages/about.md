@@ -15,21 +15,11 @@ My research interests span the area of artificial intelligence, computer vision,
 
 Recent news:
 - 2023.11        :First Prize in the South China Division of National College Challenge Computer System Design
-- Second item
-- Third item
-- Fourth item
--2023.11        :First Prize in the South China Division of National College Challenge Computer System Design
+- 2024.1         :Second Prize in the ASC World Supercomputing Competition
+- 2024.2         :Mathematical Modeling Competition
+- 2024.12-2023.4 :Multi-agent in HEMS
+- 2024.4         :Participate in the ASC World Supercomputing Finals and the High Performance Computing Summit,meeting the Turing Award winner Jack Dongarra
+- 2023.7-2024.2  :A auto generator of PowerFet using gdstk
+- 2024.2-        :Table Tennis Hawk Eye and Action Scoring System
+- 2024.2-        :Table Tennis Hawk Eye and Action Scoring System
 
--2024.1         :Second Prize in the ASC World Supercomputing Competition
-
--2024.2         :Mathematical Modeling Competition
-
--2024.12-2023.4 :Multi-agent in HEMS
-
--2024.4         :Participate in the ASC World Supercomputing Finals and the High Performance Computing Summit,meeting the Turing Award winner Jack Dongarra
-
--2023.7-2024.2  :A auto generator of PowerFet using gdstk
-
--2024.2-        :Table Tennis Hawk Eye and Action Scoring System
-
--2024.3-2024.5  :Gradient inverting in Federated learning
