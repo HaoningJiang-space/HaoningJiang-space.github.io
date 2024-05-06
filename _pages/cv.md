@@ -15,6 +15,16 @@ Education
 
 Work experience
 ======
+* Spring 2024 - Fall 2024: Intership
+  * Hong Kong Baptist University University
+  * Duties included: HPC, DPU
+  * Supervisor: Professor Chi Zhou
+ 
+* Summer 2024: Intership
+  * Peking University
+  * Duties included: EDA,layout
+  * Supervisor: Professor Yibo Lin
+    
 * Spring 2024: Research Assistant
   * Shanghai Zhangjiang Institute of Mathematics
   * Duties includes: AI4science, use GNN and LLM in drug design
@@ -29,11 +39,6 @@ Work experience
   * SUSTech
   * Duties included: Analog integrated circuit design
   * Supervisor: Professor Junming Jiang
- 
-* Summer 2024: Intership
-  * Peking University
-  * Duties included: EDA,layout
-  * Supervisor: Professor Yibo Lin
     
 * Fall 2023: Member of Supercomputer
   * SUSTech
