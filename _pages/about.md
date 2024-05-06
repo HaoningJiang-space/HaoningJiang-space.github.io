@@ -29,6 +29,7 @@ Recent news:
 - 2024.2-2024.5  :Gradient inverting in Federated learning, NeurIPS24 is under investment
 - 2024.2-        :Table Tennis Hawk Eye and Action Scoring System
 - 2024.2         :Mathematical Modeling Competition,S prize
+- 2024.1-2024.5  :Intership at IECUBE, testing the parameter of ADC circuits
 - 2024.1         :Second Prize in the ASC World Supercomputing Competition
 - 2023.12-2024.4 :Multi-agent in HEMS
 - 2023.11        :First Prize in the South China Division of National College Challenge Computer System Design
