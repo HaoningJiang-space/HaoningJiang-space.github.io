@@ -15,11 +15,12 @@ My research interests span the area of artificial intelligence, computer vision,
 
 Recent news:
 
+- 2024.7         :National College Student Physics Experiment Innovation Competition-Designing an Optical Fiber Sensor
 - 2024.6         :RDMA coding competition
 - 2024.5-2024.11 :DPU,DOCA
 - 2024.5         :Mesh segmentation
 - 2024.4-2024.6  :Kaggle competition of clisim
-- 2024.4-        :National College Student Computer System Ability Competition,Intelligent System Innovation Design Competition
+- 2024.4-        :National College Student Computer System Ability Competition,Intelligent System Innovation Design Competition, a Robotic competition and use ROS2
 - 2024.4-2024.11 :APAC HPC-AI competition
 - 2024.4         :Help the University of Hong Kong School of Medicine label dental plaque data and calculate the overlap rate,using Meshlib
 - 2024.4         :Participate in the ASC World Supercomputing Finals and the High Performance Computing Summit,meeting the Turing Award winner Jack Dongarra
