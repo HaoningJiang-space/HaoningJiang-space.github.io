@@ -16,6 +16,7 @@ My research interests span the area of artificial intelligence, computer vision,
 Recent news:
 
 - 2024.6         :RDMA coding competition
+- 2024.5-2024.11 :DPU,DOCA
 - 2024.5         :Mesh segmentation
 - 2024.4         :Kaggle competition of clisim
 - 2024.4-        :National College Student Computer System Ability Competition,Intelligent System Innovation Design Competition
