@@ -16,6 +16,7 @@ My research interests span the area of artificial intelligence, computer vision,
 Recent news:
 
 - 2024.7         :National College Student Physics Experiment Innovation Competition-Designing an Optical Fiber Sensor
+- 2024.6-2024.9  :Intership at Peking University, EDA programming, about layout
 - 2024.6         :RDMA coding competition
 - 2024.5-2024.11 :DPU,DOCA
 - 2024.5         :Mesh segmentation
