@@ -11,7 +11,7 @@ I'm a sophomore in SUSTech in the Department of Electrical and electronic engine
 
 I am very fortunate to be advised by [Prof. JunmingJiang](https://www.sustech.edu.cn/zh/faculties/jiangjunmin.html) of PICL Lab from [the Department of Electrical and electronic engineering](https://www.sustech.edu.cn/), Southern University of Science and Technology. I was advised by [Prof. Qu](https://liangqiong.github.io/) from [School of Computer Science](https://www.hku.hk/), Hongkong University. 
 
-My research interests span the area of artificial intelligence, computer vision, computer graphics, machine learning, AI4science, reinforcement learning, HPC, with a special focus on 1) AI in drug design,  2) the AI in circuit design, and 3) Inverting gradient in Federated learning.
+My research interests span the area of artificial intelligence, computer vision, computer graphics, machine learning, AI4science, GNN, HPC, with a special focus on 1) AI in drug design,  2) the AI in circuit design, and 3) Inverting gradient in Federated learning.
 
 Recent news:
 
