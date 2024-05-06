@@ -18,15 +18,16 @@ Recent news:
 - 2024.6         :RDMA coding competition
 - 2024.5-2024.11 :DPU,DOCA
 - 2024.5         :Mesh segmentation
-- 2024.4         :Kaggle competition of clisim
+- 2024.4-2024.6  :Kaggle competition of clisim
 - 2024.4-        :National College Student Computer System Ability Competition,Intelligent System Innovation Design Competition
 - 2024.4-2024.11 :APAC HPC-AI competition
+- 2024.4         :Help the University of Hong Kong School of Medicine label dental plaque data and calculate the overlap rate,using Meshlib
 - 2024.4         :Participate in the ASC World Supercomputing Finals and the High Performance Computing Summit,meeting the Turing Award winner Jack Dongarra
 - 2024.3-        :AIDD, GNN+LLM in drug design
 - 2024.3-2024.6  :NeRF
-- 2024.2-2024.5  :Gradient inverting in Federated learning
+- 2024.2-2024.5  :Gradient inverting in Federated learning, NeurIPS24 is under investment
 - 2024.2-        :Table Tennis Hawk Eye and Action Scoring System
-- 2024.2         :Mathematical Modeling Competition
+- 2024.2         :Mathematical Modeling Competition,S prize
 - 2024.1         :Second Prize in the ASC World Supercomputing Competition
 - 2023.12-2024.4 :Multi-agent in HEMS
 - 2023.11        :First Prize in the South China Division of National College Challenge Computer System Design
