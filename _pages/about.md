@@ -27,7 +27,7 @@ Recent news:
 - 2024.4         :Participate in the ASC World Supercomputing Finals and the High Performance Computing Summit,meeting the Turing Award winner Jack Dongarra
 - 2024.3-        :AIDD, GNN+LLM in drug design
 - 2024.3-2024.6  :NeRF
-- 2024.2-2024.5  :Gradient inverting in Federated learning, NeurIPS24 is under investment
+- 2024.3-2024.5  :Gradient inverting in Federated learning
 - 2024.2-        :Table Tennis Hawk Eye and Action Scoring System
 - 2024.2         :Mathematical Modeling Competition,S prize
 - 2024.1-2024.5  :Intership at IECUBE, testing the parameter of ADC circuits
