@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a sophomore in SUSTech in the Department of Electrical and electronic engineering. Meanwhile, I am the member in supercomputer in SUSTech.
+I'm a sophomore in SUSTech in the Department of Electrical and electronic engineering.
 
 I am very fortunate to be advised by [Prof. JunmingJiang](https://www.sustech.edu.cn/zh/faculties/jiangjunmin.html) of PICL Lab from [the Department of Electrical and electronic engineering](https://www.sustech.edu.cn/), Southern University of Science and Technology. I was advised by [Prof. Qu](https://liangqiong.github.io/) from [School of Computer Science](https://www.hku.hk/), Hongkong University. 
 
@@ -29,7 +29,7 @@ Recent news:
 - 2024.3-2024.6  :NeRF
 - 2024.3-2024.5  :Gradient inverting in Federated learning
 - 2024.2-        :Table Tennis Hawk Eye and Action Scoring System
-- 2024.2         :Mathematical Modeling Competition,S prize
+- 2024.2         :Mathematical Modeling Competition,MCM
 - 2024.1-2024.5  :Intership at IECUBE, testing the parameter of ADC circuits
 - 2024.1         :Second Prize in the ASC World Supercomputing Competition
 - 2023.12-2024.4 :Multi-agent in HEMS
