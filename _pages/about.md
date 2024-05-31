@@ -19,10 +19,11 @@ Recent news:
 - 2024.6-2024.9  :Intership at Peking University, EDA programming, about layout
 - 2024.6         :RDMA coding competition
 - 2024.5-2024.11 :DPU,DOCA
-- 2024.5         :Mesh segmentation
+- 2024.5-         :Mesh segmentation
 - 2024.4-2024.6  :Kaggle competition of clisim
 - 2024.4-        :National College Student Computer System Ability Competition,Intelligent System Innovation Design Competition, a Robotic competition and use ROS2
 - 2024.4-2024.11 :APAC HPC-AI competition
+- 2024.4-2024.6  :EDA, Sizing, RL in autodesign
 - 2024.4         :Help the University of Hong Kong School of Medicine label dental plaque data and calculate the overlap rate,using Meshlib
 - 2024.4         :Participate in the ASC World Supercomputing Finals and the High Performance Computing Summit,meeting the Turing Award winner Jack Dongarra
 - 2024.3-        :AIDD, GNN+LLM in drug design
