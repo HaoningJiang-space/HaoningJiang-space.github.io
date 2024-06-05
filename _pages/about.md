@@ -17,7 +17,7 @@ Recent news:
 
 - 2024.7         :National College Student Physics Experiment Innovation Competition-Designing an Optical Fiber Sensor
 - 2024.6-2024.9  :Intership at Peking University, EDA programming, about layout
-- 2024.6         :RDMA coding competition
+- 2024.6-        :Brain Algorithm and LLM
 - 2024.5-2024.11 :DPU,DOCA
 - 2024.5-         :Mesh segmentation
 - 2024.4-2024.6  :Kaggle competition of clisim
