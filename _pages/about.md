@@ -12,7 +12,7 @@ I'm a sophomore in SUSTech in the Department of Electrical and electronic engine
 I am very fortunate to be advised by [Prof. JunmingJiang](https://www.sustech.edu.cn/zh/faculties/jiangjunmin.html) of PICL Lab from [the Department of Electrical and electronic engineering](https://www.sustech.edu.cn/), Southern University of Science and Technology.Right now, I am advised by [Prof.Lin](https://ic.pku.edu.cn/szdw/zzjs/sjzdhyjsxtx1/lyb_ae03bbb7dd1548659c1ffe83edd4a047/index.htm) in [School of Integrated Circuits](https://www.pku.edu.cn/), Peking University.
 
 
-My research interests span the area of artificial intelligence, computer vision,  machine learning, AI4science, GNN, HPC, with a special focus on 1) ML for EDA,  2) RLHF, and 3) Inverting gradient in Federated learning.
+My research interests span the area of artificial intelligence, computer vision,  machine learning, GNN, HPC, with a special focus on 1) ML for EDA,  2) RLHF, and 3) Inverting gradient in Federated learning.
 
 Recent news:
 
