@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a sophomore in SUSTech in the Department of Electrical and electronic engineering.
+I'm a junior in SUSTech in the Department of Electrical and electronic engineering.
 
 I am very fortunate to be advised by [Prof. JunmingJiang](https://www.sustech.edu.cn/zh/faculties/jiangjunmin.html) of PICL Lab from [the Department of Electrical and electronic engineering](https://www.sustech.edu.cn/), Southern University of Science and Technology. And thanks for [Prof. Qu](https://liangqiong.github.io/) of AI lab from [Hongkong University](https://www.hku.hk/)).
 
@@ -18,14 +18,14 @@ My research interests span the area of artificial intelligence,  machine learnin
 
 Recent news:
 
-- 2024.7-        :RLHF
-- 2024.6-2024.9  :LLM and Bag, Large lauange model in layout generation, target DAC25
-- 2024.6-2024.8  :Large lanuange model in Brain algorithm.
-- 2024.5-2024.11 :DPU and DOCA, a parallel framework for GraphDPU
+- 2024.12      : VLM attack
+- 2024.6-2024.11 : APAC HPC-AI competition ,Rank 8 
+- 2024.6-2024.12  :LLM and Bag, Large lauange model in layout generation, to be contributed to TCAD
+- 2024.6-2024.8  :Large lanuange model in Brain algorithm , to be contributed to Nature
 - 2024.4-2024.6  :EDA, Sizing, Multi-agent reinforcement learning in analog design.
 - 2024.4         :Participate in the ASC World Supercomputing Finals and the High Performance Computing Summit,meeting the Turing Award winner Jack Dongarra
 - 2024.3-2024.6  :NeRF, the best poster in MIT training course
-- 2024.3-2024.5  :Gradient inverting in Federated learning, contribute to NeurIPS24
+- 2024.3-2024.5  :Gradient inverting in Federated learning, contribute to TPAMI
 - 2024.2-        :Table Tennis Hawk Eye and Action Scoring System. Contribute to PLOG ONE, JCR 1 .
 - 2024.2         :Mathematical Modeling Competition, MCM
 - 2024.1-2024.5  :Intership at IECUBE, testing the parameter of ADC circuits
