@@ -48,7 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (userCode === correctCode) {
         console.log("验证码正确，验证通过");
         sessionStorage.setItem("isVerified", "true");
-        location.reload();
+        // 跳转到受保护的页面
+        window.location.href = "/private/content/";
       } else {
         console.log("验证码错误");
         alert("验证码错误，无法访问此页面。");
@@ -57,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   } else {
     console.log("用户已验证，显示内容");
-    // 这里可以添加显示内容的逻辑，如果需要额外处理
+    // 可选：在此处添加显示内容的逻辑
   }
 });
 </script>
