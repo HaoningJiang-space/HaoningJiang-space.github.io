@@ -15,45 +15,12 @@ Education
 
 Work experience
 ======
-* Spring 2024 - Fall 2024: Intership
-  * Hong Kong Baptist University University
-  * Duties included: HPC, DPU
-  * Supervisor: Professor Chi Zhou
- 
-* Summer 2024: Intership
-  * Peking University
-  * Duties included: EDA,layout
-  * Supervisor: Professor Yibo Lin
-    
-* Spring 2024: Research Assistant
-  * Shanghai Zhangjiang Institute of Mathematics
-  * Duties includes: AI4science, use GNN and LLM in drug design
-  * Supervisor: Prof.Li
 
-* Spring 2024: Intership
-  * Hongkong University
-  * Duties included: Algorithm in computer vision and graphics
-  * Supervisor: Professor LiangQiong Qu
-
-* Spring 2023: Research Assistant
-  * SUSTech
-  * Duties included: Analog integrated circuit design
-  * Supervisor: Professor Junming Jiang
-    
-* Fall 2023: Member of Supercomputer
-  * SUSTech
-  * Duties included: HPC and to involve competition
-  * Supervisor: Professor Fan JIn
   
 Skills
 ======
 * Skill CV CG
-* Skill HPC
-  * Sub-skill OS
-  * Sub-skill Network
-  * Sub-skill Parallel computing
-* Skill Reinforcement learning
-* Skill GNN
+
 
 Publications
 ======
