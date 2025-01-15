@@ -1,0 +1,378 @@
+---
+layout: default
+title: "私人页面"
+permalink: /private/index.html
+author_profile: false
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>私人页面</title>
+  {% include head.html %}
+  {% include head/custom.html %}
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const isVerified = localStorage.getItem('isVerified');
+      console.log("验证状态:", isVerified);
+
+      if (!isVerified) {
+        console.log("用户未验证，重定向到登录页面");
+        window.location.href = "/private/login.html"; // 更新重定向路径
+      } else {
+        console.log("用户已验证，显示私人内容");
+        // 显示内容
+        document.getElementById('protected-content').style.display = 'block';
+      }
+    });
+
+    function logout() {
+      localStorage.removeItem('isVerified');
+      window.location.href = '/private/login.html'; // 更新重定向路径
+    }
+  </script>
+  <style>
+    /* 初始隐藏受保护内容 */
+    #protected-content {
+      display: none;
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .content-section {
+      margin-bottom: 30px;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 8px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .submit-button {
+      padding: 10px 20px;
+      background-color: #28a745;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .submit-button:hover {
+      background-color: #218838;
+    }
+
+    #logout-button {
+      padding: 10px 20px;
+      background-color: #dc3545;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    #logout-button:hover {
+      background-color: #c82333;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .welcome-text {
+      text-align: center;
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    .download-area {
+    text-align: center;
+    padding: 20px;
+  }
+
+    .download-link {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .download-link:hover {
+      background-color: #0056b3;
+      text-decoration: none;
+      color: white;
+    }
+
+    .download-link i {
+      margin-right: 8px;
+    }
+
+    .file-explorer {
+          background: #1e1e1e;
+          color: #d4d4d4;
+          padding: 15px;
+          border-radius: 6px;
+          font-family: 'Consolas', monospace;
+        }
+
+    .tree {
+      list-style: none;
+      padding-left: 20px;
+    }
+
+    .tree ul {
+      list-style: none;
+      padding-left: 20px;
+      display: none;
+    }
+
+    .tree li {
+      padding: 5px 0;
+      cursor: pointer;
+    }
+
+    .folder, .file {
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+
+    .folder:hover, .file:hover {
+      background: #2a2d2e;
+    }
+
+    /* 展开状态的文件夹 */
+    .expanded > ul {
+      display: block;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      padding-top: 50px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.9);
+    }
+
+    .modal-content {
+      margin: auto;
+      display: block;
+      max-width: 90%;
+      max-height: 90vh;
+    }
+
+    .close-modal {
+      position: absolute;
+      right: 25px;
+      top: 10px;
+      color: #f1f1f1;
+      font-size: 35px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .close-modal:hover {
+      color: #bbb;
+    }
+
+  </style>
+</head>
+<body>
+  {% include browser-upgrade.html %}
+  {% include masthead.html %}
+
+  <div id="content-container">
+    <div id="protected-content">
+      <h1>私人空间</h1>
+      <p class="welcome-text">欢迎来到您的私人页面</p>
+
+      <div class="content-section">
+        <h2>留言板</h2>
+        <div class="form-group">
+          <textarea id="message" placeholder="在这里写下你的想法..."></textarea>
+        </div>
+        <div class="button-group">
+          <button class="submit-button" onclick="submitMessage()">提交留言</button>
+          <button id="logout-button" onclick="logout()">注销</button>
+        </div>
+      </div>
+
+      <div class="content-section">
+        <h2>数据下载</h2>
+        <div class="download-area">
+          <a href="/assets/downloads/data.zip" download class="download-link">
+            <i class="fas fa-download"></i> 点击下载数据集
+          </a>
+        </div>
+      </div>
+
+      <!-- 替换现有的文件浏览器 HTML -->
+      <div class="content-section">
+        <h2>文件浏览器</h2>
+        <div class="file-explorer">
+          <ul class="tree" id="fileTree">
+            <!-- 动态生成的文件结构 -->
+          </ul>
+        </div>
+      </div>
+
+      <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="page__footer">
+    <footer>
+      {% include footer/custom.html %}
+      {% include footer.html %}
+    </footer>
+  </div>
+
+  <script>
+    async function scanDirectory(path = '') {
+      try {
+        const response = await fetch(`/api/scan-directory?path=${encodeURIComponent(path)}`);
+        return await response.json();
+      } catch (error) {
+        console.error('扫描目录失败:', error);
+        return { folders: [], files: [] };
+      }
+    }
+
+    function submitMessage() {
+      const message = document.getElementById('message').value;
+      if (message.trim() !== '') {
+        alert('留言已提交！');
+        document.getElementById('message').value = '';
+      } else {
+        alert('请输入留言内容');
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+          // 为所有文件夹添加点击事件
+          document.querySelectorAll('.folder').forEach(folder => {
+            folder.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const listItem = folder.parentElement;
+              listItem.classList.toggle('expanded');
+            });
+          });
+
+    // 为所有文件添加点击事件
+    
+    async function buildFileTree(parentElement, path = '') {
+      const data = await scanDirectory(path);
+      
+      // 处理文件夹
+      for (const folder of data.folders) {
+        const li = document.createElement('li');
+        const span = document.createElement('span');
+        span.className = 'folder';
+        span.textContent = `📁 ${folder}`;
+        li.appendChild(span);
+        
+        const ul = document.createElement('ul');
+        li.appendChild(ul);
+        
+        span.addEventListener('click', async (e) => {
+          e.stopPropagation();
+          const listItem = span.parentElement;
+          if (!listItem.classList.contains('loaded')) {
+            await buildFileTree(ul, `${path}/${folder}`.replace(/^\//, ''));
+            listItem.classList.add('loaded');
+          }
+          listItem.classList.toggle('expanded');
+        });
+        
+        parentElement.appendChild(li);
+      }
+      for (const file of data.files) {
+        const li = document.createElement('li');
+        const span = document.createElement('span');
+        span.className = 'file';
+        span.textContent = `🖼️ ${file}`;
+        
+        span.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const modal = document.getElementById('imageModal');
+          const modalImg = document.getElementById('modalImage');
+          modalImg.src = `/assets/images/${path}/${file}`.replace(/\/+/g, '/');
+          modal.style.display = "block";
+        });
+        
+        li.appendChild(span);
+        parentElement.appendChild(li);
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const fileTree = document.getElementById('fileTree');
+      buildFileTree(fileTree);
+    });
+
+
+    document.querySelector('.close-modal').addEventListener('click', () => {
+      document.getElementById('imageModal').style.display = "none";
+    });
+
+    // 点击模态框外部也可以关闭
+    document.getElementById('imageModal').addEventListener('click', (e) => {
+      if (e.target === document.getElementById('imageModal')) {
+        document.getElementById('imageModal').style.display = "none";
+      }
+    });
+
+    function getFilePath(element) {
+      const path = [];
+      let current = element.parentElement;
+      
+      while (current.parentElement) {
+        const folder = current.parentElement.querySelector('.folder');
+        if (folder) {
+          path.unshift(folder.textContent.replace('📁 ', ''));
+        }
+        current = current.parentElement;
+        if (current.classList.contains('file-explorer')) break;
+      }
+      
+      return path.join('/');
+    }
+
+  </script>
+
+  {% include scripts.html %}
+</body>
+</html>
