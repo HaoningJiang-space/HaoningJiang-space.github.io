@@ -1,11 +1,8 @@
-```javascript
-// filepath: /Users/haoning/project/HaoningJiang-space.github.io/_pages/private.md
 ---
 layout: archive
 title: "私人页面"
 permalink: /private/
 author_profile: false
-redirect_from: /private/
 ---
 <script>
 document.addEventListener('DOMContentLoaded', () => {
@@ -60,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   } else {
     console.log("用户已验证，显示内容");
+    // 这里可以添加显示内容的逻辑，如果需要额外处理
   }
 });
 </script>
