@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 title: "私人页面"
 permalink: /private/
 author_profile: false
@@ -18,37 +18,48 @@ author_profile: false
 
       if (!isVerified) {
         console.log("用户未验证，重定向到登录页面");
-        window.location.href = "/login.html";
+        window.location.href = "/private/login.html"; // 更新重定向路径
       } else {
         console.log("用户已验证，显示私人内容");
         // 显示内容
         document.getElementById('protected-content').style.display = 'block';
       }
     });
+
+    function logout() {
+      localStorage.removeItem('isVerified');
+      window.location.href = '/private/login.html'; // 更新重定向路径
+    }
   </script>
   <style>
     /* 初始隐藏受保护内容 */
     #protected-content {
       display: none;
     }
+    #logout-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #dc3545;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #logout-button:hover {
+      background-color: #c82333;
+    }
   </style>
 </head>
 <body>
   {% include browser-upgrade.html %}
   {% include masthead.html %}
-  
+
   <div id="content-container">
     <div id="protected-content">
       <h1>欢迎来到私人页面</h1>
       <p>这里是只能通过验证码访问的内容。</p>
-      <!-- 可选：添加注销按钮 -->
-      <button onclick="logout()">注销</button>
-      <script>
-        function logout() {
-          localStorage.removeItem('isVerified');
-          window.location.href = '/login.html';
-        }
-      </script>
+      <!-- 注销按钮 -->
+      <button id="logout-button" onclick="logout()">注销</button>
     </div>
   </div>
 
