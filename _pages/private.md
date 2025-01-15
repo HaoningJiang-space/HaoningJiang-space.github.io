@@ -3,6 +3,7 @@ layout: archive
 title: "私人页面"
 permalink: /private/
 author_profile: false
+redirect_from: /private/
 ---
 <script>
 // 验证码
