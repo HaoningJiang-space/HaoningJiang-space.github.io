@@ -11,13 +11,36 @@ const correctCode = "123456";
 
 // 检查是否已验证
 if (!sessionStorage.getItem("isVerified")) {
-  const userCode = prompt("请输入访问验证码:");
-  if (userCode === correctCode) {
-    sessionStorage.setItem("isVerified", "true");
-  } else {
-    alert("验证码错误，无法访问此页面。");
-    window.location.href = "/";
-  }
+  // 创建验证码表单
+  const form = document.createElement('form');
+  form.id = 'codeForm';
+  
+  const input = document.createElement('input');
+  input.type = 'password';
+  input.placeholder = '请输入访问验证码';
+  input.id = 'userCode';
+  input.required = true;
+  
+  const submit = document.createElement('button');
+  submit.type = 'submit';
+  submit.textContent = '提交';
+  
+  form.appendChild(input);
+  form.appendChild(submit);
+  document.body.innerHTML = '';
+  document.body.appendChild(form);
+  
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const userCode = document.getElementById('userCode').value;
+    if (userCode === correctCode) {
+      sessionStorage.setItem("isVerified", "true");
+      location.reload();
+    } else {
+      alert("验证码错误，无法访问此页面。");
+      window.location.href = "/";
+    }
+  });
 }
 </script>
 
