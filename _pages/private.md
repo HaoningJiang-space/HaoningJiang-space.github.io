@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // 检查是否已验证
   if (!sessionStorage.getItem("isVerified")) {
+    console.log("用户未验证，显示验证码表单");
     // 创建验证码表单
     const form = document.createElement('form');
     form.id = 'codeForm';
@@ -35,23 +36,30 @@ document.addEventListener('DOMContentLoaded', () => {
     // 插入到#content-container
     const contentDiv = document.getElementById('content-container');
     if (contentDiv) {
+      console.log("找到#content-container容器，插入表单");
       contentDiv.innerHTML = '';
       contentDiv.appendChild(form);
     } else {
+      console.log("#content-container容器未找到，插入到body");
       document.body.appendChild(form);
     }
     
     form.addEventListener('submit', function(e) {
       e.preventDefault();
       const userCode = document.getElementById('userCode').value;
+      console.log("用户输入的验证码:", userCode);
       if (userCode === correctCode) {
+        console.log("验证码正确，验证通过");
         sessionStorage.setItem("isVerified", "true");
         location.reload();
       } else {
+        console.log("验证码错误");
         alert("验证码错误，无法访问此页面。");
         window.location.href = "/";
       }
     });
+  } else {
+    console.log("用户已验证，显示内容");
   }
 });
 </script>
