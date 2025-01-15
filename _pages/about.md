@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I'm a junior in SUSTech in the Department of Electrical and electronic engineering.
+#I'm a junior in SUSTech in the Department of Electrical and electronic engineering.
 
-I am very fortunate to be advised by [Prof. JunmingJiang](https://www.sustech.edu.cn/zh/faculties/jiangjunmin.html) of PICL Lab from [the Department of Electrical and electronic engineering](https://www.sustech.edu.cn/), Southern University of Science and Technology. And thanks for [Prof. Qu](https://liangqiong.github.io/) of AI lab from [Hongkong University](https://www.hku.hk/)).
+#I am very fortunate to be advised by [Prof. JunmingJiang](https://www.sustech.edu.cn/zh/faculties/jiangjunmin.html) of PICL Lab from [the #Department of Electrical and electronic engineering](https://www.sustech.edu.cn/), Southern University of Science and Technology. And #thanks for [Prof. Qu](https://liangqiong.github.io/) of AI lab from [Hongkong University](https://www.hku.hk/)).
 
-In the summer of 2024, I am advised by [Prof.Lin](https://ic.pku.edu.cn/szdw/zzjs/sjzdhyjsxtx1/lyb_ae03bbb7dd1548659c1ffe83edd4a047/index.htm) in [School of Integrated Circuits](https://www.pku.edu.cn/), Peking University.
+#In the summer of 2024, I am advised by [Prof.Lin]#(https://ic.pku.edu.cn/szdw/zzjs/sjzdhyjsxtx1/lyb_ae03bbb7dd1548659c1ffe83edd4a047/index.htm) in [School of Integrated Circuits]#(https://www.pku.edu.cn/), Peking University.
 
 
-My research interests span the area of artificial intelligence,  machine learning, GNN, with a special focus on 1) ML for EDA,  2) RL for LLM, and 3) IC design.
+#My research interests span the area of artificial intelligence,  machine learning, GNN, with a special focus on 1) ML for EDA,  2) RL for LLM, and 3) IC design.
 
 Recent news:
 
