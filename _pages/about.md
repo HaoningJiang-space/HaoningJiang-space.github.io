@@ -76,6 +76,6 @@ Jan. 2025 - Mar. 2025
 
 
 ## 📩 Contact & Collaboration  
-- **Email**: Jianghn@mail.sustech.edu.cn  
+- **Email**: jianghn@mail.sustech.edu.cn  
 - **GitHub**: HaoningJiang-space (Add link here)  
 - **Open to Collaborations**: Integrated circuit automation, intelligent hardware, etc.  
