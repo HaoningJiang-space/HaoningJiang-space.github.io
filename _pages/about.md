@@ -128,24 +128,48 @@ My research focuses on <strong>Analog IC Design Automation</strong>, <strong>Rei
 
 ---
 
-## Honors & Awards
+## <span style="color: #52adc8;">🏆 Honors & Awards</span>
 
-- **ASC25 World Supercomputing Competition**, International Second Prize (2025)
-- **APAC HPC-AI Competition**, Excellence Award, Top 8 (2024)
-- **ASC24 World Supercomputing Competition**, International Second Prize (2024)
-- **Computer System Design Competition**, First Prize, South China Region
-- **Guangdong Climbing Project 2025**, Principal Investigator, 20,000 RMB
-- **HKSTP2025**, Research Grant, 100,000 RMB
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; margin-top: 15px;">
+  <div style="background-color: #f8f9fa; padding: 12px; border-radius: 5px; border-left: 3px solid #d9534f;">
+    <strong>ASC25 World Supercomputing Competition</strong><br>
+    <span style="color: #666;">International Second Prize (2025)</span>
+  </div>
+  <div style="background-color: #f8f9fa; padding: 12px; border-radius: 5px; border-left: 3px solid #f0ad4e;">
+    <strong>APAC HPC-AI Competition</strong><br>
+    <span style="color: #666;">Excellence Award, Top 8 (2024)</span>
+  </div>
+  <div style="background-color: #f8f9fa; padding: 12px; border-radius: 5px; border-left: 3px solid #d9534f;">
+    <strong>ASC24 World Supercomputing Competition</strong><br>
+    <span style="color: #666;">International Second Prize (2024)</span>
+  </div>
+  <div style="background-color: #f8f9fa; padding: 12px; border-radius: 5px; border-left: 3px solid #5cb85c;">
+    <strong>Computer System Design Competition</strong><br>
+    <span style="color: #666;">First Prize, South China Region</span>
+  </div>
+  <div style="background-color: #f8f9fa; padding: 12px; border-radius: 5px; border-left: 3px solid #52adc8;">
+    <strong>Guangdong Climbing Project 2025</strong><br>
+    <span style="color: #666;">PI, 20,000 RMB Grant</span>
+  </div>
+  <div style="background-color: #f8f9fa; padding: 12px; border-radius: 5px; border-left: 3px solid #52adc8;">
+    <strong>HKSTP2025</strong><br>
+    <span style="color: #666;">Research Grant, 100,000 RMB</span>
+  </div>
+</div>
 
 ---
 
-## Academic Service
+## <span style="color: #52adc8;">📋 Academic Service</span>
 
-Reviewer and Program Committee Member: AAAI 2026, CVPR 2026
+<p style="font-size: 1.05em;">
+<strong>Reviewer and Program Committee Member:</strong> AAAI 2026, CVPR 2026
+</p>
 
 ---
 
-## Patents
+## <span style="color: #52adc8;">📜 Patents</span>
 
-MARL Optimization Method for Analog Circuits and Related Devices (Invention Patent)
-Wu Han, Jiang Junmin, **Jiang Haoning**, Wang Ziheng, Ouyang Zhuoli, Liang Bushu  
+<div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px;">
+  <strong>MARL Optimization Method for Analog Circuits and Related Devices</strong> (Invention Patent)<br>
+  <span style="color: #666;">Wu Han, Jiang Junmin, <strong>Jiang Haoning</strong>, Wang Ziheng, Ouyang Zhuoli, Liang Bushu</span>
+</div>  
