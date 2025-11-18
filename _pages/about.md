@@ -60,26 +60,6 @@ GPA: 3.72/4.0 (90.14/100)
 - Implemented MLLM validation improving model reliability by 22%  
 
 
----
-
-## Selected Publications
-
-**[\* denotes equal contribution]**
-
-**Journal Papers:**
-- Y. Wang\*, J. Chen\*, ..., **H. Jiang**, ..., L. Qu, "A Foundation Model for Presurgical Brain Tumor Diagnosis and MRI Interpretation," *The British Medical Journal (BMJ)*, under review
-- H. Wu, **H. Jiang**, et al., "Multi-agent Reinforcement Learning with Auto Group Assigning for Practical Analog-LDO Sizing," *IEEE TCAD*, under review
-- P. Guo\*, R. Wang\*, ..., **H. Jiang**, ..., L. Qu, "Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks," arXiv:2503.11514, *IEEE TPAMI*
-
-**Conference Papers:**
-- B. Liu\*, **H. Jiang**\*, et al., "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework," *DATE 2025* (Extended Abstract)
-- H. Wu\*, **H. Jiang**\*, et al., "Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing," *ISCAS 2025*
-- **H. Jiang**\*, H. Wu\*, et al., "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing," *AAAI 2025*
-- H. Wu\*, **H. Jiang**\*, et al., "ACEMARL: Adaptive Clustering Enhanced Multi-Agent Reinforcement Learning for Analog Circuit Sizing," *DATE 2025*
-- J. Wang\*, **H. Jiang**\*, et al., "SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor Datasheet," *EExPolytech 2025*
-- H. Wu, **H. Jiang**, et al., "ASUE-RL: Automatic Symmetry Discovery and Uncertainty-Guided Exploration for Reinforcement Learning in Analog Circuit Optimization," submitted to *DAC 2025*
-
-[**Full publication list**](/publications/)
 
 ---
 
