@@ -73,7 +73,8 @@ My research focuses on <strong>Analog IC Design Automation</strong>, <strong>Rei
     <span style="color: #666; font-style: italic;">Hong Kong</span>
   </div>
   <div style="color: #555; margin-top: 5px;">
-    Ph.D. in Electronic and Computer Engineering, <strong style="color: #d9534f;">Fall 2026 (incoming)</strong>
+    Ph.D. in Electronic and Computer Engineering, <strong style="color: #d9534f;">Fall 2026 (incoming)</strong><br>
+    Advisor: <a href="https://eeweiz.home.ece.ust.hk">Prof. Wei Zhang</a>
   </div>
 </div>
 

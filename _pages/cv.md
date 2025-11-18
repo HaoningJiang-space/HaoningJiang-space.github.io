@@ -23,7 +23,8 @@ redirect_from:
     <span style="color: #666; font-style: italic;">Fall 2026 (incoming)</span>
   </div>
   <div style="color: #555; margin-top: 5px;">
-    Hong Kong University of Science and Technology (HKUST)
+    Hong Kong University of Science and Technology (HKUST)<br>
+    Advisor: <a href="https://eeweiz.home.ece.ust.hk">Prof. Wei Zhang</a>
   </div>
 </div>
 
