@@ -35,19 +35,19 @@ author_profile: true
 
 <ul style="list-style-type: none; padding-left: 0;">
   <li style="margin-bottom: 1.2em;">
-    <strong style="color: #52adc8;">[DATE 2025]</strong> B. Liu*, <strong>H. Jiang</strong>*, H. Zhang, X. Gao, Z. Kong, X. Tang, R. Wang, and Y. Lin, "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework," <em>Design, Automation and Test in Europe (DATE)</em>, Extended Abstract
+    <strong style="color: #52adc8;">[DATE 2026]</strong> B. Liu*, <strong>H. Jiang</strong>*, H. Zhang, X. Gao, Z. Kong, X. Tang, R. Wang, and Y. Lin, "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework," <em>Design, Automation and Test in Europe (DATE)</em>, Extended Abstract
   </li>
 
   <li style="margin-bottom: 1.2em;">
-    <strong style="color: #52adc8;">[ISCAS 2025]</strong> H. Wu*, <strong>H. Jiang</strong>*, Z. Wang, W. An, B. Yuan, Y. Lu, and J. Jiang, "Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing," <em>IEEE International Symposium on Circuits and Systems (ISCAS)</em>
+    <strong style="color: #52adc8;">[ISCAS 2026]</strong> H. Wu*, <strong>H. Jiang</strong>*, Z. Wang, W. An, B. Yuan, Y. Lu, and J. Jiang, "Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing," <em>IEEE International Symposium on Circuits and Systems (ISCAS)</em>
   </li>
 
   <li style="margin-bottom: 1.2em;">
-    <strong style="color: #52adc8;">[DATE 2025]</strong> H. Wu*, <strong>H. Jiang</strong>*, Y. Ou, Z. Wang, Q. Shen, B. Yuan, Y. Lu, and J. Jiang, "ACEMARL: Adaptive Clustering Enhanced Multi-Agent Reinforcement Learning for Analog Circuit Sizing," <em>Design, Automation and Test in Europe (DATE)</em>
+    <strong style="color: #52adc8;">[DATE 2026]</strong> H. Wu*, <strong>H. Jiang</strong>*, Y. Ou, Z. Wang, Q. Shen, B. Yuan, Y. Lu, and J. Jiang, "ACEMARL: Adaptive Clustering Enhanced Multi-Agent Reinforcement Learning for Analog Circuit Sizing," <em>Design, Automation and Test in Europe (DATE)</em>
   </li>
 
   <li style="margin-bottom: 1.2em;">
-    <strong style="color: #52adc8;">[AAAI 2025]</strong> <strong>H. Jiang</strong>*, H. Wu*, Y. Ou, Z. Wang, T. Chen, and J. Jiang, "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing," <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>
+    <strong style="color: #52adc8;">[AAAI 2026]</strong> <strong>H. Jiang</strong>*, H. Wu*, Y. Ou, Z. Wang, T. Chen, and J. Jiang, "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing," <em>Association for the Advancement of Artificial Intelligence (AAAI)</em>
   </li>
 
   <li style="margin-bottom: 1.2em;">
@@ -55,7 +55,7 @@ author_profile: true
   </li>
 
   <li style="margin-bottom: 1.2em;">
-    <strong style="color: #52adc8;">[DAC 2025]</strong> H. Wu, <strong>H. Jiang</strong>, Y. Ou, Z. Wang, Z. Wang, S. Zhou, B. Yuan, Y. Lu, and J. Jiang, "ASUE-RL: Automatic Symmetry Discovery and Uncertainty-Guided Exploration with Autoencoder Navigation for Reinforcement Learning in Analog Circuit Optimization," submitted to <em>Design Automation Conference (DAC)</em>
+    <strong style="color: #52adc8;">[DAC 2026]</strong> H. Wu, <strong>H. Jiang</strong>, Y. Ou, Z. Wang, Z. Wang, S. Zhou, B. Yuan, Y. Lu, and J. Jiang, "ASUE-RL: Automatic Symmetry Discovery and Uncertainty-Guided Exploration with Autoencoder Navigation for Reinforcement Learning in Analog Circuit Optimization," submitted to <em>Design Automation Conference (DAC)</em>
   </li>
 
   <li style="margin-bottom: 1.2em;">
