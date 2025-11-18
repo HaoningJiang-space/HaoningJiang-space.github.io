@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Haoning Jiang / Personal Homepage"
+title                    : "Haoning Jiang"
 title_separator          : "-"
 name                     : &name "Haoning Jiang"
-description              : &description "Sophomore in SUSTech"
+description              : &description "Undergraduate Student in Electrical and Electronic Engineering"
 url                      : https://haoningjiang-space.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "HaoningJiang-space/HaoningJiang-space.github.io"
