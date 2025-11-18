@@ -1,121 +1,106 @@
 ---
 permalink: /
-title: "Basic information"
+title: "About"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-# Haoning Jiang
-**Undergraduate Student, Electrical and Electronic Engineering**
-**Southern University of Science and Technology**
+I am an undergraduate student in Electrical and Electronic Engineering at Southern University of Science and Technology (SUSTech), advised by Prof. Junmin Jiang. My research focuses on **Analog IC Design Automation**, **Reinforcement Learning**, and **AI-driven EDA tools**. I am also working with Prof. Yibo Lin at Peking University on analog layout migration, and Prof. Liangqiong Qu at The University of Hong Kong on federated learning and medical AI.
 
-**Research Interests**: Integrated Circuit Design Automation, Reinforcement Learning, Multimodal Large Models, Computer Vision
+My work aims to leverage machine learning, particularly reinforcement learning and multimodal models, to automate and optimize the design of analog integrated circuits and advance intelligent hardware systems.
+
+**Research Interests**: Analog IC Design Automation, Reinforcement Learning, Multimodal Large Models, AI for EDA, Computer Vision
+
+---
+
+## Recent News
+
+- **[May 2025]** Won International Second Prize at ASC25 World Supercomputing Competition
+- **[2025]** Awarded HKSTP2025 grant (100,000 RMB) and Guangdong Climbing Project grant (20,000 RMB) as Principal Investigator
+- **[Jan 2025]** Started AI Algorithm Internship at HUAWEI Ascend LLM Team
+- **[Nov 2024]** Our paper on analog layout migration (GRAIN) accepted as Extended Abstract at DATE 2025
+- **[Nov 2024]** Excellence Award (Top 8) at APAC HPC-AI Competition
+- **[Apr 2024]** International Second Prize at ASC24 World Supercomputing Competition
+
+---
 
 ## Education
-**Southern University of Science and Technology** | Electrical and Electronic Engineering
-Sep. 2022 - Present
-- **GPA**: 3.72/4.0 (90.14/100)
-- **Core Courses**: Methods in Mathematical Physics, Microwave Engineering, Wireless Communications, Optoelectronics Intellisense, Communication Principles, Solid-State Electronics, Data Communications and Networking  
+
+**Southern University of Science and Technology**, Shenzhen, China
+B.S. in Electrical and Electronic Engineering, Sep. 2022 - Present
+GPA: 3.72/4.0 (90.14/100)
+
+---
+
+## Experience
+
+**AI Algorithm Intern**, HUAWEI Ascend LLM Team, Jan. 2025 - Mar. 2025
+- Built text-to-image pipelines (Stable Diffusion) using Diffusers framework
+- Reduced GPU memory usage by 45% through tiled matrix computation and online softmax optimization
+- Hosted technical workshops on distributed training, LoRA fine-tuning, and GRPO algorithm
+
+---
+
+## Selected Research Projects
+
+**Analog IC Design Automation** | Peking University & SUSTech
+- Developed design-intent-driven analog layout migration framework achieving 45.4% performance improvement in 65nm→40nm/28nm migrations
+- Proposed critic-free GRPO framework for analog-LDO sizing with 7.9×-45.6× faster convergence than MA-PPO
+- Introduced novel device grouping method achieving 5.2× faster training convergence in RL-based circuit sizing
+
+**Medical AI & Federated Learning** | The University of Hong Kong
+- Developed foundation model for presurgical brain tumor diagnosis and MRI interpretation (submitted to BMJ)
+- Evaluated privacy risks in federated learning through gradient inversion attack frameworks
+- Applied vision-language pretraining to align medical imaging with diagnostic reports
+
+**AI-Powered EDA Tools** | Tsinghua University
+- Built deep learning system for automatic MOSFET characteristic curve extraction (89.3% accuracy)
+- Implemented MLLM validation improving model reliability by 22%  
 
 
-## Internship Experience
-**Ascend LLM Team, Hunan Kunpeng Ecological Innovation Research Center (HUAWEI)** | AI Algorithm Intern
-Jan. 2025 - Mar. 2025 | Changsha, Hunan, China
-- Built text-to-image (e.g., Stable Diffusion) and image generation pipelines using Diffusers' predefined schedulers (DDIM, PNDM) and customizable models
-- Hosted technical workshops on Diffusers framework practices and reinforcement learning in Ascend LLM team, covering stable diffusion, distributed training, LoRA fine-tuning, custom pipeline development, and post-training techniques like Group Relative Policy Optimization (GRPO) algorithm
-- Implemented tiled matrix computation and online softmax to avoid deployment of full attention matrix, reducing GPU memory usage by 45% with same accuracy  
+---
 
+## Selected Publications
 
-## Research Experience
-### 1. Automated Analog Circuit Design
-- **Design-Intent-Driven Interactive Analog Layout Migration Framework** (Peking University, Advisor: Prof. Yibo Lin, June 2024 - Apr. 2025)
-  - Preserved original layout intent via DBSCAN-based clustering and intra/inter-cluster compaction, retaining device positions/constraints
-  - Ensured LVS validation by reconstructing pins/junctions while maintaining routing features through abstract-path-guided maze routing, achieving 45.4% performance improvement in 65nm→40nm/28nm migrations
-  - Reproduced constraint graph-based layout migration algorithm and constrained Delaunay triangulation (CDT) and cartesian detection lines (CDL) algorithm to preserve design intent and optimize analog layout migration
-
-- **Reinforcement Learning in Analog Circuit Sizing** (Southern University of Science and Technology, Advisor: Prof. Junmin Jiang, Feb. 2024 - Present)
-  - Introduced a novel device grouping method that automatically classifies components based on current transient characteristics, achieving 5.2× faster training convergence compared to conventional module-based partitioning approaches
-  - Quantified parameter importance based on designer's intent by incorporating domain knowledge into the reward function
-  - Demonstrated superiority of single-step PPO through experimental validation, achieving 3× faster optimization than multi-step approaches, enabling efficient target-specific optimization and PVT-robust reliability enhancement
-
-- **Reinforcement Learning with GRPO for Fast Analog-LDO Sizing** (Southern University of Science and Technology, Advisor: Prof. Junmin Jiang, Feb. 2024 - Present)
-  - Developed critic-free Group Relative Policy Optimization (GRPO) framework achieving 7.9×-45.6× faster convergence than MA-PPO while outperforming human design specifications
-  - Demonstrated both theoretically and empirically that in custom environments where action space is directly mapped to the whole param space, critic-based algorithms (e.g., PPO) yield increasingly biased advantage estimates with longer trajectories  
-
-### 2. Federated Learning and Medical AI
-- **Privacy-Preserving Federated Learning** (The University of Hong Kong, Advisor: Prof. Liangqiong Qu, Feb. 2024 - Mar. 2025)
-  - Developed attack framework to evaluate data leakage risks in federated learning (e.g., MRI reconstruction via gradient inversion attacks)
-  - Proposed and implemented defense mechanisms, including gradient perturbation and differential privacy, to mitigate privacy threats while maintaining model performance
-
-- **Multimodal LLM for Brain Tumor Diagnosis** (The University of Hong Kong, Advisor: Prof. Liangqiong Qu, Jan. 2024 - June 2025)
-  - Applied vision-language pretraining (MAE + CLIP) to align medical imaging with diagnostic reports
-  - Improved pathology/radiology report processing using ChatGPT for structured data extraction and achieved automated MR slice segmentation with Segment Anything Model (SAM)
-
-### 3. Computer Vision and Edge Computing
-- **AI-Powered SPICE Modeling Chart Analyzer** (Tsinghua University, Advisor: Prof. Jian Song, Feb. 2025 - May 2025)
-  - Developed deep learning system using Cascade R-CNN and Mask2Former to automatically extract and analyze MOSFET characteristic curves from datasheets, achieving 89.3% detection accuracy
-  - Implemented MLLM (Qwen2.5-VL-72B-instruct) validation that automates legend-to-data correlation, verifies unit consistency across parameters, filters and corrects statistical outliers, and detects curve fitting anomalies, resulting in 22% improved model reliability
-
-- **Real-Time Table Tennis Ball Tracking System** (Southern University of Science and Technology, Advisor: Prof. Xihan Chen)
-  - Developed computer vision-based deep learning system for real-time accurate determination of table tennis ball position and evaluation of player stroke effectiveness
-  - Achieved high-precision tracking with low-latency performance using advanced detection algorithms  
-
-
-## Publications
-**10 papers** (including submissions to BMJ, DATE, ISCAS, AAAI, DAC, TCAD, TPAMI)
-
-**Conference Papers:**
-
-- [C.1] B. Liu\*, **H. Jiang**\*, H. Zhang, X. Gao, Z. Kong, X. Tang, R. Wang, and Y. Lin, "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework," Design, Automation and Test in Europe (DATE), Extended Abstract
-
-- [C.2] H. Wu\*, **H. Jiang**\*, Z. Wang, W. An, B. Yuan, Y. Lu, and J. Jiang, "Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing," IEEE International Symposium on Circuits and Systems (ISCAS)
-
-- [C.3] H. Wu\*, **H. Jiang**\*, Y. Ou, Z. Wang, Q. Shen, B. Yuan, Y. Lu, and J. Jiang, "ACEMARL: Adaptive Clustering Enhanced Multi-Agent Reinforcement Learning for Analog Circuit Sizing," Design, Automation and Test in Europe (DATE)
-
-- [C.4] **H. Jiang**\*, H. Wu\*, Y. Ou, Z. Wang, T. Chen, and J. Jiang, "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing," Association for the Advancement of Artificial Intelligence (AAAI)
-
-- [C.5] J. Wang\*, **H. Jiang**\*, J. Wang, R. Chen, C. Zhuang, J. Song, "SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor (IGBT) Datasheet," EExPolytech 2025
-
-- [C.6] H. Wu, **H. Jiang**, Y. Ou, Z. Wang, Z. Wang, S. Zhou, B. Yuan, Y. Lu, and J. Jiang, "ASUE-RL: Automatic Symmetry Discovery and Uncertainty-Guided Exploration with Autoencoder Navigation for Reinforcement Learning in Analog Circuit Optimization," submitted to Design Automation Conference (DAC)
-
-- [C.7] Y. Shi, X. Zhang, J. Ji, **H. Jiang**, C. Zheng, Y. Wang, and L. Qu, "HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding," arXiv:2506.09634, 2025
+**[\* denotes equal contribution]**
 
 **Journal Papers:**
+- Y. Wang\*, J. Chen\*, ..., **H. Jiang**, ..., L. Qu, "A Foundation Model for Presurgical Brain Tumor Diagnosis and MRI Interpretation," *The British Medical Journal (BMJ)*, under review
+- H. Wu, **H. Jiang**, et al., "Multi-agent Reinforcement Learning with Auto Group Assigning for Practical Analog-LDO Sizing," *IEEE TCAD*, under review
+- P. Guo\*, R. Wang\*, ..., **H. Jiang**, ..., L. Qu, "Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks," arXiv:2503.11514, *IEEE TPAMI*
 
-- [J.1] H. Wu, **H. Jiang**, Z. Wang, Y. Ou, B. Yuan, Y. Lu, and J. Jiang, "Multi-agent Reinforcement Learning with Auto Group Assigning for Practical Analog-LDO Sizing," IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), under review
+**Conference Papers:**
+- B. Liu\*, **H. Jiang**\*, et al., "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework," *DATE 2025* (Extended Abstract)
+- H. Wu\*, **H. Jiang**\*, et al., "Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing," *ISCAS 2025*
+- **H. Jiang**\*, H. Wu\*, et al., "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing," *AAAI 2025*
+- H. Wu\*, **H. Jiang**\*, et al., "ACEMARL: Adaptive Clustering Enhanced Multi-Agent Reinforcement Learning for Analog Circuit Sizing," *DATE 2025*
+- J. Wang\*, **H. Jiang**\*, et al., "SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor Datasheet," *EExPolytech 2025*
+- H. Wu, **H. Jiang**, et al., "ASUE-RL: Automatic Symmetry Discovery and Uncertainty-Guided Exploration for Reinforcement Learning in Analog Circuit Optimization," submitted to *DAC 2025*
 
-- [J.2] Y. Wang\*, J. Chen\*, Z. Chen\*, S. Kuang\*, **H. Jiang**, Y. Shi, H. Yuan, Y. Wang, B. Wang, L. Wu, B. Tang, L. Meng, B. Luo, B. Zhou, W. Ding, W. Zhong, W. Hou, Y. Chen, Z. Wan, W. Wang, Z. Xiao, W. Wan, A. He, Y. Zhou, L. Zhang, F. Wang, Z. Liu, M. Iv, X. Gong, and L. Qu, "A Foundation Model for Presurgical Brain Tumor Diagnosis and MRI Interpretation," The British Medical Journal (BMJ)
+[**Full publication list**](/publications/)
 
-- [J.3] P. Guo\*, R. Wang\*, S. Zeng, J. Zhu, **H. Jiang**, Y. Wang, Y. Zhou, F. Wang, H. Xiong, and L. Qu, "Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks," arXiv:2503.11514, 2025. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+---
 
-## Patents
-**Patent Name**: MARL Optimization Method for Analog Circuits and Related Devices
-**Type**: Invention
-**Participants**: Wu Han, Jiang Junmin, **Jiang Haoning**, Wang Ziheng, Ouyang Zhuoli, Liang Bushu
+## Honors & Awards
+
+- **ASC25 World Supercomputing Competition**, International Second Prize (2025)
+- **APAC HPC-AI Competition**, Excellence Award, Top 8 (2024)
+- **ASC24 World Supercomputing Competition**, International Second Prize (2024)
+- **Computer System Design Competition**, First Prize, South China Region
+- **Guangdong Climbing Project 2025**, Principal Investigator, 20,000 RMB
+- **HKSTP2025**, Research Grant, 100,000 RMB
+
+---
 
 ## Academic Service
-Reviewer and program committee member of AAAI2026, CVPR2026  
 
+Reviewer and Program Committee Member: AAAI 2026, CVPR 2026
 
-## Awards & Fundings
-- **ASC25 World Supercomputing Competition** | International Second Prize (May 2025)
-- **APAC HPC-AI Competition** | Excellence Award (Top 8, Nov. 2024)
-- **ASC24 World Supercomputing Competition** | International Second Prize (Apr. 2024)
-- **Computer System Design Competition** | First Prize in South China Region
-- **Guangdong Climbing Project 2025** | Principal Investigator, awarded 20,000 RMB grant
-- **HKSTP2025** | Awarded 100,000 RMB grant  
+---
 
+## Patents
 
-## Technical Stack
-- **EDA Tools**: Cadence Virtuoso, Mentor Calibre, GDSTK
-- **Deep Learning Frameworks**: PyTorch, TensorFlow, Diffusers
-- **Algorithm & Models**: Stable Diffusion, GRPO, YOLOv5/8, Cascade R-CNN, Mask2Former, MAE, CLIP, SAM, Qwen2.5-VL
-- **Research Domains**: Analog IC Design Automation, Reinforcement Learning, Federated Learning, Multimodal Large Models, Computer Vision
-
-## Contact
-- **Email**: 12210308@mail.sustech.edu.cn
-- **Phone**: (+86) 19374881249
-- **GitHub**: [HaoningJiang-space](https://github.com/HaoningJiang-space)
-- **Open to Collaborations**: Integrated circuit automation, intelligent hardware design, AI-driven EDA  
+MARL Optimization Method for Analog Circuits and Related Devices (Invention Patent)
+Wu Han, Jiang Junmin, **Jiang Haoning**, Wang Ziheng, Ouyang Zhuoli, Liang Bushu  
