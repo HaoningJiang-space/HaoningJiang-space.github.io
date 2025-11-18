@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in Electrical and Electronic Engineering, Southern University of Science and Technology, 2022-Present
+* Ph.D. in Electronic and Computer Engineering, Hong Kong University of Science and Technology (HKUST), Fall 2026 (incoming)
+* B.S. in Electrical and Electronic Engineering, Southern University of Science and Technology (SUSTech), 2022-2026 (expected)
   * GPA: 3.72/4.0 (90.14/100)
   * Core Courses: Methods in Mathematical Physics, Microwave Engineering, Wireless Communications, Optoelectronics Intellisense, Communication Principles, Solid-State Electronics, Data Communications and Networking
 

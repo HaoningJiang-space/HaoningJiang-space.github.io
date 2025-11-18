@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate student in Electrical and Electronic Engineering at Southern University of Science and Technology (SUSTech), advised by Prof. Junmin Jiang. My research focuses on **Analog IC Design Automation**, **Reinforcement Learning**, and **AI-driven EDA tools**. I am also working with Prof. Yibo Lin at Peking University on analog layout migration, and Prof. Liangqiong Qu at The University of Hong Kong on federated learning and medical AI.
+I am an undergraduate student in Electrical and Electronic Engineering at Southern University of Science and Technology (SUSTech), advised by Prof. Junmin Jiang. I will join the **Hong Kong University of Science and Technology (HKUST)** as a PhD student in Electronic and Computer Engineering in **Fall 2026**.
+
+My research focuses on **Analog IC Design Automation**, **Reinforcement Learning**, and **AI-driven EDA tools**. I am also working with Prof. Yibo Lin at Peking University on analog layout migration, and Prof. Liangqiong Qu at The University of Hong Kong on federated learning and medical AI.
 
 My work aims to leverage machine learning, particularly reinforcement learning and multimodal models, to automate and optimize the design of analog integrated circuits and advance intelligent hardware systems.
 
@@ -28,8 +30,11 @@ My work aims to leverage machine learning, particularly reinforcement learning a
 
 ## Education
 
-**Southern University of Science and Technology**, Shenzhen, China
-B.S. in Electrical and Electronic Engineering, Sep. 2022 - Present
+**Hong Kong University of Science and Technology (HKUST)**, Hong Kong
+Ph.D. in Electronic and Computer Engineering, Fall 2026 (incoming)
+
+**Southern University of Science and Technology (SUSTech)**, Shenzhen, China
+B.S. in Electrical and Electronic Engineering, Sep. 2022 - June 2026 (expected)
 GPA: 3.72/4.0 (90.14/100)
 
 ---
