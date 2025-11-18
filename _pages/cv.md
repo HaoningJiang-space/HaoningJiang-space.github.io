@@ -66,4 +66,4 @@ Patents
 
 Service and Leadership
 ======
-* Reviewer and program committee member of AAAI2026
+* Reviewer and program committee member of AAAI2026, CVPR2026

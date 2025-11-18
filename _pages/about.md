@@ -64,29 +64,31 @@ Jan. 2025 - Mar. 2025 | Changsha, Hunan, China
 
 
 ## Publications
-**11 papers** (including submissions to Nature, DATE, ISCAS, AAAI, TCAD)
+**10 papers** (including submissions to BMJ, DATE, ISCAS, AAAI, DAC, TCAD, TPAMI)
 
-- [1] B. Liu\*, **H. Jiang**\*, H. Zhang, X. Gao, Z. Kong, X. Tang, R. Wang, and Y. Lin, "GRAIN: A Design-Intent-Driven Interactive Analog Layout Migration Framework," submitted to DATE 2025
+**Conference Papers:**
 
-- [2] H. Wu\*, **H. Jiang**\*, Z. Wang, W. An, B. Yuan, Y. Lu, and J. Jiang, "Reinforcement Learning with Group Relative Policy Optimization for Fast Analog-LDO Sizing," submitted to ISCAS
+- [C.1] B. Liu\*, **H. Jiang**\*, H. Zhang, X. Gao, Z. Kong, X. Tang, R. Wang, and Y. Lin, "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework," Design, Automation and Test in Europe (DATE), Extended Abstract
 
-- [3] H. Wu, **H. Jiang**, Z. Wang, Y. Ou, B. Yuan, Y. Lu, and J. Jiang, "Multi-agent Reinforcement Learning with Auto Group Assigning for Practical Analog-LDO Sizing," IEEE TCAD, under review
+- [C.2] H. Wu\*, **H. Jiang**\*, Z. Wang, W. An, B. Yuan, Y. Lu, and J. Jiang, "Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing," IEEE International Symposium on Circuits and Systems (ISCAS)
 
-- [4] **H. Jiang**, H. Wu, Z. Wang, Y. Ou, T. Chen, and J. Jiang, "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing," submitted to AAAI
+- [C.3] H. Wu\*, **H. Jiang**\*, Y. Ou, Z. Wang, Q. Shen, B. Yuan, Y. Lu, and J. Jiang, "ACEMARL: Adaptive Clustering Enhanced Multi-Agent Reinforcement Learning for Analog Circuit Sizing," Design, Automation and Test in Europe (DATE)
 
-- [5] Y. Wang\*, J. Chen\*, Z. Chen\*, S. Kuang\*, **H. Jiang**, Y. Shi, H. Yuan, Y. Wang, B. Wang, L. Wu, B. Tang, L. Meng, B. Luo, B. Zhou, W. Ding, W. Zhong, W. Hou, Y. Chen, Z. Wan, W. Wang, Z. Xiao, W. Wan, A. He, Y. Zhou, L. Zhang, F. Wang, Z. Liu, M. Iv, X. Gong, and L. Qu, "A Foundation Model for Presurgical Brain Tumor Diagnosis and MRI Interpretation," The British Medical Journal, under review
+- [C.4] **H. Jiang**\*, H. Wu\*, Y. Ou, Z. Wang, T. Chen, and J. Jiang, "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing," Association for the Advancement of Artificial Intelligence (AAAI)
 
-- [6] P. Guo\*, R. Wang\*, S. Zeng, J. Zhu, **H. Jiang**, Y. Wang, Y. Zhou, F. Wang, H. Xiong, and L. Qu, "Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks," arXiv:2503.11514, 2025
+- [C.5] J. Wang\*, **H. Jiang**\*, J. Wang, R. Chen, C. Zhuang, J. Song, "SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor (IGBT) Datasheet," EExPolytech 2025
 
-- [7] Y. Shi, X. Zhang, J. Ji, **H. Jiang**, C. Zheng, Y. Wang, and L. Qu, "HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding," arXiv:2506.09634, 2025
+- [C.6] H. Wu, **H. Jiang**, Y. Ou, Z. Wang, Z. Wang, S. Zhou, B. Yuan, Y. Lu, and J. Jiang, "ASUE-RL: Automatic Symmetry Discovery and Uncertainty-Guided Exploration with Autoencoder Navigation for Reinforcement Learning in Analog Circuit Optimization," submitted to Design Automation Conference (DAC)
 
-- [8] J. Wang\*, **H. Jiang**\*, J. Wang, R. Chen, C. Zhuang, J. Song, "SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor (IGBT) Datasheet," submitted to EExPolytech
+- [C.7] Y. Shi, X. Zhang, J. Ji, **H. Jiang**, C. Zheng, Y. Wang, and L. Qu, "HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding," arXiv:2506.09634, 2025
 
-- [9] H. Wu\*, O. Yang\*, **H. Jiang**, Z. Wang, Q. Shen, B. Yuan, Y. Lu, and J. Jiang, "EAGER: Evolution-Assisted Agent Grouping for Efficient Multi-Agent Reinforcement Learning in Analog Circuit Sizing," submitted to DATE
+**Journal Papers:**
 
-- [10] **H. Jiang**\*, H. Wu\*, Z. Wang, Y. Ou, T. Chen, and J. Jiang, "DANCE-ACS: Directed Adaptive Novelty and Confidence Exploration for Analog Circuit Sizing," submitted to ISCAS
+- [J.1] H. Wu, **H. Jiang**, Z. Wang, Y. Ou, B. Yuan, Y. Lu, and J. Jiang, "Multi-agent Reinforcement Learning with Auto Group Assigning for Practical Analog-LDO Sizing," IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), under review
 
-- [11] Z. He, Z. Yang, J. Xu, X. Li, H. Chen, A. Wang, J. Yang, F. Du, **H. Jiang**, J. Wang, and X. Chen, "Real-Time Accurate Determination of Table-Tennis Ball and Evaluation of Player Stroke Effectiveness With Computer Vision-Based Deep Learning," manuscript in preparation
+- [J.2] Y. Wang\*, J. Chen\*, Z. Chen\*, S. Kuang\*, **H. Jiang**, Y. Shi, H. Yuan, Y. Wang, B. Wang, L. Wu, B. Tang, L. Meng, B. Luo, B. Zhou, W. Ding, W. Zhong, W. Hou, Y. Chen, Z. Wan, W. Wang, Z. Xiao, W. Wan, A. He, Y. Zhou, L. Zhang, F. Wang, Z. Liu, M. Iv, X. Gong, and L. Qu, "A Foundation Model for Presurgical Brain Tumor Diagnosis and MRI Interpretation," The British Medical Journal (BMJ)
+
+- [J.3] P. Guo\*, R. Wang\*, S. Zeng, J. Zhu, **H. Jiang**, Y. Wang, Y. Zhou, F. Wang, H. Xiong, and L. Qu, "Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks," arXiv:2503.11514, 2025. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 
 ## Patents
 **Patent Name**: MARL Optimization Method for Analog Circuits and Related Devices
@@ -94,7 +96,7 @@ Jan. 2025 - Mar. 2025 | Changsha, Hunan, China
 **Participants**: Wu Han, Jiang Junmin, **Jiang Haoning**, Wang Ziheng, Ouyang Zhuoli, Liang Bushu
 
 ## Academic Service
-Reviewer and program committee member of AAAI2026  
+Reviewer and program committee member of AAAI2026, CVPR2026  
 
 
 ## Awards & Fundings

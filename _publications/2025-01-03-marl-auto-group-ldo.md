@@ -1,7 +1,7 @@
 ---
-title: "PMICO: Power Management Integrated Circuits Optimization Framework Using Multi-Agent Reinforcement Learning"
+title: "Multi-agent Reinforcement Learning with Auto Group Assigning for Practical Analog-LDO Sizing"
 collection: publications
-permalink: /publication/2025-01-03-pmico-multi-agent-rl
+permalink: /publication/2025-01-03-marl-auto-group-ldo
 excerpt: 'This paper introduces a multi-agent reinforcement learning framework for optimizing power management ICs.'
 date: 2025-01-03
 venue: 'IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)'
