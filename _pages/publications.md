@@ -64,7 +64,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
 ## Conference Papers
 
 <ul class="pub-list">
-<li><span class="pub-venue conference">DATE 2026</span> B. Liu*, <strong>H. Jiang</strong>*, H. Zhang, X. Gao, Z. Kong, X. Tang, P. David, and Y. Lin†, "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework." (Extended Abstract)</li>
+<li><span class="pub-venue conference">DATE 2026</span> B. Liu*, <strong>H. Jiang</strong>*, H. Zhang, X. Gao, Z. Kong, X. Tang, Z. David, and Y. Lin†, "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework." (Extended Abstract)</li>
 
 <li><span class="pub-venue conference">ISCAS 2026</span> H. Wu*, <strong>H. Jiang</strong>*, Z. Wang, Y. Ou, B. Yuan, Y. Lu, and J. Jiang†, "Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing."</li>
 
