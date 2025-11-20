@@ -72,9 +72,9 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
 
 <li><span class="pub-venue conference">AAAI 2026</span> <strong>H. Jiang</strong>*, H. Wu*, Y. Ou, Z. Wang, T. Chen, and J. Jiang†, "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing."</li>
 
-<li><span class="pub-venue conference">EExPolytech 2025</span> J. Wang*, <strong>H. Jiang</strong>*, J. Wang, R. Chen, C. Zhuang, J. Song, "SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor (IGBT) Datasheet."</li>
+<li><span class="pub-venue conference">EExPolytech 2025</span> J. Wang*, <strong>H. Jiang</strong>*, J. Wang, R. Chen, C. Zhuang, J. Song†, "SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor (IGBT) Datasheet."</li>
 
-<li><span class="pub-venue conference">DAC 2026</span> H. Wu, <strong>H. Jiang</strong>, Y. Ou, Z. Wang, Z. Wang, S. Zhou, B. Yuan, Y. Lu, and J. Jiang, "ASUE-RL: Automatic Symmetry Discovery and Uncertainty-Guided Exploration with Autoencoder Navigation for Reinforcement Learning in Analog Circuit Optimization."</li>
+<li><span class="pub-venue conference">DAC 2026</span> H. Wu, <strong>H. Jiang</strong>, Y. Ou, Z. Wang, Z. Wang, S. Zhou, B. Yuan, Y. Lu, and J. Jiang†, "ASUE-RL: Automatic Symmetry Discovery and Uncertainty-Guided Exploration with Autoencoder Navigation for Reinforcement Learning in Analog Circuit Optimization."</li>
 
-<li><span class="pub-venue preprint">arXiv 2025</span> Y. Shi, X. Zhang, J. Ji, <strong>H. Jiang</strong>, C. Zheng, Y. Wang, and L. Qu, "HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding." (<a href="https://arxiv.org/abs/2506.09634">arXiv</a> | <a href="/files/2506.09634v1.pdf">PDF</a>)</li>
+<li><span class="pub-venue preprint">arXiv 2025</span> Y. Shi, X. Zhang, J. Ji, <strong>H. Jiang</strong>, C. Zheng, Y. Wang, and L. Qu†, "HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding." (<a href="https://arxiv.org/abs/2506.09634">arXiv</a> | <a href="/files/2506.09634v1.pdf">PDF</a>)</li>
 </ul>
