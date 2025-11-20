@@ -18,8 +18,8 @@ My research focuses on **Analog IC Design Automation**, **Reinforcement Learning
 ## Recent News
 
 * **[Nov 2025]** My offer in HKUST is arrived
-* **[Nov 2025]** Our paper on analog circuit sizing optimization is accepted at AAAI 2026
-* **[Nov 2025]** Our paper on analog circuit grouping is accepted as at DATE 2026
+* **[Nov 2025]** Our paper on analog circuit sizing optimization（FD-MAGRPO） is accepted at AAAI 2026
+* **[Nov 2025]** Our paper on analog circuit grouping（ACEMARL） is accepted as at DATE 2026
 * **[Nov 2025]** Our paper on analog layout migration (GRAIN) accepted as Extended Abstract at DATE 2026
 * **[June 2025]** Awarded HKSTP2025 grant (100,000 RMB) as Principal Investigator
 * **[May 2025]** Won International Second Prize at ASC25 World Supercomputing Competition
