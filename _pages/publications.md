@@ -55,7 +55,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
 
 <li><span class="pub-venue journal">BMJ</span> Y. Wang*, J. Chen*, Z. Chen*, S. Kuang*, <strong>H. Jiang</strong>, Y. Shi, H. Yuan, Yan-ran (Joyce) Wang, B. Wang, L. Wu, B. Tang, L. Meng, B. Luo, B. Zhou, W. Ding, W. Zhong, W. Hou, Y. Chen, Z. Wan, W. Wang, Z. Xiao, W. Wan, A. He, Y. Zhou, L. Zhang, F. Wang, Z. Liu, M. Iv, X. Gong, and L. Qu, "A Foundation Model for Presurgical Brain Tumor Diagnosis and MRI Interpretation."</li>
 
-<li><span class="pub-venue journal">IEEE TPAMI</span> P. Guo*, R. Wang*, S. Zeng, J. Zhu, <strong>H. Jiang</strong>, Y. Wang, Y. Zhou, F. Wang, H. Xiong, and L. Qu, "Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks." (<a href="https://arxiv.org/abs/2503.11514">Paper</a>)</li>
+<li><span class="pub-venue journal">IEEE TPAMI</span> P. Guo*, R. Wang*, S. Zeng, J. Zhu, <strong>H. Jiang</strong>, Y. Wang, Y. Zhou, F. Wang, H. Xiong, and L. Qu, "Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks." (<a href="https://arxiv.org/abs/2503.11514">Paper</a> | <a href="https://pengxin-guo.github.io/FLPrivacy/">Project</a> | <a href="https://github.com/1wrx1/GIA">Code</a>)</li>
 </ul>
 
 ---
