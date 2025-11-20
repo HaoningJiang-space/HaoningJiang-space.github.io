@@ -55,7 +55,7 @@ GPA: 3.72/4.0 (90.14/100)
 * Novel device grouping method achieving 5.2× faster training
 
 **Medical AI & Federated Learning** | The University of Hong Kong
-* Foundation model for presurgical brain tumor diagnosis (submitted to BMJ)
+* Foundation model for presurgical brain tumor diagnosis
 * Privacy risk evaluation through gradient inversion attacks
 * Vision-language pretraining for medical imaging alignment
 
