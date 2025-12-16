@@ -52,7 +52,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
 ## Journal Papers
 
 <ul class="pub-list">
-<li><span class="pub-venue journal">IEEE TCAD</span> H. Wu, <strong>H. Jiang</strong>, Z. Wang, Y. Ou, B. Yuan, Y. Lu, and J. Jiang†, "Multi-agent Reinforcement Learning with Auto Group Assigning for Practical Analog-LDO Sizing."</li>
+<li><span class="pub-venue journal">IEEE TCAD</span> H. Wu, <strong>H. Jiang</strong>, Z. Wang, Y. Ou, C. Hu, B. Yuan, Y. Lu, M. Huang, T. Chen, X. Liu and J. Jiang†, "Design Intent Driven Multi-Agent Reinforcement Learning With Current-Transient Automatic Clustering for Analog LDO Sizing."</li>
 
 <li><span class="pub-venue journal">Lancet Digital life</span> Y. Wang*, J. Chen*, Z. Chen*, S. Kuang*, <strong>H. Jiang</strong>, Y. Shi, H. Yuan, Yan-ran (Joyce) Wang, B. Wang, L. Wu, B. Tang, L. Meng, B. Luo, B. Zhou, W. Ding, W. Zhong, W. Hou, Y. Chen, Z. Wan, W. Wang, Z. Xiao, W. Wan, A. He, Y. Zhou, L. Zhang, F. Wang, Z. Liu, M. Iv, X. Gong†, and L. Qu†, "A Foundation Model for Presurgical Brain Tumor Diagnosis and MRI Interpretation."</li>
 
