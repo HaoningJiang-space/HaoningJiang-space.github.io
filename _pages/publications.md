@@ -70,7 +70,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
 
 <li><span class="pub-venue conference">DATE 2026</span> H. Wu*, <strong>H. Jiang</strong>*, Y. Ou, Z. Wang, Q. Shen, B. Yuan, Y. Lu, and J. Jiang†, "ACEMARL: Adaptive Clustering Enhanced Multi-Agent Reinforcement Learning for Analog Circuit Sizing."</li>
 
-<li><span class="pub-venue conference">AAAI 2026</span> <strong>H. Jiang</strong>*, H. Wu*, Y. Ou, Z. Wang, T. Chen, and J. Jiang†, "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing."</li>
+<li><span class="pub-venue conference">AAAI 2026</span> <strong>H. Jiang</strong>*, H. Wu*, Y. Ou, Z. Wang, T. Chen, and J. Jiang†, "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing." (<a href="/files/AAAI26_FD_MAGRPO_Poster.pdf">Poster</a>)</li>
 
 <li><span class="pub-venue conference">EExPolytech 2025</span> J. Wang*, <strong>H. Jiang</strong>*, J. Wang, R. Chen, C. Zhuang, J. Song†, "SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor (IGBT) Datasheet."</li>
 
