@@ -17,6 +17,7 @@ My research focuses on **Analog IC Design Automation**, **Reinforcement Learning
 
 ## Recent News
 
+* **[Jan 2026]** One co-first authored paper is accepted at ISCAS 2026
 * **[Dec 2025]** Our co-authored paper is accepted at IEEE TPAMI
 * **[Nov 2025]** My offer in HKUST is arrived
 * **[Nov 2025]** Our paper on analog circuit sizing optimization（FD-MAGRPO） is accepted at AAAI 2026
