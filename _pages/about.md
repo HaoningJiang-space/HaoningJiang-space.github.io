@@ -83,7 +83,7 @@ GPA: 3.72/4.0 (90.14/100)
 
 ## Academic Service
 
-**Reviewer and Program Committee Member:** AAAI 2026, CVPR 2026
+**Reviewer and Program Committee Member:** AAAI 2026, TCAD
 
 ---
 
