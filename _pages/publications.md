@@ -74,7 +74,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
 
 <li><span class="pub-venue conference">EExPolytech 2025</span> J. Wang, <strong>H. Jiang</strong>, J. Wang, R. Chen, C. Zhuang, J. Song†, "SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor (IGBT) Datasheet." (<a href="https://ieeexplore.ieee.org/document/11252000">Paper</a>)</li>
 
-<li><span class="pub-venue conference">DAC 2026</span> H. Wu, <strong>H. Jiang</strong>, Y. Ou, Z. Wang, Z. Wang, S. Zhou, C. Hu, C. Zhang, B. Yuan, Y. Lu, M. Huang, and J. Jiang†, "ACUMEN: Automatic Constraint Matching and Uncertainty-Modulated Exploration with Parameter Space Navigation for Analog Circuit Sizing."</li>
+<li><span class="pub-venue preprint">arXiv 2025</span> H. Wu, <strong>H. Jiang</strong>, Y. Ou, Z. Wang, Z. Wang, S. Zhou, C. Hu, C. Zhang, B. Yuan, Y. Lu, M. Huang, and J. Jiang†, "ACUMEN: Automatic Constraint Matching and Uncertainty-Modulated Exploration with Parameter Space Navigation for Analog Circuit Sizing."</li>
 
-<li><span class="pub-venue preprint">arXiv 2025</span> Y. Shi, X. Zhang, J. Ji, <strong>H. Jiang</strong>, C. Zheng, Y. Wang, and L. Qu†, "HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding." (<a href="https://arxiv.org/abs/2506.09634">arXiv</a> | <a href="/files/2506.09634v1.pdf">PDF</a>)</li>
+<li><span class="pub-venue conference">CVPR Findings 2025</span> Y. Shi, X. Zhang, J. Ji, <strong>H. Jiang</strong>, C. Zheng, Y. Wang, and L. Qu†, "HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding." (<a href="https://arxiv.org/abs/2506.09634">arXiv</a> | <a href="/files/2506.09634v1.pdf">PDF</a>)</li>
 </ul>

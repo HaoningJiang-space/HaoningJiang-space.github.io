@@ -128,7 +128,7 @@ redirect_from:
 ## <span style="color: #52adc8;">📝 Publications</span>
 
 <p style="font-size: 1.05em; margin-bottom: 15px;">
-  <strong>10 papers</strong> (including submissions to BMJ, DATE, ISCAS, AAAI, DAC, TCAD, TPAMI)
+  <strong>10 papers</strong> (including submissions to BMJ, DATE, ISCAS, AAAI, TCAD, TPAMI)
   <br>
   <a href="/publications/" style="color: #52adc8; text-decoration: none;">→ View Full Publication List</a>
 </p>
