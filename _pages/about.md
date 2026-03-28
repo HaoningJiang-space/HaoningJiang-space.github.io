@@ -41,7 +41,7 @@ Advisor: [Prof. Wei Zhang](https://eeweiz.home.ece.ust.hk)
 
 **Southern University of Science and Technology (SUSTech)**, Shenzhen, China
 B.S. in Electrical and Electronic Engineering, Sep. 2022 - June 2026 (expected)
-GPA: 3.72/4.0 (90.14/100)
+GPA: 3.73/4.0 (90.14/100)
 
 ---
 
