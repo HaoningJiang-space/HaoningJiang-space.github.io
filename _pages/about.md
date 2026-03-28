@@ -9,9 +9,9 @@ redirect_from:
 
 I am an undergraduate student in Electrical and Electronic Engineering at [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/), advised by [Prof. Junmin Jiang](http://faculty.sustech.edu.cn/jiangjm/en/). I will join the **Hong Kong University of Science and Technology (HKUST)** as a PhD student in Electronic and Computer Engineering in **Fall 2026**, advised by [Prof. Wei Zhang](https://eeweiz.home.ece.ust.hk).
 
-My research focuses on **Analog IC Design Automation**, **Reinforcement Learning**, and **AI-driven EDA tools**. I collaborate with [Prof. Yibo Lin](https://yibolin.com/) at Peking University on analog layout migration, and [Prof. Liangqiong Qu](https://liangqiong.github.io/) at The University of Hong Kong on federated learning and medical AI.
+My research focuses on **Design Automation**, **Reinforcement Learning**, and **AI-driven EDA tools**. I collaborate with [Prof. Yibo Lin](https://yibolin.com/) at Peking University on analog layout migration, and [Prof. Liangqiong Qu](https://liangqiong.github.io/) at The University of Hong Kong on multi-modal machine learning and medical AI.
 
-**Research Interests:** Analog IC Design Automation, Reinforcement Learning, Multimodal Large Models, AI for EDA, Computer Vision
+**Research Interests:** Design Automation, Reinforcement Learning, Multimodal Large Models, AI for EDA, Computer Vision
 
 ---
 
