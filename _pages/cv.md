@@ -31,7 +31,7 @@ redirect_from:
 <div style="margin-bottom: 1.5em;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
     <strong style="font-size: 1.1em;">B.S. in Electrical and Electronic Engineering</strong>
-    <span style="color: #666; font-style: italic;">Sep. 2022 - June 2026 (expected)</span>
+    <span style="color: #666; font-style: italic;">Sep. 2022 - Jul. 2026 (graduated)</span>
   </div>
   <div style="color: #555; margin-top: 5px;">
     Southern University of Science and Technology (SUSTech), Shenzhen, China<br>
@@ -128,7 +128,7 @@ redirect_from:
 ## <span style="color: #52adc8;">📝 Publications</span>
 
 <p style="font-size: 1.05em; margin-bottom: 15px;">
-  <strong>10 papers</strong> (including submissions to BMJ, DATE, ISCAS, AAAI, TCAD, TPAMI)
+<strong>12 papers</strong> (including submissions/acceptances to BMJ, DATE, ISCAS, AAAI, TCAD, TPAMI, MICCAI, and MLCAD)
   <br>
   <a href="/publications/" style="color: #52adc8; text-decoration: none;">→ View Full Publication List</a>
 </p>
@@ -178,5 +178,5 @@ redirect_from:
 ## <span style="color: #52adc8;">📋 Academic Service</span>
 
 <div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin-top: 15px;">
-  <strong>Reviewer and Program Committee Member:</strong> AAAI 2026, CVPR 2026
+  <strong>Reviewer and Program Committee Member:</strong> AAAI 2026, AAAI 2027, CVPR 2026
 </div>
