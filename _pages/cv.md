@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <p style="text-align: right; margin-bottom: 20px;">
-  <a href="/files/HaoningJiang-CV.pdf" style="color: #52adc8; font-weight: bold; text-decoration: none; border: 2px solid #52adc8; padding: 8px 16px; border-radius: 5px;">📄 Download PDF Version</a>
+  <a href="/HaoningJiang-Jiang-CV.pdf" style="color: #52adc8; font-weight: bold; text-decoration: none; border: 2px solid #52adc8; padding: 8px 16px; border-radius: 5px;">📄 Download PDF Version</a>
 </p>
 
 ---
