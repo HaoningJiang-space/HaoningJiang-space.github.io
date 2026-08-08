@@ -10,7 +10,7 @@ redirect_from:
 <section class="cv-hero">
   <p class="section-kicker">Curriculum vitae</p>
   <h2>Haoning Jiang</h2>
-  <p>Ph.D. student in Electronic and Computer Engineering at HKUST, working across VLSI CAD, reinforcement learning, and medical AI.</p>
+  <p>Ph.D. student in Electronic and Computer Engineering at HKUST, focusing on AI chips, computer architecture, and intelligent EDA.</p>
   <a class="home-button home-button--primary" href="/HaoningJiang-Jiang-CV.pdf">Download PDF <span aria-hidden="true">↓</span></a>
 </section>
 

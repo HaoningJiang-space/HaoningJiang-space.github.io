@@ -69,7 +69,7 @@ author_profile: true
 </style>
 
 {% if site.author.googlescholar %}
-<p class="pub-intro">A selected record of work in VLSI CAD, reinforcement learning, and medical AI. You can also find my articles on <a href="{{site.author.googlescholar}}">Google Scholar</a>.</p>
+<p class="pub-intro">A selected record of work in AI systems, VLSI CAD, and related machine learning. You can also find my articles on <a href="{{site.author.googlescholar}}">Google Scholar</a>.</p>
 {% endif %}
 
 <p class="pub-intro"><small>* denotes equal contribution &nbsp; · &nbsp; † denotes corresponding author</small></p>
