@@ -53,17 +53,17 @@ redirect_from:
     <a class="text-link" href="/publications/">All publications <span aria-hidden="true">→</span></a>
   </div>
   <div class="selected-work">
-    <a class="work-card" href="/publication/2026-06-01-dentalpsam-miccai/">
+    <a class="work-card" href="/publication/2026-06-01-dentalpsam-miccai">
       <span class="work-card__venue">MICCAI 2026</span>
       <h3>DentalPSAM</h3>
       <p>Lifting SAM to dental plaque segmentation with hybrid 2D–3D knowledge fusion.</p>
     </a>
-    <a class="work-card" href="/publication/2025-01-04-fd-magrpo-analog-ldo/">
+    <a class="work-card" href="/publication/2025-01-04-fd-magrpo-analog-ldo">
       <span class="work-card__venue">AAAI 2026</span>
       <h3>FD-MAGRPO</h3>
       <p>Functionality-driven multi-agent group relative policy optimization for analog-LDO sizing.</p>
     </a>
-    <a class="work-card" href="/publication/2025-01-01-grain-analog-layout-migration/">
+    <a class="work-card" href="/publication/2025-01-01-grain-analog-layout-migration">
       <span class="work-card__venue">DATE 2026</span>
       <h3>GRAIN</h3>
       <p>A design-intent-driven interactive framework for analog layout migration.</p>
