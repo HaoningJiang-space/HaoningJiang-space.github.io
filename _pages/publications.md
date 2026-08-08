@@ -93,13 +93,13 @@ author_profile: true
 <ul class="pub-list">
 <li><span class="pub-venue conference">MICCAI 2026</span> <strong>H. Jiang</strong>, R. M. Fok, X. Zhang, R. Sun, J. H. K. Yeung, K. Deng, and L. Qu†, "DentalPSAM: Lifting SAM to Dental Plaque Segmentation with Hybrid 2D-3D Knowledge Fusion."</li>
 
-<li><span class="pub-venue conference">DATE 2026</span> B. Liu, <strong>H. Jiang</strong>, H. Zhang, X. Gao, Z. Kong, X. Tang, Z. David, and Y. Lin†, "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework." (Extended Abstract)</li>
+<li><span class="pub-venue conference">DATE 2026</span> B. Liu, <strong>H. Jiang</strong>, H. Zhang, X. Gao, Z. Kong, X. Tang, Z. David, and Y. Lin†, "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework." (Extended Abstract) (<a href="https://zhywhite.github.io/paper/GRAIN.pdf">Paper</a>)</li>
 
-<li><span class="pub-venue conference">ISCAS 2026</span> H. Wu*, <strong>H. Jiang</strong>*, Z. Wang, Y. Ou, B. Yuan, Y. Lu, and J. Jiang†, "Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing."</li>
+<li><span class="pub-venue conference">ISCAS 2026</span> H. Wu*, <strong>H. Jiang</strong>*, Z. Wang, Y. Ou, B. Yuan, Y. Lu, and J. Jiang†, "Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing." (<a href="https://doi.org/10.1109/iscas66217.2026.11562731">Paper</a>)</li>
 
-<li><span class="pub-venue conference">DATE 2026</span> H. Wu*, <strong>H. Jiang</strong>*, Y. Ou, Z. Wang, Q. Shen, B. Yuan, Y. Lu, and J. Jiang†, "ACEMARL: Adaptive Clustering Enhanced Multi-Agent Reinforcement Learning for Analog Circuit Sizing."</li>
+<li><span class="pub-venue conference">DATE 2026</span> H. Wu*, <strong>H. Jiang</strong>*, Y. Ou, Z. Wang, Q. Shen, B. Yuan, Y. Lu, and J. Jiang†, "ACEMARL: Adaptive Clustering Enhanced Multi-Agent Reinforcement Learning for Analog Circuit Sizing." (<a href="https://doi.org/10.23919/DATE69613.2026.11539706">Paper</a>)</li>
 
-<li><span class="pub-venue conference">AAAI 2026</span> <strong>H. Jiang</strong>*, H. Wu*, Y. Ou, Z. Wang, T. Chen, and J. Jiang†, "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing." (<a href="/files/AAAI26_FD_MAGRPO_Poster.pdf">Poster</a>)</li>
+<li><span class="pub-venue conference">AAAI 2026</span> <strong>H. Jiang</strong>*, H. Wu*, Y. Ou, Z. Wang, T. Chen, and J. Jiang†, "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing." (<a href="https://ojs.aaai.org/index.php/AAAI/article/view/39388">Paper</a> | <a href="/files/AAAI26_FD_MAGRPO_Poster.pdf">Poster</a>)</li>
 
 <li><span class="pub-venue conference">EExPolytech 2025</span> J. Wang, <strong>H. Jiang</strong>, J. Wang, R. Chen, C. Zhuang, J. Song†, "SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor (IGBT) Datasheet." (<a href="https://ieeexplore.ieee.org/document/11252000">Paper</a>)</li>
 
