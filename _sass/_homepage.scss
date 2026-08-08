@@ -15,7 +15,7 @@
   box-shadow: 0 1rem 2.5rem rgba(11, 64, 82, 0.17);
 }
 
-.home-intro p { max-width: 48rem; font-size: 1.03rem; line-height: 1.75; }
+.home-intro p { max-width: 48rem; font-size: 1.02rem; line-height: 1.8; }
 .home-intro a { color: #fff; text-decoration-color: rgba(255, 255, 255, 0.55); }
 .home-intro__eyebrow, .section-kicker { margin: 0 0 0.55rem; font-size: 0.72rem !important; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; }
 .home-intro__eyebrow { color: #b7e5e8; }
@@ -25,7 +25,7 @@
 
 .home-section { margin: 0 0 3.7rem; }
 .home-section__heading { margin-bottom: 1.35rem; }
-.home-section h2 { margin: 0; color: var(--ink); font-size: clamp(1.45rem, 3vw, 2rem); line-height: 1.2; }
+.home-section h2 { margin: 0; color: var(--ink); font-size: clamp(1.55rem, 3vw, 2.12rem); font-weight: 600; letter-spacing: -0.02em; line-height: 1.14; }
 .section-kicker { color: var(--accent); }
 
 .news-list { border-top: 1px solid var(--line); }
@@ -38,7 +38,7 @@
 .research-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .research-card { min-height: 15rem; padding: 1.35rem; border: 1px solid var(--line); border-radius: 0.45rem; background: #fff; box-shadow: 0 0.4rem 1.2rem rgba(24, 36, 51, 0.04); }
 .research-card__number { color: var(--accent); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; }
-.research-card h3 { margin: 2.8rem 0 0.65rem; color: var(--ink); font-size: 1.1rem; }
+.research-card h3 { margin: 2.8rem 0 0.65rem; color: var(--ink); font-size: 1.22rem; font-weight: 600; letter-spacing: -0.01em; }
 .research-card p { margin: 0; color: var(--muted); font-size: 0.93rem; line-height: 1.65; }
 
 .home-section--compact { padding: 1.45rem; border-left: 3px solid var(--accent); background: #f5f8f9; }
