@@ -7,45 +7,72 @@ author_profile: true
 
 <style>
 .pub-venue {
-  font-weight: bold;
-  padding: 2px 8px;
-  border-radius: 3px;
-  margin-right: 8px;
+  padding: 3px 7px;
+  border-radius: 999px;
+  margin: 0 8px 5px 0;
   display: inline-block;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.68em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .pub-venue.journal {
-  background-color: #d4edda;
-  color: #155724;
+  background-color: #e0f1ec;
+  color: #17614f;
 }
 
 .pub-venue.conference {
-  background-color: #cce5ff;
-  color: #004085;
+  background-color: #e2f0f4;
+  color: #0b566c;
 }
 
 .pub-venue.preprint {
-  background-color: #fff3cd;
-  color: #856404;
+  background-color: #f8eed7;
+  color: #7a5613;
 }
 
 .pub-list {
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 
 .pub-list li {
-  margin-bottom: 15px;
-  line-height: 1.6;
+  margin-bottom: 0;
+  padding: 1.05rem 0;
+  color: #3e4b59;
+  line-height: 1.72;
+  border-top: 1px solid #dce5e8;
+}
+
+.pub-list li:last-child {
+  border-bottom: 1px solid #dce5e8;
+}
+
+.pub-list strong {
+  color: #182433;
+}
+
+.pub-list a {
+  color: #0b566c;
+  font-weight: 700;
+  text-decoration-thickness: 1px;
+}
+
+.pub-intro {
+  max-width: 42rem;
+  color: #5d6875;
+  line-height: 1.7;
 }
 </style>
 
 {% if site.author.googlescholar %}
-You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+<p class="pub-intro">A selected record of work in VLSI CAD, reinforcement learning, and medical AI. You can also find my articles on <a href="{{site.author.googlescholar}}">Google Scholar</a>.</p>
 {% endif %}
 
-\* denotes equal contribution
-† denotes corresponding author
+<p class="pub-intro"><small>* denotes equal contribution &nbsp; · &nbsp; † denotes corresponding author</small></p>
 
 ---
 

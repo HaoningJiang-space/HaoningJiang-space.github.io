@@ -9,6 +9,7 @@
 
 body { color: var(--ink); background: var(--paper); }
 a { text-underline-offset: 0.18em; }
+a:focus-visible { outline: 3px solid #69aab5; outline-offset: 3px; }
 
 .masthead { background: rgba(251, 252, 252, 0.94); border-color: rgba(220, 229, 232, 0.85); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
 .masthead__menu-item--lg { font-size: 1.03rem; letter-spacing: -0.02em; }
@@ -69,11 +70,46 @@ a { text-underline-offset: 0.18em; }
 .home-facts strong { color: var(--ink); }
 .home-facts span { color: var(--muted); font-size: 0.9rem; line-height: 1.55; }
 
+.archive > .page__title { margin: 0.4rem 0 2.15rem; color: var(--ink); font-size: clamp(2rem, 4vw, 3rem); font-weight: 600; letter-spacing: -0.035em; }
+.archive > hr { margin: 2.4rem 0; border-color: var(--line); }
+
+.cv-hero { margin: 0 0 3rem; padding: 1.5rem 0 2.15rem; border-bottom: 1px solid var(--line); }
+.cv-hero h2 { margin: 0 0 0.65rem; color: var(--ink); font-size: clamp(1.9rem, 4vw, 2.65rem); font-weight: 600; letter-spacing: -0.03em; }
+.cv-hero p { max-width: 42rem; color: var(--muted); line-height: 1.7; }
+.cv-section { margin: 0 0 3.1rem; }
+.cv-section > h2 { margin: 0 0 1.15rem; color: var(--ink); font-size: 1.55rem; font-weight: 600; }
+.cv-entry { padding: 1.15rem 0; border-top: 1px solid var(--line); }
+.cv-entry:last-child { border-bottom: 1px solid var(--line); }
+.cv-entry--accent { padding: 1.3rem 1.35rem; border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 0.35rem; background: #fff; }
+.cv-entry__heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+.cv-entry h3 { margin: 0; color: var(--ink); font-family: "Manrope", sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -0.01em; }
+.cv-entry p { margin: 0.38rem 0 0; color: var(--muted); line-height: 1.65; }
+.cv-entry time { flex: 0 0 auto; color: var(--accent); font-family: "Manrope", sans-serif; font-size: 0.78rem; font-weight: 700; }
+.cv-entry ul { margin: 0.85rem 0 0; color: var(--muted); }
+.cv-entry li { margin-bottom: 0.45rem; line-height: 1.55; }
+.cv-entry details { margin-top: 0.85rem; color: var(--muted); }
+.cv-entry summary { color: var(--accent-deep); cursor: pointer; font-family: "Manrope", sans-serif; font-size: 0.84rem; font-weight: 700; }
+.cv-research-grid, .cv-skill-grid, .cv-awards-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.9rem; }
+.cv-topic, .cv-skill-grid > div, .cv-awards-grid > div { padding: 1.2rem; border: 1px solid var(--line); border-radius: 0.35rem; background: #fff; }
+.cv-topic h3 { margin: 0 0 0.55rem; color: var(--ink); font-family: "Manrope", sans-serif; font-size: 0.95rem; }
+.cv-topic p { margin: 0; color: var(--muted); font-size: 0.9rem; line-height: 1.62; }
+.cv-skill-grid > div, .cv-awards-grid > div { display: grid; gap: 0.35rem; }
+.cv-skill-grid strong, .cv-awards-grid strong { color: var(--ink); font-size: 0.9rem; }
+.cv-skill-grid span, .cv-awards-grid span { color: var(--muted); font-size: 0.84rem; line-height: 1.55; }
+.cv-section--split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; padding: 1.5rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.cv-section--split h2 { margin: 0 0 0.55rem; }
+.cv-section--split p { margin: 0 0 0.65rem; color: var(--muted); line-height: 1.6; }
+
 @media (max-width: 680px) {
   .home-hero { padding-top: 0.4rem; margin-bottom: 2.6rem; }
   .home-section__heading--split { align-items: start; flex-direction: column; }
-  .research-grid, .selected-work, .home-facts { grid-template-columns: 1fr; }
+  .research-grid, .selected-work, .home-facts, .cv-research-grid, .cv-skill-grid, .cv-awards-grid, .cv-section--split { grid-template-columns: 1fr; }
+  .cv-entry__heading { align-items: start; flex-direction: column; gap: 0.3rem; }
   .research-card { min-height: auto; }
   .research-card h3 { margin-top: 1.75rem; }
   .news-item { grid-template-columns: 1fr; gap: 0.35rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
