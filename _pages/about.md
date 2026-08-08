@@ -9,7 +9,7 @@ redirect_from:
 
 <section class="home-hero">
   <p class="home-intro__eyebrow">Ph.D. Student · Electronic &amp; Computer Engineering</p>
-  <h1>Building intelligent computing systems,<br>from AI chips to architecture.</h1>
+  <h1><span class="home-hero__line">Building intelligent computing systems,</span><span class="home-hero__line">from AI chips to architecture.</span></h1>
   <p class="home-hero__lead">I am a PhD student at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, advised by <a href="https://eeweiz.home.ece.ust.hk">Prof. Wei Zhang</a>. I received my B.S. in Electrical and Electronic Engineering from the <a href="https://www.sustech.edu.cn/en/">Southern University of Science and Technology (SUSTech)</a> in 2026.</p>
   <p class="home-hero__focus">Going forward, my research focuses on <strong>AI chips</strong>, <strong>computer architecture</strong>, and <strong>intelligent EDA</strong>.</p>
   <div class="home-actions">

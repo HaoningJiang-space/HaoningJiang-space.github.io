@@ -25,7 +25,8 @@ a:focus-visible { outline: 3px solid #69aab5; outline-offset: 3px; }
   border-bottom: 1px solid var(--line);
 }
 
-.home-hero h1 { max-width: 13ch; margin: 0 0 1.1rem; color: var(--ink); font-size: clamp(2.2rem, 5vw, 3.55rem); font-weight: 600; letter-spacing: -0.04em; line-height: 1.02; }
+.home-hero h1 { margin: 0 0 1.1rem; color: var(--ink); font-size: clamp(2.2rem, 4.2vw, 3.35rem); font-weight: 600; letter-spacing: -0.04em; line-height: 1.06; }
+.home-hero__line { display: block; white-space: nowrap; }
 .home-hero p { max-width: 44rem; font-size: 1.03rem; line-height: 1.8; }
 .home-hero__lead { color: var(--ink); }
 .home-hero__focus { color: var(--muted); }
@@ -102,6 +103,8 @@ a:focus-visible { outline: 3px solid #69aab5; outline-offset: 3px; }
 
 @media (max-width: 680px) {
   .home-hero { padding-top: 0.4rem; margin-bottom: 2.6rem; }
+  .home-hero h1 { font-size: clamp(2.1rem, 10vw, 3rem); line-height: 1.08; }
+  .home-hero__line { white-space: normal; }
   .home-section__heading--split { align-items: start; flex-direction: column; }
   .research-grid, .selected-work, .home-facts, .cv-research-grid, .cv-skill-grid, .cv-awards-grid, .cv-section--split { grid-template-columns: 1fr; }
   .cv-entry__heading { align-items: start; flex-direction: column; gap: 0.3rem; }
