@@ -91,6 +91,8 @@ author_profile: true
 ## Conference Papers
 
 <ul class="pub-list">
+<li><span class="pub-venue conference">MLCAD 2026</span> Y. Chen, <strong>H. Jiang</strong>, J. Wang, H. Wu, W. Zhang, and X. Yu, "HypCkt: A Hyperbolic Variational Framework for Analog Circuit Topology Generation."</li>
+
 <li><span class="pub-venue conference">MICCAI 2026</span> <strong>H. Jiang</strong>, R. M. Fok, X. Zhang, R. Sun, J. H. K. Yeung, K. Deng, and L. Qu†, "DentalPSAM: Lifting SAM to Dental Plaque Segmentation with Hybrid 2D-3D Knowledge Fusion."</li>
 
 <li><span class="pub-venue conference">DATE 2026</span> B. Liu, <strong>H. Jiang</strong>, H. Zhang, X. Gao, Z. Kong, X. Tang, Z. David, and Y. Lin†, "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework." (Extended Abstract) (<a href="https://zhywhite.github.io/paper/GRAIN.pdf">Paper</a>)</li>
