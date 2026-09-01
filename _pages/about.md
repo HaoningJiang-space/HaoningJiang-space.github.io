@@ -30,7 +30,7 @@ redirect_from:
     </article>
     <article class="news-item news-item--featured">
       <time datetime="2026-08">Aug 2026</time>
-      <div><span class="news-badge">Accepted</span><p><strong>“A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data”</strong> is accepted at <em>Lancet Digital Life</em>.</p></div>
+      <div><span class="news-badge">Accepted</span><p>“A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data” is accepted at <em>Lancet Digital Life</em>.</p></div>
     </article>
     <article class="news-item"><time datetime="2026-07">Jul 2026</time><p>I graduated from SUSTech with a B.S. in Electrical and Electronic Engineering.</p></article>
     <article class="news-item"><time datetime="2026-07">Jul 2026</time><p>One paper is accepted at MLCAD 2026.</p></article>
