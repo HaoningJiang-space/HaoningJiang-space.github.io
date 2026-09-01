@@ -25,6 +25,10 @@ redirect_from:
   </div>
   <div class="news-list">
     <article class="news-item news-item--featured">
+      <time datetime="2026-09">Sep 2026</time>
+      <div><span class="news-badge">Accepted</span><p>My first-authored paper <strong>“GLARE: Generalizable Large-scale Analog Sizing via Reinforcement Learning with Covariance-Guided Exploration”</strong> is accepted at <em>ASP-DAC</em>.</p></div>
+    </article>
+    <article class="news-item news-item--featured">
       <time datetime="2026-08">Aug 2026</time>
       <div><span class="news-badge">Accepted</span><p><strong>“A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data”</strong> is accepted at <em>Lancet Digital Life</em>.</p></div>
     </article>
