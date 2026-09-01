@@ -91,7 +91,7 @@ author_profile: true
 ## Conference Papers
 
 <ul class="pub-list">
-<li><span class="pub-venue conference">ASP-DAC · Accepted</span> <strong>H. Jiang</strong>, Z. Wang, H. Wu, X. Long, J. Liang, J. Wang, J. Wang, Z. Ouyang, W. An, J. Jiang, and W. Zhang, "GLARE: Generalizable Large-scale Analog Sizing via Reinforcement Learning with Covariance-Guided Exploration."</li>
+<li><span class="pub-venue conference">ASP-DAC</span> <strong>H. Jiang</strong>, Z. Wang, H. Wu, X. Long, J. Liang, J. Wang, J. Wang, Z. Ouyang, W. An, J. Jiang, and W. Zhang, "GLARE: Generalizable Large-scale Analog Sizing via Reinforcement Learning with Covariance-Guided Exploration."</li>
 
 <li><span class="pub-venue conference">MLCAD 2026</span> Y. Chen, <strong>H. Jiang</strong>, J. Wang, H. Wu, W. Zhang, and X. Yu, "HypCkt: A Hyperbolic Variational Framework for Analog Circuit Topology Generation."</li>
 
