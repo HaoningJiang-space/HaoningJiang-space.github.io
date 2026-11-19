@@ -1,9 +1,18 @@
 <header class="masthead">
   <div class="masthead__inner-wrap">
     <nav class="site-menu" aria-label="Main navigation">
-      <a class="site-menu__name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      {% if page.url == "/" %}
+        <a class="site-menu__name" href="https://hkust.edu.hk/">HKUST <span class="home-department">/ ECE</span></a>
+      {% else %}
+        <a class="site-menu__name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      {% endif %}
       <ul>
+        {% if page.url == "/" %}
+          <li><a href="#research">Research</a></li>
+          <li><a href="#news">News</a></li>
+        {% endif %}
         {% for link in site.data.navigation.main %}
+          {% if page.url == "/" and link.url == "/" %}{% continue %}{% endif %}
           <li><a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
         {% endfor %}
       </ul>

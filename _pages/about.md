@@ -9,79 +9,98 @@ redirect_from:
 ---
 
 <main class="academic-home" id="main-content">
-  <header class="profile-intro">
-    <div class="profile-intro__text">
-      <p class="profile-affiliation">Electronic &amp; Computer Engineering <span aria-hidden="true">/</span> HKUST</p>
-      <h1>Haoning Jiang <span lang="zh-Hans">蒋浩宁</span></h1>
-      <p class="profile-lead">I study AI chips and computer architecture, with a focus on thermal simulation and machine learning for chip design.</p>
-      <p class="profile-bio">I’m a Ph.D. student at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology</a>, advised by <a href="https://eeweiz.home.ece.ust.hk">Prof. Wei Zhang</a>. I received my B.S. in Electrical and Electronic Engineering from <a href="https://www.sustech.edu.cn/en/">SUSTech</a> in 2026.</p>
-      <nav class="profile-links" aria-label="Contact and academic profiles">
-        <a class="profile-cv" href="/HaoningJiang-Jiang-CV.pdf">Download CV <span aria-hidden="true">↓</span></a>
-        <a href="mailto:{{ site.author.email }}">Email</a>
-        <a href="{{ site.author.googlescholar | escape }}">Google Scholar</a>
-        <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-      </nav>
+  <header class="profile-summary" aria-labelledby="profile-name">
+    <div class="profile-heading">
+      <div class="portrait"><img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" width="609" height="916" alt="Haoning Jiang" fetchpriority="high"></div>
+      <div>
+        <h1 id="profile-name">Haoning Jiang</h1>
+        <p class="native-name" lang="zh-Hans">蒋浩宁</p>
+      </div>
     </div>
-    <div class="profile-photo"><img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" width="609" height="916" alt="Haoning Jiang" fetchpriority="high"></div>
+    <p class="profile-role">Ph.D. student in Electronic and Computer Engineering at <a href="https://hkust.edu.hk/">HKUST</a>.</p>
+    <p>I study AI chips and computer architecture, with a focus on thermal simulation and machine learning for chip design.</p>
+    <p>I’m advised by <a href="https://eeweiz.home.ece.ust.hk">Prof. Wei Zhang</a>. I received my B.S. in Electrical and Electronic Engineering from <a href="https://www.sustech.edu.cn/en/">SUSTech</a> in 2026.</p>
+    <nav class="contact-links" aria-label="Contact and academic profiles">
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="{{ site.author.googlescholar | escape }}">Google Scholar</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="/HaoningJiang-Jiang-CV.pdf">CV (PDF)</a>
+    </nav>
   </header>
 
-  <article class="cover-paper" aria-labelledby="cover-title">
-    <figure class="cover-art">
-      <img src="/images/hits-thermal-illustration.webp" width="1200" height="800" alt="Exploded view of stacked chip dies above a copper cooling plate, with orange heat contours and blue-green cooling channels.">
-      <figcaption>Stacked dies and a liquid cooling plate. Concept illustration.</figcaption>
-    </figure>
-    <div class="cover-copy">
-      <p class="cover-venue">DATE 2027 <span aria-hidden="true">/</span> First-author paper</p>
-      <h2 id="cover-title">HiTS</h2>
-      <p class="cover-title">Unified High-Resolution Thermal Simulation for Air- and Liquid-Cooled 2.5D and 3D Integrated Systems</p>
-      <p class="cover-authors"><strong>Haoning Jiang</strong>, Hongbang Wu, Jian Peng, Darong Huang, Jiang Xu, and Wei Zhang</p>
-      <a class="cover-link" href="/publication/hits-date-2027">Paper details <span aria-hidden="true">→</span></a>
+  <section class="work-index" id="research" aria-labelledby="research-title">
+    <div class="index-heading">
+      <h2 id="research-title">Selected research</h2>
+      <a href="/publications/">All publications <span aria-hidden="true">↗</span></a>
     </div>
-  </article>
-
-  <div class="home-columns">
-    <section class="research-index" aria-labelledby="research-heading">
-      <div class="home-heading">
-        <h2 id="research-heading">Selected research</h2>
-        <a href="/publications/">All publications <span aria-hidden="true">→</span></a>
+    <article class="work-row">
+      <div class="work-description">
+        <div class="work-heading">
+          <p class="venue">DATE 2027</p>
+          <h3><a href="/publication/hits-date-2027">HiTS</a></h3>
+        </div>
+        <p>Unified High-Resolution Thermal Simulation for Air- and Liquid-Cooled 2.5D and 3D Integrated Systems</p>
+        <p class="byline"><strong>Haoning Jiang</strong>, Hongbang Wu, Jian Peng, Darong Huang, Jiang Xu, and Wei Zhang</p>
+        <a class="work-link" href="/publication/hits-date-2027">Paper details <span aria-hidden="true">→</span></a>
       </div>
-      <article class="research-entry">
-        <p class="research-venue">ASP-DAC</p>
-        <h3><a href="/publication/2026-09-01-glare-analog-sizing">GLARE</a></h3>
-        <p>We use covariance information to guide the search for analog circuit parameters.</p>
-      </article>
-      <article class="research-entry">
-        <p class="research-venue">DATE 2026 · ISEDA 2026</p>
-        <h3><a href="/publication/2025-01-01-grain-analog-layout-migration">GRAIN</a></h3>
-        <p>We use hierarchical placement and routing guides to preserve design intent when moving a layout between process nodes.</p>
-      </article>
-      <article class="research-entry">
-        <p class="research-venue">AAAI 2026</p>
-        <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/39388">FD-MAGRPO</a></h3>
-        <p>We group circuit parameters by function so agents can work together to size low-dropout regulators.</p>
-      </article>
-    </section>
+      <figure class="work-figure">
+        <a class="figure-image figure-image--thermal" href="/publication/hits-date-2027" aria-label="Read about HiTS"><img src="/images/hits-thermal-illustration.webp" width="1200" height="800" alt="Illustration of heat spreading through silicon dies above a cooling plate."></a>
+        <figcaption>Stacked dies and cooling plate · Illustration</figcaption>
+      </figure>
+    </article>
+    <article class="work-row">
+      <div class="work-description">
+        <div class="work-heading">
+          <p class="venue">ISEDA 2026 <span>·</span> DATE 2026</p>
+          <h3><a href="/publication/2025-01-01-grain-analog-layout-migration">GRAIN</a></h3>
+        </div>
+        <p>A Design-Intent-Driven Analog Layout Migration Framework</p>
+        <p class="byline">B. Liu, <strong>H. Jiang</strong>, H. Zhang, X. Gao, Z. Kong, X. Tang, D. Z. Pan, and Y. Lin</p>
+        <a class="work-link" href="/publication/2025-01-01-grain-analog-layout-migration">Paper details <span aria-hidden="true">→</span></a>
+      </div>
+      <figure class="work-figure">
+        <a class="figure-image figure-image--diagram" href="https://yibolin.com/publications/papers/ANALOG_ISEDA2026_Liu.pdf#page=6" aria-label="View Figure 5 in the GRAIN paper"><img src="/images/grain-layout-migration.webp" width="568" height="300" alt="The original 65 nm analog layout and the 40 nm layout generated by GRAIN."></a>
+        <figcaption>65 nm → 40 nm · GRAIN, Fig. 5</figcaption>
+      </figure>
+    </article>
+    <article class="work-row">
+      <div class="work-description">
+        <div class="work-heading">
+          <p class="venue">AAAI 2026</p>
+          <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/39388">FD-MAGRPO</a></h3>
+        </div>
+        <p>Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing</p>
+        <p class="byline"><strong>H. Jiang</strong>*, H. Wu*, Y. Ou, Z. Wang, T. Chen, and J. Jiang <span class="contribution">(* equal contribution)</span></p>
+        <div class="work-resources"><a class="work-link" href="https://ojs.aaai.org/index.php/AAAI/article/view/39388">Paper <span aria-hidden="true">↗</span></a><a class="work-link" href="/files/AAAI26_FD_MAGRPO_Poster.pdf">Poster <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <figure class="work-figure">
+        <a class="figure-image figure-image--diagram" href="/files/AAAI26_FD_MAGRPO_Poster.pdf" aria-label="View the circuit schematic in the FD-MAGRPO poster"><img src="/images/fd-magrpo-ldo.webp" width="766" height="365" alt="LDO schematic with functional groups shown in color."></a>
+        <figcaption>Regulator topology 3 · AAAI poster</figcaption>
+      </figure>
+    </article>
+    <p class="related-work">Related work on analog sizing · <a href="/publication/2026-09-01-glare-analog-sizing">GLARE (ASP-DAC)</a></p>
+  </section>
 
-    <aside class="home-notes" aria-labelledby="news-heading">
-      <div class="home-heading"><h2 id="news-heading">Recent news</h2></div>
-      <ul class="news-timeline">
-        <li><time datetime="2026-11">Nov 2026</time><p>My first-author paper <a href="/publication/hits-date-2027">HiTS</a> was accepted at <strong>DATE 2027</strong>.</p></li>
-        <li><time datetime="2026-09">Sep 2026</time><p>My first-author paper <a href="/publication/2026-09-01-glare-analog-sizing">GLARE</a> was accepted at <strong>ASP-DAC</strong>.</p></li>
-        <li><time datetime="2026-08">Aug 2026</time><p>Our <a href="/publication/2025-01-05-brain-tumor-foundation-model">study on brain tumor diagnosis</a> was accepted by <em>Lancet Digital Life</em>.</p></li>
+  <section class="research-news" id="news" aria-labelledby="news-title">
+    <div class="index-heading"><h2 id="news-title">News</h2></div>
+    <ul class="dated-list">
+      <li><time datetime="2026-11">Nov 2026</time><span>My first-author paper <a href="/publication/hits-date-2027">HiTS</a> was accepted at <strong>DATE 2027</strong>.</span></li>
+      <li><time datetime="2026-09">Sep 2026</time><span>My first-author paper <a href="/publication/2026-09-01-glare-analog-sizing">GLARE</a>, on reinforcement learning for analog sizing, was accepted at <strong>ASP-DAC</strong>.</span></li>
+      <li><time datetime="2026-08">Aug 2026</time><span>Our <a href="/publication/2025-01-05-brain-tumor-foundation-model">brain tumor diagnosis paper</a> was accepted by <em>Lancet Digital Life</em>.</span></li>
+    </ul>
+    <details class="earlier-news">
+      <summary>Earlier news</summary>
+      <ul class="dated-list">
+        <li><time datetime="2026-07">Jul 2026</time><span>I graduated from SUSTech. Our paper <a href="/publication/2026-01-01-hypckt-analog-topology-generation">HypCkt</a> was accepted at MLCAD 2026.</span></li>
+        <li><time datetime="2026-06">Jun 2026</time><span>My first-author paper <a href="/publication/2026-06-01-dentalpsam-miccai">DentalPSAM</a> was accepted at MICCAI 2026.</span></li>
+        <li><time datetime="2026-03">Mar 2026</time><span>Our paper <a href="/publication/2025-01-01-grain-analog-layout-migration">GRAIN</a> was accepted at ISEDA 2026.</span></li>
       </ul>
-      <details class="earlier-news">
-        <summary>Earlier news</summary>
-        <ul class="news-timeline">
-          <li><time datetime="2026-07">Jul 2026</time><p>I graduated from SUSTech. Our paper <a href="/publication/2026-01-01-hypckt-analog-topology-generation">HypCkt</a> was accepted at MLCAD 2026.</p></li>
-          <li><time datetime="2026-06">Jun 2026</time><p>My first-author paper <a href="/publication/2026-06-01-dentalpsam-miccai">DentalPSAM</a> was accepted at MICCAI 2026.</p></li>
-          <li><time datetime="2026-03">Mar 2026</time><p>Our paper <a href="/publication/2025-01-01-grain-analog-layout-migration">GRAIN</a> was accepted at ISEDA 2026.</p></li>
-        </ul>
-      </details>
-      <section class="home-service">
-        <h2>Academic service</h2>
-        <p>Program committee member and reviewer for AAAI 2026 and 2027. Reviewer for CVPR 2026 and IEEE TCAD.</p>
-        <a href="/cv/">CV and awards <span aria-hidden="true">→</span></a>
-      </section>
-    </aside>
-  </div>
+    </details>
+  </section>
+
+  <section class="academic-service" aria-labelledby="service-title">
+    <h2 id="service-title">Academic service</h2>
+    <p>Program committee member and reviewer for AAAI 2026 and 2027. Reviewer for CVPR 2026 and IEEE TCAD.</p>
+    <a class="work-link" href="/cv/">Full CV and awards <span aria-hidden="true">→</span></a>
+  </section>
 </main>

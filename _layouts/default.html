@@ -22,8 +22,12 @@ layout: compress
 
     <div class="page__footer">
       <footer>
+        {% if page.url == "/" %}
+          <div class="home-colophon"><span>&copy; {{ site.time | date: '%Y' }} {{ site.name }}</span><nav aria-label="Site resources"><a href="{{ '/sitemap/' | relative_url }}">Sitemap</a><a href="{{ '/feed.xml' | relative_url }}">Feed</a><a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a></nav></div>
+        {% else %}
         {% include footer/custom.html %}
         {% include footer.html %}
+        {% endif %}
       </footer>
     </div>
 
