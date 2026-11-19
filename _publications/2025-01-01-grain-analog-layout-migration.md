@@ -10,4 +10,4 @@ citation: 'Liu, B., Jiang, H., Zhang, H., Gao, X., Kong, Z., Tang, X., Pan, D. Z
 
 {{ page.excerpt }}
 
-[DATE extended abstract](https://yibolin.com/publications/papers/ANALOG_DATE2026_Liu.pdf) · [ISEDA paper](https://yibolin.com/publications/papers/ANALOG_ISEDA2026_Liu.pdf)
+[DATE paper](https://yibolin.com/publications/papers/ANALOG_DATE2026_Liu.pdf) · [ISEDA paper](https://yibolin.com/publications/papers/ANALOG_ISEDA2026_Liu.pdf)

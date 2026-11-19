@@ -81,7 +81,7 @@ author_profile: true
 <ul class="pub-list">
 <li><span class="pub-venue journal">IEEE TCAD</span> H. Wu, <strong>H. Jiang</strong>, Z. Wang, Y. Ou, C. Hu, B. Yuan, Y. Lu, M. Huang, T. Chen, X. Liu and J. Jiang†, "Design Intent Driven Multi-Agent Reinforcement Learning With Current-Transient Automatic Clustering for Analog LDO Sizing."</li>
 
-<li><span class="pub-venue journal">Lancet Digital Life</span> Y. Wang*, J. Chen*, Z. Chen*, S. Kuang*, <strong>H. Jiang</strong>, Y. Shi, H. Yuan, Yan-ran (Joyce) Wang, B. Wang, L. Wu, B. Tang, L. Meng, B. Luo, B. Zhou, W. Ding, W. Zhong, W. Hou, Y. Chen, Z. Wan, W. Wang, Z. Xiao, W. Wan, A. He, Y. Zhou, L. Zhang, F. Wang, Z. Liu, M. Iv, X. Gong†, and L. Qu†, "A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data." (Accepted)</li>
+<li><span class="pub-venue journal">Lancet Digital Life</span> Y. Wang*, J. Chen*, Z. Chen*, S. Kuang*, <strong>H. Jiang</strong>, Y. Shi, H. Yuan, Yan-ran (Joyce) Wang, B. Wang, L. Wu, B. Tang, L. Meng, B. Luo, B. Zhou, W. Ding, W. Zhong, W. Hou, Y. Chen, Z. Wan, W. Wang, Z. Xiao, W. Wan, A. He, Y. Zhou, L. Zhang, F. Wang, Z. Liu, M. Iv, X. Gong†, and L. Qu†, "A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data."</li>
 
 <li><span class="pub-venue journal">IEEE TPAMI</span> P. Guo*, R. Wang*, S. Zeng, J. Zhu, <strong>H. Jiang</strong>, Y. Wang, Y. Zhou, F. Wang, H. Xiong, and L. Qu†, "Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks." (<a href="https://arxiv.org/abs/2503.11514">Paper</a> | <a href="https://pengxin-guo.github.io/FLPrivacy/">Project</a> | <a href="https://github.com/1wrx1/GIA">Code</a>)</li>
 </ul>
@@ -91,15 +91,15 @@ author_profile: true
 ## Conference Papers
 
 <ul class="pub-list">
-<li><span class="pub-venue conference">DATE 2027</span> <strong>H. Jiang</strong>, H. Wu, J. Peng, D. Huang, J. Xu, and W. Zhang, “<a href="/publication/hits-date-2027">HiTS: Unified High-Resolution Thermal Simulation for Air- and Liquid-Cooled 2.5D and 3D Integrated Systems</a>.” (Accepted)</li>
+<li><span class="pub-venue conference">DATE 2027</span> <strong>H. Jiang</strong>, H. Wu, J. Peng, D. Huang, J. Xu, and W. Zhang, “<a href="/publication/hits-date-2027">HiTS: Unified High-Resolution Thermal Simulation for Air- and Liquid-Cooled 2.5D and 3D Integrated Systems</a>.”</li>
 
-<li><span class="pub-venue conference">ASP-DAC</span> <strong>H. Jiang</strong>, Z. Wang, H. Wu, X. Long, J. Liang, J. Wang, J. Wang, Z. Ouyang, W. An, J. Jiang, and W. Zhang, "GLARE: Generalizable Large-scale Analog Sizing via Reinforcement Learning with Covariance-Guided Exploration." (Accepted)</li>
+<li><span class="pub-venue conference">ASP-DAC</span> <strong>H. Jiang</strong>, Z. Wang, H. Wu, X. Long, J. Liang, J. Wang, J. Wang, Z. Ouyang, W. An, J. Jiang, and W. Zhang, "GLARE: Generalizable Large-scale Analog Sizing via Reinforcement Learning with Covariance-Guided Exploration."</li>
 
 <li><span class="pub-venue conference">MLCAD 2026</span> Y. Chen, <strong>H. Jiang</strong>, J. Wang, H. Wu, W. Zhang, and X. Yu, "HypCkt: A Hyperbolic Variational Framework for Analog Circuit Topology Generation."</li>
 
 <li><span class="pub-venue conference">MICCAI 2026</span> <strong>H. Jiang</strong>, R. M. Fok, X. Zhang, R. Sun, J. H. K. Yeung, K. Deng, and L. Qu†, "DentalPSAM: Lifting SAM to Dental Plaque Segmentation with Hybrid 2D-3D Knowledge Fusion."</li>
 
-<li><span class="pub-venue conference">DATE 2026</span><span class="pub-venue conference">ISEDA 2026</span> B. Liu, <strong>H. Jiang</strong>, H. Zhang, X. Gao, Z. Kong, X. Tang, D. Z. Pan, and Y. Lin†, "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework." (<a href="https://yibolin.com/publications/papers/ANALOG_DATE2026_Liu.pdf">DATE extended abstract</a> | <a href="https://yibolin.com/publications/papers/ANALOG_ISEDA2026_Liu.pdf">ISEDA paper</a>)</li>
+<li><span class="pub-venue conference">DATE 2026</span><span class="pub-venue conference">ISEDA 2026</span> B. Liu, <strong>H. Jiang</strong>, H. Zhang, X. Gao, Z. Kong, X. Tang, D. Z. Pan, and Y. Lin†, "GRAIN: A Design-Intent-Driven Analog Layout Migration Framework." (<a href="https://yibolin.com/publications/papers/ANALOG_DATE2026_Liu.pdf">DATE paper</a> | <a href="https://yibolin.com/publications/papers/ANALOG_ISEDA2026_Liu.pdf">ISEDA paper</a>)</li>
 
 <li><span class="pub-venue conference">ISCAS 2026</span> H. Wu*, <strong>H. Jiang</strong>*, Z. Wang, Y. Ou, B. Yuan, Y. Lu, and J. Jiang†, "Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing." (<a href="https://doi.org/10.1109/iscas66217.2026.11562731">Paper</a>)</li>
 
@@ -108,8 +108,6 @@ author_profile: true
 <li><span class="pub-venue conference">AAAI 2026</span> <strong>H. Jiang</strong>*, H. Wu*, Y. Ou, Z. Wang, T. Chen, and J. Jiang†, "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing." (<a href="https://ojs.aaai.org/index.php/AAAI/article/view/39388">Paper</a> | <a href="/files/AAAI26_FD_MAGRPO_Poster.pdf">Poster</a>)</li>
 
 <li><span class="pub-venue conference">EExPolytech 2025</span> J. Wang, <strong>H. Jiang</strong>, J. Wang, R. Chen, C. Zhuang, J. Song†, "SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor (IGBT) Datasheet." (<a href="https://ieeexplore.ieee.org/document/11252000">Paper</a>)</li>
-
-<li><span class="pub-venue preprint">arXiv 2025</span> H. Wu, <strong>H. Jiang</strong>, Y. Ou, Z. Wang, Z. Wang, S. Zhou, C. Hu, C. Zhang, B. Yuan, Y. Lu, M. Huang, and J. Jiang†, "ACUMEN: Automatic Constraint Matching and Uncertainty-Modulated Exploration with Parameter Space Navigation for Analog Circuit Sizing."</li>
 
 <li><span class="pub-venue conference">CVPR Findings 2026</span> Y. Shi, X. Zhang, J. Ji, <strong>H. Jiang</strong>, C. Zheng, Y. Wang, and L. Qu†, "HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding." (<a href="https://arxiv.org/abs/2506.09634">arXiv</a> | <a href="/files/2506.09634v1.pdf">PDF</a>)</li>
 </ul>

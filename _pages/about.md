@@ -25,35 +25,40 @@ redirect_from:
     <div class="profile-photo"><img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" width="609" height="916" alt="Haoning Jiang" fetchpriority="high"></div>
   </header>
 
+  <article class="cover-paper" aria-labelledby="cover-title">
+    <figure class="cover-art">
+      <img src="/images/hits-thermal-illustration.webp" width="1200" height="800" alt="Exploded view of stacked chip dies above a copper cooling plate, with orange heat contours and blue-green cooling channels.">
+      <figcaption>Stacked dies and a liquid cooling plate. Concept illustration.</figcaption>
+    </figure>
+    <div class="cover-copy">
+      <p class="cover-venue">DATE 2027 <span aria-hidden="true">/</span> First-author paper</p>
+      <h2 id="cover-title">HiTS</h2>
+      <p class="cover-title">Unified High-Resolution Thermal Simulation for Air- and Liquid-Cooled 2.5D and 3D Integrated Systems</p>
+      <p class="cover-authors"><strong>Haoning Jiang</strong>, Hongbang Wu, Jian Peng, Darong Huang, Jiang Xu, and Wei Zhang</p>
+      <a class="cover-link" href="/publication/hits-date-2027">Paper details <span aria-hidden="true">→</span></a>
+    </div>
+  </article>
+
   <div class="home-columns">
     <section class="research-index" aria-labelledby="research-heading">
       <div class="home-heading">
         <h2 id="research-heading">Selected research</h2>
         <a href="/publications/">All publications <span aria-hidden="true">→</span></a>
       </div>
-      <article class="research-entry research-entry--featured">
-        <p class="research-venue">DATE 2027 <span>· Accepted</span></p>
-        <h3><a href="/publication/hits-date-2027">HiTS: Unified High-Resolution Thermal Simulation for Air- and Liquid-Cooled 2.5D and 3D Integrated Systems</a></h3>
-        <p class="research-authors"><strong>Haoning Jiang</strong>, Hongbang Wu, Jian Peng, Darong Huang, Jiang Xu, and Wei Zhang</p>
-      </article>
       <article class="research-entry">
-        <p class="research-venue">ASP-DAC <span>· Accepted</span></p>
-        <h3><a href="/publication/2026-09-01-glare-analog-sizing">GLARE: Generalizable Large-scale Analog Sizing via Reinforcement Learning with Covariance-Guided Exploration</a></h3>
+        <p class="research-venue">ASP-DAC</p>
+        <h3><a href="/publication/2026-09-01-glare-analog-sizing">GLARE</a></h3>
         <p>We use covariance information to guide the search for analog circuit parameters.</p>
       </article>
       <article class="research-entry">
         <p class="research-venue">DATE 2026 · ISEDA 2026</p>
-        <h3><a href="/publication/2025-01-01-grain-analog-layout-migration">GRAIN: A Design-Intent-Driven Analog Layout Migration Framework</a></h3>
+        <h3><a href="/publication/2025-01-01-grain-analog-layout-migration">GRAIN</a></h3>
         <p>We use hierarchical placement and routing guides to preserve design intent when moving a layout between process nodes.</p>
       </article>
       <article class="research-entry">
         <p class="research-venue">AAAI 2026</p>
-        <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/39388">FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing</a></h3>
+        <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/39388">FD-MAGRPO</a></h3>
         <p>We group circuit parameters by function so agents can work together to size low-dropout regulators.</p>
-      </article>
-      <article class="research-entry">
-        <p class="research-venue">arXiv 2025</p>
-        <h3><a href="/publication/2025-01-06-asue-rl-analog-circuit">ACUMEN: Automatic Constraint Matching and Uncertainty-Modulated Exploration with Parameter Space Navigation for Analog Circuit Sizing</a></h3>
       </article>
     </section>
 
