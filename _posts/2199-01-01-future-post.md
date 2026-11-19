@@ -1,7 +1,8 @@
 ---
 title: 'Future Blog Post'
+template_example: true
 date: 2199-01-01
-permalink: /posts/2012/08/blog-post-4/
+permalink: /posts/2199/01/future-post/
 tags:
   - cool posts
   - category1
