@@ -2,7 +2,7 @@
   {% if post.venue_label %}<p class="venue-label">{{ post.venue_label | escape }}</p>{% elsif post.template_example %}<p class="venue-label">Template example</p>{% endif %}
   <h3><a href="{{ post.url | relative_url }}">{{ post.title | strip_html | escape }}</a></h3>
   {% if post.collection == 'publications' %}
-    <p class="author-line">{% include paper-authors.html paper=post %}</p>
+    {% include paper-byline.html paper=post compact=true %}
   {% elsif post.venue %}
     <p class="document-meta">{{ post.venue | escape }} · {{ post.date | date: '%Y' }}</p>
   {% elsif post.collection == 'posts' %}

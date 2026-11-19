@@ -11,7 +11,7 @@ layout: default
       </div>
       <div class="paper-heading">
         <h1 class="document-title">{{ page.title | escape }}</h1>
-        <p class="author-line">{% include paper-authors.html paper=page %}</p>
+        {% include paper-byline.html paper=page %}
         {% if page.authors contains '*' or page.authors contains '†' %}
           <p class="contribution-note">{% if page.authors contains '*' %}* Equal contribution{% endif %}{% if page.authors contains '*' and page.authors contains '†' %} · {% endif %}{% if page.authors contains '†' %}† Corresponding author{% endif %}</p>
         {% endif %}
@@ -24,16 +24,22 @@ layout: default
         {% include paper-resources.html paper=page %}
         <details class="paper-citation">
           <summary>Cite this work</summary>
-          <p>{{ page.authors | remove: '*' | remove: '†' | escape }}. “{{ page.title | escape }}.” <i>{{ page.venue_label | escape }}</i>.</p>
+          {% capture citation %}{{ page.authors | remove: '*' | remove: '†' | escape }}. “{{ page.title | escape }}.”{% endcapture %}
+          {% assign editions = page.resources | where_exp: 'item', 'item.cite_as' %}
+          {% if editions.size > 0 %}
+            {% for edition in editions %}<p>{{ citation }} <a href="{{ edition.url | escape }}"><i>{{ edition.cite_as | escape }}</i></a>.</p>{% endfor %}
+          {% else %}
+            <p>{{ citation }} <i>{{ page.venue_label | escape }}</i>.</p>
+          {% endif %}
         </details>
       </div>
       {% if page.figure %}
+        {% if page.figure.source %}<a class="paper-figure-link" href="{{ page.figure.source | escape }}">{% endif %}
         <figure class="paper-figure">
-          {% if page.figure.source %}<a href="{{ page.figure.source }}" aria-label="{{ page.figure.source_label | escape }}">{% endif %}
           <img src="{{ page.figure.path | relative_url }}" alt="{{ page.figure.alt | escape }}" width="{{ page.figure.width }}" height="{{ page.figure.height }}">
-          {% if page.figure.source %}</a>{% endif %}
-          <figcaption>{{ page.figure.caption | escape }}{% if page.figure.source %} · <a href="{{ page.figure.source }}">{{ page.figure.source_label }}</a>{% endif %}</figcaption>
+          <figcaption>{{ page.figure.caption | escape }}{% if page.figure.source %} · <span class="figure-source">{{ page.figure.source_label | escape }}</span>{% endif %}</figcaption>
         </figure>
+        {% if page.figure.source %}</a>{% endif %}
       {% endif %}
     </div>
   </article>

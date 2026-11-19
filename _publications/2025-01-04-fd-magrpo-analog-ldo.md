@@ -18,7 +18,7 @@ figure:
   alt: "LDO schematic with functional groups shown in color."
   width: 766
   height: 365
-  caption: "Regulator topology 3 · AAAI poster"
+  caption: "LDO regulator topology 3"
   source: "/files/AAAI26_FD_MAGRPO_Poster.pdf"
   source_label: "AAAI poster"
 excerpt: "This paper proposes a functionality-driven multi-agent GRPO framework for analog-LDO sizing."

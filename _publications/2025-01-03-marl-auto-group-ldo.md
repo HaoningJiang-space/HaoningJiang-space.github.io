@@ -7,7 +7,7 @@ venue: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Sy
 venue_label: "IEEE TCAD 2026"
 section: journal
 list_order: 1
-authors: "H. Wu, H. Jiang, Z. Wang, Y. Ou, C. Hu, B. Yuan, Y. Lu, M. Huang, T. Chen, X. Liu and J. Jiang†"
+authors: "H. Wu, H. Jiang, Z. Wang, Y. Ou, C. Hu, B. Yuan, Y. Lu, M. Huang, T. Chen, X. Liu, and J. Jiang†"
 excerpt: "This paper introduces a multi-agent reinforcement learning framework for optimizing power management ICs."
 ---
 

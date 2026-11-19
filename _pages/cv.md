@@ -20,7 +20,7 @@ redirect_from:
     <p class="cv-identity">Haoning Jiang <span lang="zh-Hans">蒋浩宁</span></p>
     <h1 class="document-title">{{ page.title }}</h1>
     <p>Ph.D. student in Electronic and Computer Engineering at HKUST. I work on AI chips, computer architecture, and electronic design automation.</p>
-    <a class="cv-download" href="{{ '/HaoningJiang-Jiang-CV.pdf' | relative_url }}">Download CV (PDF) <span aria-hidden="true">↓</span></a>
+    <a class="cv-download" download href="{{ '/HaoningJiang-Jiang-CV.pdf' | relative_url }}">Download CV <span class="cv-file-type">(PDF, 2 pages)</span> <span aria-hidden="true">↓</span></a>
   </div>
   <img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" width="609" height="916" alt="Portrait of Haoning Jiang">
 </header>
@@ -29,11 +29,11 @@ redirect_from:
 <section class="cv-section">
   <h2 id="education" tabindex="-1">Education</h2>
   <article class="cv-entry">
-    <div class="cv-entry__heading"><h3>Ph.D. in Electronic and Computer Engineering</h3><time>2026–2030 <em>(expected)</em></time></div>
+    <div class="cv-entry__heading"><h3>Ph.D. in Electronic and Computer Engineering</h3><span class="cv-period"><time datetime="2026">2026</time>–<time datetime="2030">2030</time> <em>(expected)</em></span></div>
     <p>Hong Kong University of Science and Technology (HKUST)<br>Advisor: <a href="https://eeweiz.home.ece.ust.hk">Prof. Wei Zhang</a></p>
   </article>
   <article class="cv-entry">
-    <div class="cv-entry__heading"><h3>B.S. in Electrical and Electronic Engineering</h3><time>Sep. 2022 – Jul. 2026</time></div>
+    <div class="cv-entry__heading"><h3>B.S. in Electrical and Electronic Engineering</h3><span class="cv-period"><time datetime="2022-09">Sep. 2022</time> – <time datetime="2026-07">Jul. 2026</time></span></div>
     <p>Southern University of Science and Technology (SUSTech), Shenzhen, China</p>
     <details><summary>Core courses</summary><p>Methods in Mathematical Physics · Microwave Engineering · Wireless Communications · Optoelectronics Intellisense · Communication Principles · Solid-State Electronics · Data Communications and Networking</p></details>
   </article>
@@ -42,7 +42,7 @@ redirect_from:
 <section class="cv-section">
   <h2 id="experience" tabindex="-1">Experience</h2>
   <article class="cv-entry">
-    <div class="cv-entry__heading"><h3>AI Algorithm Intern</h3><time>Jan. 2025 – Mar. 2025</time></div>
+    <div class="cv-entry__heading"><h3>AI Algorithm Intern</h3><span class="cv-period"><time datetime="2025-01">Jan. 2025</time> – <time datetime="2025-03">Mar. 2025</time></span></div>
     <p>Ascend LLM Team, Hunan Kunpeng Ecological Innovation Research Center (HUAWEI) · Changsha, China</p>
     <ul><li>Built text-to-image and image-generation pipelines with Diffusers and Stable Diffusion.</li><li>Hosted technical workshops on reinforcement learning and post-training techniques, including GRPO.</li><li>Implemented tiled matrix computation and online softmax, reducing GPU memory use by <strong>45%</strong>.</li></ul>
   </article>

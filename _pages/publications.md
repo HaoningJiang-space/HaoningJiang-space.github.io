@@ -30,6 +30,7 @@ sections:
       {% assign papers = site.publications | where: 'section', kind %}
       <a href="#{{ section[0] }}">{{ section[1] }} <span>({{ papers.size }})</span></a>
     {% endfor %}
+    <p class="contribution-note">* Equal contribution · † Corresponding author</p>
   </nav>
   {% for section in page.sections %}
     {% assign kind = section[0] | split: '-' | first %}
@@ -38,11 +39,11 @@ sections:
       <h2 id="heading-{{ kind }}">{{ section[1] }}</h2>
       <ul class="paper-list">
         {% for paper in papers %}
-          <li id="entry-{{ paper.url | split: '/' | last }}">
+          <li id="entry-{{ paper.url | split: '/' | last }}" tabindex="-1">
             <p class="venue-label">{{ paper.venue_label | escape }}</p>
             <div class="paper-list-text">
               <h3><a href="{{ paper.url | relative_url }}">{{ paper.title | escape }}</a></h3>
-              <p class="author-line">{% include paper-authors.html paper=paper %}</p>
+              {% include paper-byline.html paper=paper compact=true %}
               {% include paper-resources.html paper=paper %}
             </div>
           </li>
@@ -50,5 +51,4 @@ sections:
       </ul>
     </section>
   {% endfor %}
-  <p class="contribution-note">* Equal contribution · † Corresponding author</p>
 </main>
