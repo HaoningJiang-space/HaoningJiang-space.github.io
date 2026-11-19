@@ -28,7 +28,7 @@ redirect_from:
     </nav>
   </header>
 
-  <section class="work-index" id="research" aria-labelledby="research-title">
+  <section class="work-index" id="research" tabindex="-1" aria-labelledby="research-title">
     <div class="index-heading">
       <h2 id="research-title">Selected research</h2>
       <a href="/publications/">All publications <span aria-hidden="true">↗</span></a>
@@ -81,7 +81,7 @@ redirect_from:
     <p class="related-work">Related work on analog sizing · <a href="/publication/2026-09-01-glare-analog-sizing">GLARE (ASP-DAC)</a></p>
   </section>
 
-  <section class="research-news" id="news" aria-labelledby="news-title">
+  <section class="research-news" id="news" tabindex="-1" aria-labelledby="news-title">
     <div class="index-heading"><h2 id="news-title">News</h2></div>
     <ul class="dated-list">
       <li><time datetime="2026-11">Nov 2026</time><span>My first-author paper <a href="/publication/hits-date-2027">HiTS</a> was accepted at <strong>DATE 2027</strong>.</span></li>

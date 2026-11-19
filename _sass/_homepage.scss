@@ -157,6 +157,7 @@ a:focus-visible { outline: 3px solid #69aab5; outline-offset: 3px; }
 }
 .contact-links a, .work-link { display: inline-block; padding-block: 3px; }
 .work-index { grid-area: work; min-width: 0; }
+.academic-home section[id] { scroll-margin-top: 16px; }
 .index-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
 .index-heading h2, .academic-service h2 {
   font: 500 clamp(27px, 2.45vw, 36px)/1.12 $serif;
