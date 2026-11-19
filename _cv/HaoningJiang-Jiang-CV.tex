@@ -1,0 +1,70 @@
+% Build from the repository root with: pdflatex _cv/HaoningJiang-Jiang-CV.tex
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,microtype}
+\usepackage[left=7mm,right=7mm,top=9mm,bottom=10mm,footskip=5mm]{geometry}
+\usepackage{fancyhdr}
+\usepackage[hidelinks,pdftitle={Haoning Jiang - Curriculum Vitae},pdfauthor={Haoning Jiang}]{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{0pt}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\newcommand{\heading}[1]{\par\addvspace{3pt}{\bfseries\underline{\MakeUppercase{#1}}}\par\nopagebreak}
+\newcommand{\me}{\textbf{H.~Jiang}}
+\newcommand{\equal}{\textsuperscript{*}}
+\newcommand{\paper}[4]{\par\noindent[#1] #2, “\textit{#3},” \textbf{#4}.\par}
+\begin{document}
+\fontsize{10.25}{11.8}\selectfont
+{\centering{\fontsize{20}{22}\selectfont\bfseries Haoning Jiang\par}
+Tel: (+86) 19374881249 \quad E-mail: \href{mailto:hjiangbq@connect.ust.hk}{hjiangbq@connect.ust.hk}
+\quad \href{https://haoningjiang-space.github.io/}{haoningjiang-space.github.io}\par}
+
+\heading{Education}
+\textbf{The Hong Kong University of Science and Technology} \hfill Hong Kong SAR, China\\
+Ph.D. in Electronic and Computer Engineering, RCSL Lab. Advisor: Prof. Wei Zhang. \hfill 2026--2030 (expected)\\
+\textbf{Southern University of Science and Technology} \hfill Shenzhen, Guangdong, China\\
+B.S. in Electrical and Electronic Engineering \hfill Sep. 2022 -- Jul. 2026
+
+\heading{Internship experience}
+\textbf{AI Algorithm Intern} \hfill Changsha, Hunan, China\\
+Ascend LLM Team, Hunan Kunpeng Ecological Innovation Research Center \hfill Jan. 2025 -- Mar. 2025\\
+1) Built Stable Diffusion pipelines with Diffusers. Led workshops on distributed training, LoRA fine-tuning, custom image-generation pipelines, and reinforcement learning with group relative policy optimization (GRPO).\\
+2) Implemented tiled matrix computation and online softmax to avoid storing the full attention matrix, reducing GPU memory use by 45\% at the same accuracy.
+
+\heading{Publications}
+\paper{C.1}{\textbf{Haoning Jiang}, Hongbang Wu, Jian Peng, Darong Huang, Jiang Xu, and Wei Zhang}{\href{https://haoningjiang-space.github.io/publication/hits-date-2027}{HiTS: Unified High-Resolution Thermal Simulation for Air- and Liquid-Cooled 2.5D and 3D Integrated Systems}}{DATE 2027 (accepted)}
+\paper{C.2}{\me, Z. Wang, H. Wu, X. Long, J. Liang, J. Wang, J. Wang, Z. Ouyang, W. An, J. Jiang, and W. Zhang}{GLARE: Generalizable Large-scale Analog Sizing via Reinforcement Learning with Covariance-Guided Exploration}{ASP-DAC (accepted)}
+\paper{C.3}{\me, R. M. Fok, X. Zhang, R. Sun, J. H. K. Yeung, K. Deng, and L. Qu}{DentalPSAM: Lifting SAM to Dental Plaque Segmentation with Hybrid 2D-3D Knowledge Fusion}{MICCAI 2026}
+\paper{C.4}{Y. Chen, \me, J. Wang, H. Wu, W. Zhang, and X. Yu}{HypCkt: A Hyperbolic Variational Framework for Analog Circuit Topology Generation}{MLCAD 2026}
+\paper{C.5}{\me\equal, H. Wu\equal, Y. Ou, Z. Wang, T. Chen, and J. Jiang}{\href{https://ojs.aaai.org/index.php/AAAI/article/view/39388}{FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing}}{AAAI 2026}
+\paper{C.6}{H. Wu\equal, \me\equal, Z. Wang, Y. Ou, B. Yuan, Y. Lu, and J. Jiang}{\href{https://doi.org/10.1109/iscas66217.2026.11562731}{Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing}}{ISCAS 2026}
+\paper{C.7}{H. Wu\equal, \me\equal, Y. Ou, Z. Wang, Q. Shen, B. Yuan, Y. Lu, and J. Jiang}{\href{https://doi.org/10.23919/DATE69613.2026.11539706}{ACEMARL: Adaptive Clustering Enhanced Multi-Agent Reinforcement Learning for Analog Circuit Sizing}}{DATE 2026}
+\paper{C.8}{B. Liu, \me, H. Zhang, X. Gao, Z. Kong, X. Tang, D. Z. Pan, and Y. Lin}{\href{https://yibolin.com/publications/papers/ANALOG_DATE2026_Liu.pdf}{GRAIN: A Design-Intent-Driven Analog Layout Migration Framework}}{DATE 2026 (extended abstract)}
+\paper{C.9}{B. Liu, \me, H. Zhang, X. Gao, Z. Kong, X. Tang, D. Z. Pan, and Y. Lin}{\href{https://yibolin.com/publications/papers/ANALOG_ISEDA2026_Liu.pdf}{GRAIN: A Design-Intent-Driven Analog Layout Migration Framework}}{ISEDA 2026}
+\paper{C.10}{Y. Shi, X. Zhang, J. Ji, \me, C. Zheng, Y. Wang, and L. Qu}{\href{https://arxiv.org/abs/2506.09634}{HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding}}{CVPR Findings 2026}
+\paper{C.11}{J. Wang, \me, J. Wang, R. Chen, C. Zhuang, and J. Song}{\href{https://ieeexplore.ieee.org/document/11252000}{SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor (IGBT) Datasheet}}{EExPolytech 2025}
+\paper{J.1}{Y. Wang\equal, J. Chen\equal, Z. Chen\equal, S. Kuang\equal, \me, Y. Shi, H. Yuan, Yan-ran (Joyce) Wang, B. Wang, L. Wu, B. Tang, L. Meng, B. Luo, B. Zhou, W. Ding, W. Zhong, W. Hou, Y. Chen, Z. Wan, W. Wang, Z. Xiao, W. Wan, A. He, Y. Zhou, L. Zhang, F. Wang, Z. Liu, M. Iv, X. Gong, and L. Qu}{A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data}{Lancet Digital Life (accepted)}
+\paper{J.2}{H. Wu, \me, Z. Wang, Y. Ou, C. Hu, B. Yuan, Y. Lu, M. Huang, T. Chen, X. Liu, and J. Jiang}{Design Intent Driven Multi-Agent Reinforcement Learning With Current-Transient Automatic Clustering for Analog LDO Sizing}{IEEE TCAD}
+\paper{J.3}{P. Guo\equal, R. Wang\equal, S. Zeng, J. Zhu, \me, Y. Wang, Y. Zhou, F. Wang, H. Xiong, and L. Qu}{\href{https://arxiv.org/abs/2503.11514}{Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks}}{IEEE TPAMI}
+\paper{P.1}{H. Wu, \me, Y. Ou, Z. Wang, Z. Wang, S. Zhou, C. Hu, C. Zhang, B. Yuan, Y. Lu, M. Huang, and J. Jiang}{ACUMEN: Automatic Constraint Matching and Uncertainty-Modulated Exploration with Parameter Space Navigation for Analog Circuit Sizing}{arXiv preprint, 2025}
+{\small * Equal contribution.}\par
+\heading{Service}
+Program committee member and reviewer for AAAI 2026 and 2027. Reviewer for CVPR 2026 and IEEE TCAD.
+\heading{Patent}
+\textbf{MARL Optimization Method for Analog Circuits and Related Devices}. Invention patent.\\
+Han Wu, Junmin Jiang, \textbf{Haoning Jiang}, Ziheng Wang, Zhuoli Ouyang, and Bushu Liang.
+\heading{Awards \& funding}
+\begin{tabular}{@{}p{0.43\linewidth}@{}l@{}}
+ASC25 World Supercomputing Competition & International Second Prize (May 2025)\\
+APAC HPC-AI Competition & Excellence Award, Top 8 (Nov. 2024)\\
+ASC24 World Supercomputing Competition & International Second Prize (Apr. 2024)\\
+Computer System Design Competition & First Prize, South China Region\\
+Guangdong Climbing Project 2025 & Principal investigator, RMB 20,000 grant\\
+HKSTP2025 & RMB 100,000 research grant
+\end{tabular}
+\end{document}

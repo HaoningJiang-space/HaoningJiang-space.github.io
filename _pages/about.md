@@ -1,84 +1,82 @@
 ---
+layout: default
 permalink: /
 title: "About"
-author_profile: true
+description: "Haoning Jiang is a Ph.D. student at HKUST working on AI chips, computer architecture, and electronic design automation."
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<section class="home-hero">
-  <p class="home-intro__eyebrow">Ph.D. Student · Electronic &amp; Computer Engineering</p>
-  <h1><span class="home-hero__line">Building intelligent computing systems,</span><span class="home-hero__line">from AI chips to architecture.</span></h1>
-  <p class="home-hero__lead">I am a PhD student at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, advised by <a href="https://eeweiz.home.ece.ust.hk">Prof. Wei Zhang</a>. I received my B.S. in Electrical and Electronic Engineering from the <a href="https://www.sustech.edu.cn/en/">Southern University of Science and Technology (SUSTech)</a> in 2026.</p>
-  <p class="home-hero__focus">My research focuses on <strong>AI chips</strong>, <strong>computer architecture</strong>, and <strong>intelligent EDA</strong>.</p>
-  <div class="home-actions">
-    <a class="home-button home-button--primary" href="/publications/">View publications <span aria-hidden="true">→</span></a>
-    <a class="home-button" href="/cv/">Curriculum vitae</a>
-  </div>
-</section>
+<main class="academic-home" id="main-content">
+  <header class="profile-intro">
+    <div class="profile-intro__text">
+      <p class="profile-affiliation">Electronic &amp; Computer Engineering <span aria-hidden="true">/</span> HKUST</p>
+      <h1>Haoning Jiang <span lang="zh-Hans">蒋浩宁</span></h1>
+      <p class="profile-lead">I study AI chips and computer architecture, with a focus on thermal simulation and machine learning for chip design.</p>
+      <p class="profile-bio">I’m a Ph.D. student at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology</a>, advised by <a href="https://eeweiz.home.ece.ust.hk">Prof. Wei Zhang</a>. I received my B.S. in Electrical and Electronic Engineering from <a href="https://www.sustech.edu.cn/en/">SUSTech</a> in 2026.</p>
+      <nav class="profile-links" aria-label="Contact and academic profiles">
+        <a class="profile-cv" href="/HaoningJiang-Jiang-CV.pdf">Download CV <span aria-hidden="true">↓</span></a>
+        <a href="mailto:{{ site.author.email }}">Email</a>
+        <a href="{{ site.author.googlescholar | escape }}">Google Scholar</a>
+        <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      </nav>
+    </div>
+    <div class="profile-photo"><img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" width="609" height="916" alt="Haoning Jiang" fetchpriority="high"></div>
+  </header>
 
-<section class="home-section">
-  <div class="home-section__heading">
-    <p class="section-kicker">Latest update</p>
-    <h2>Recent news</h2>
-  </div>
-  <div class="news-list">
-    <article class="news-item news-item--featured">
-      <time datetime="2026-09">Sep 2026</time>
-      <div><span class="news-badge">Accepted</span><p>My first-authored paper <strong>“GLARE: Generalizable Large-scale Analog Sizing via Reinforcement Learning with Covariance-Guided Exploration”</strong> is accepted at <em>ASP-DAC</em>.</p></div>
-    </article>
-    <article class="news-item news-item--featured">
-      <time datetime="2026-08">Aug 2026</time>
-      <div><span class="news-badge">Accepted</span><p>“A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data” is accepted at <em>Lancet Digital Life</em>.</p></div>
-    </article>
-    <article class="news-item"><time datetime="2026-07">Jul 2026</time><p>I graduated from SUSTech with a B.S. in Electrical and Electronic Engineering.</p></article>
-    <article class="news-item"><time datetime="2026-07">Jul 2026</time><p>One paper is accepted at MLCAD 2026.</p></article>
-    <article class="news-item"><time datetime="2026-06">Jun 2026</time><p>My first-authored paper is accepted at MICCAI 2026.</p></article>
-    <article class="news-item"><time datetime="2026-03">Mar 2026</time><p>One co-authored paper is accepted at ISEDA 2026.</p></article>
-  </div>
-</section>
+  <div class="home-columns">
+    <section class="research-index" aria-labelledby="research-heading">
+      <div class="home-heading">
+        <h2 id="research-heading">Selected research</h2>
+        <a href="/publications/">All publications <span aria-hidden="true">→</span></a>
+      </div>
+      <article class="research-entry research-entry--featured">
+        <p class="research-venue">DATE 2027 <span>· Accepted</span></p>
+        <h3><a href="/publication/hits-date-2027">HiTS: Unified High-Resolution Thermal Simulation for Air- and Liquid-Cooled 2.5D and 3D Integrated Systems</a></h3>
+        <p class="research-authors"><strong>Haoning Jiang</strong>, Hongbang Wu, Jian Peng, Darong Huang, Jiang Xu, and Wei Zhang</p>
+      </article>
+      <article class="research-entry">
+        <p class="research-venue">ASP-DAC <span>· Accepted</span></p>
+        <h3><a href="/publication/2026-09-01-glare-analog-sizing">GLARE: Generalizable Large-scale Analog Sizing via Reinforcement Learning with Covariance-Guided Exploration</a></h3>
+        <p>We use covariance information to guide the search for analog circuit parameters.</p>
+      </article>
+      <article class="research-entry">
+        <p class="research-venue">DATE 2026 · ISEDA 2026</p>
+        <h3><a href="/publication/2025-01-01-grain-analog-layout-migration">GRAIN: A Design-Intent-Driven Analog Layout Migration Framework</a></h3>
+        <p>We use hierarchical placement and routing guides to preserve design intent when moving a layout between process nodes.</p>
+      </article>
+      <article class="research-entry">
+        <p class="research-venue">AAAI 2026</p>
+        <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/39388">FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing</a></h3>
+        <p>We group circuit parameters by function so agents can work together to size low-dropout regulators.</p>
+      </article>
+      <article class="research-entry">
+        <p class="research-venue">arXiv 2025</p>
+        <h3><a href="/publication/2025-01-06-asue-rl-analog-circuit">ACUMEN: Automatic Constraint Matching and Uncertainty-Modulated Exploration with Parameter Space Navigation for Analog Circuit Sizing</a></h3>
+      </article>
+    </section>
 
-<section class="home-section">
-  <div class="home-section__heading">
-    <p class="section-kicker">Research</p>
-    <h2>AI chips, computer architecture, and intelligent design automation</h2>
+    <aside class="home-notes" aria-labelledby="news-heading">
+      <div class="home-heading"><h2 id="news-heading">Recent news</h2></div>
+      <ul class="news-timeline">
+        <li><time datetime="2026-11">Nov 2026</time><p>My first-author paper <a href="/publication/hits-date-2027">HiTS</a> was accepted at <strong>DATE 2027</strong>.</p></li>
+        <li><time datetime="2026-09">Sep 2026</time><p>My first-author paper <a href="/publication/2026-09-01-glare-analog-sizing">GLARE</a> was accepted at <strong>ASP-DAC</strong>.</p></li>
+        <li><time datetime="2026-08">Aug 2026</time><p>Our <a href="/publication/2025-01-05-brain-tumor-foundation-model">study on brain tumor diagnosis</a> was accepted by <em>Lancet Digital Life</em>.</p></li>
+      </ul>
+      <details class="earlier-news">
+        <summary>Earlier news</summary>
+        <ul class="news-timeline">
+          <li><time datetime="2026-07">Jul 2026</time><p>I graduated from SUSTech. Our paper <a href="/publication/2026-01-01-hypckt-analog-topology-generation">HypCkt</a> was accepted at MLCAD 2026.</p></li>
+          <li><time datetime="2026-06">Jun 2026</time><p>My first-author paper <a href="/publication/2026-06-01-dentalpsam-miccai">DentalPSAM</a> was accepted at MICCAI 2026.</p></li>
+          <li><time datetime="2026-03">Mar 2026</time><p>Our paper <a href="/publication/2025-01-01-grain-analog-layout-migration">GRAIN</a> was accepted at ISEDA 2026.</p></li>
+        </ul>
+      </details>
+      <section class="home-service">
+        <h2>Academic service</h2>
+        <p>Program committee member and reviewer for AAAI 2026 and 2027. Reviewer for CVPR 2026 and IEEE TCAD.</p>
+        <a href="/cv/">CV and awards <span aria-hidden="true">→</span></a>
+      </section>
+    </aside>
   </div>
-  <div class="research-grid">
-    <article class="research-card"><span class="research-card__number">01</span><h3>AI chip systems</h3><p>Hardware–software co-design for efficient, scalable AI computing systems.</p></article>
-    <article class="research-card"><span class="research-card__number">02</span><h3>Computer architecture</h3><p>Architecture and memory-system research for the growing demands of AI workloads.</p></article>
-    <article class="research-card"><span class="research-card__number">03</span><h3>Intelligent EDA</h3><p>Learning-driven methods for chip design automation, optimization, and implementation.</p></article>
-  </div>
-</section>
-
-<section class="home-section">
-  <div class="home-section__heading home-section__heading--split">
-    <div><p class="section-kicker">Selected work</p><h2>Foundations for intelligent chip design</h2></div>
-    <a class="text-link" href="/publications/">All publications <span aria-hidden="true">→</span></a>
-  </div>
-  <div class="selected-work">
-    <a class="work-card" href="/publication/2025-01-01-grain-analog-layout-migration">
-      <span class="work-card__venue">DATE 2026</span>
-      <h3>GRAIN</h3>
-      <p>A design-intent-driven interactive framework for analog layout migration.</p>
-    </a>
-    <a class="work-card" href="/publication/2025-01-04-fd-magrpo-analog-ldo">
-      <span class="work-card__venue">AAAI 2026</span>
-      <h3>FD-MAGRPO</h3>
-      <p>Functionality-driven multi-agent group relative policy optimization for analog-LDO sizing.</p>
-    </a>
-    <a class="work-card" href="/publication/2025-01-06-asue-rl-analog-circuit">
-      <span class="work-card__venue">arXiv 2025</span>
-      <h3>ACUMEN</h3>
-      <p>Automatic constraint matching and uncertainty-modulated exploration for analog circuit sizing.</p>
-    </a>
-  </div>
-</section>
-
-<section class="home-section home-section--compact">
-  <div class="home-section__heading"><p class="section-kicker">Community</p><h2>Academic service &amp; recognition</h2></div>
-  <div class="home-facts">
-    <div><strong>Service</strong><span>PC &amp; Reviewer, AAAI 2026–2027 · Reviewer, IEEE TCAD</span></div>
-    <div><strong>Recognition</strong><span>ASC25 International Second Prize · APAC HPC-AI Excellence Award, Top 8</span></div>
-  </div>
-</section>
+</main>

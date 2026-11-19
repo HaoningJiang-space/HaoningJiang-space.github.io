@@ -22,7 +22,7 @@ redirect_from:
   </article>
   <article class="cv-entry">
     <div class="cv-entry__heading"><h3>B.S. in Electrical and Electronic Engineering</h3><time>Sep. 2022 – Jul. 2026</time></div>
-    <p>Southern University of Science and Technology (SUSTech), Shenzhen, China<br><strong>GPA: 3.72/4.0</strong> (90.14/100)</p>
+    <p>Southern University of Science and Technology (SUSTech), Shenzhen, China</p>
     <details><summary>Core courses</summary><p>Methods in Mathematical Physics · Microwave Engineering · Wireless Communications · Optoelectronics Intellisense · Communication Principles · Solid-State Electronics · Data Communications and Networking</p></details>
   </article>
 </section>
@@ -56,8 +56,8 @@ redirect_from:
 </section>
 
 <section class="cv-section cv-section--split">
-  <div><h2>Publications</h2><p>A record spanning design automation, reinforcement learning, and medical AI.</p><a class="text-link" href="/publications/">View all publications <span aria-hidden="true">→</span></a></div>
-  <div><h2>Academic service</h2><p>Reviewer and Program Committee Member: AAAI 2026, AAAI 2027, and CVPR 2026.</p></div>
+  <div><h2>Publications</h2><p>My first-author paper <a href="/publication/hits-date-2027">HiTS</a> was accepted at DATE 2027. It models heat in air- and liquid-cooled 2.5D and 3D integrated systems.</p><p>Our <a href="/publication/2025-01-05-brain-tumor-foundation-model">study on brain tumor diagnosis from preoperative multimodal data</a> was accepted by <em>Lancet Digital Life</em>.</p><a class="text-link" href="/publications/">View all publications <span aria-hidden="true">→</span></a></div>
+  <div><h2>Academic service</h2><p>Program committee member and reviewer for AAAI 2026 and 2027. Reviewer for CVPR 2026 and IEEE TCAD.</p></div>
 </section>
 
 <section class="cv-section">
