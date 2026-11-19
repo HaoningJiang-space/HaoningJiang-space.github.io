@@ -1,5 +1,6 @@
 ---
 title: "Teaching experience 1"
+template_example: true
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1

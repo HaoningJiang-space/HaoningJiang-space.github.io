@@ -1,11 +1,15 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
+sections:
+  privacy-policy: Privacy policy
+  log-files: Log files
+  cookies-and-web-beacons: Cookies and web beacons
+  google-analytics: Google Analytics
 modified: 2016-06-06
 ---
 
 {% include base_path %}
-{% include toc %}
 
 ## Privacy Policy
 

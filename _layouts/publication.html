@@ -1,0 +1,27 @@
+---
+layout: document
+---
+<article class="paper-page">
+  <header>
+    <p class="venue-label">{{ page.venue_label | escape }}</p>
+    <h1 class="document-title">{{ page.title | escape }}</h1>
+    <p class="author-line">{% include paper-authors.html paper=page %}</p>
+    {% if page.authors contains '*' or page.authors contains '†' %}
+      <p class="contribution-note">{% if page.authors contains '*' %}* Equal contribution{% endif %}{% if page.authors contains '*' and page.authors contains '†' %} · {% endif %}{% if page.authors contains '†' %}† Corresponding author{% endif %}</p>
+    {% endif %}
+  </header>
+  <div class="paper-summary">{{ content }}</div>
+  {% include paper-resources.html paper=page %}
+  {% if page.figure %}
+    <figure class="paper-figure">
+      {% if page.figure.source %}<a href="{{ page.figure.source }}" aria-label="{{ page.figure.source_label | escape }}">{% endif %}
+      <img src="{{ page.figure.path | relative_url }}" alt="{{ page.figure.alt | escape }}" width="{{ page.figure.width }}" height="{{ page.figure.height }}">
+      {% if page.figure.source %}</a>{% endif %}
+      <figcaption>{{ page.figure.caption | escape }}{% if page.figure.source %} · <a href="{{ page.figure.source }}">{{ page.figure.source_label }}</a>{% endif %}</figcaption>
+    </figure>
+  {% endif %}
+  <details class="paper-citation">
+    <summary>Cite this work</summary>
+    <p>{{ page.authors | remove: '*' | remove: '†' | escape }}. “{{ page.title | escape }}.” <i>{{ page.venue_label | escape }}</i>.</p>
+  </details>
+</article>

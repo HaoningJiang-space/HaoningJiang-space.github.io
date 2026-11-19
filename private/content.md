@@ -1,9 +1,12 @@
 ---
-layout: archive
+layout: default
 title: "私人内容"
 permalink: /private/content/
-author_profile: false
+lang: zh-CN
+sitemap: false
 ---
+
+<main class="private-page" id="main-content" tabindex="-1" markdown="1">
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   console.log("验证私人内容页面脚本已加载");
@@ -22,3 +25,4 @@ document.addEventListener('DOMContentLoaded', () => {
 # 私人内容
 
 这是只能通过验证码访问的内容。
+</main>

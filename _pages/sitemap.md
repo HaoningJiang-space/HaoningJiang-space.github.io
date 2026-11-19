@@ -1,37 +1,38 @@
 ---
 layout: archive
-title: "Sitemap"
+title: Sitemap
 permalink: /sitemap/
-author_profile: true
+sections:
+  profile: Profile
+  publications: Publications
+  archives: Archives
+  other-pages: Other pages
 ---
+<h2 id="profile">Profile</h2>
+<ul class="directory-list">
+  <li><a href="{{ '/' | relative_url }}">Home and selected research</a></li>
+  <li><a href="{{ '/publications/' | relative_url }}">Publication list</a></li>
+  <li><a href="{{ '/cv/' | relative_url }}">Curriculum vitae</a></li>
+</ul>
 
-{% include base_path %}
+<h2 id="publications">Publications</h2>
+<ul class="directory-list">
+  {% assign papers = site.publications | sort: 'list_order' %}
+  {% for paper in papers %}<li><a href="{{ paper.url | relative_url }}">{{ paper.title | escape }}</a></li>{% endfor %}
+</ul>
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+<h2 id="archives">Archives</h2>
+<ul class="directory-list">
+  <li><a href="{{ '/year-archive/' | relative_url }}">Blog posts by year</a></li>
+  <li><a href="{{ '/collection-archive/#portfolio' | relative_url }}">Portfolio</a></li>
+  <li><a href="{{ '/collection-archive/#talks' | relative_url }}">Talks</a></li>
+  <li><a href="{{ '/collection-archive/#teaching' | relative_url }}">Teaching</a></li>
+  <li><a href="{{ '/talkmap.html' | relative_url }}">Talk map</a></li>
+</ul>
 
-<h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% capture written_label %}'None'{% endcapture %}
-
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
-{% endfor %}
+<h2 id="other-pages">Other pages</h2>
+<ul class="directory-list">
+  <li><a href="{{ '/page-archive/' | relative_url }}">All public pages</a></li>
+  <li><a href="{{ '/terms/' | relative_url }}">Terms and privacy policy</a></li>
+  <li><a href="{{ '/sitemap.xml' | relative_url }}">XML sitemap</a></li>
+</ul>

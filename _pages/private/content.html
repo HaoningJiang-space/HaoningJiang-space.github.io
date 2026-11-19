@@ -1,17 +1,11 @@
 ---
-layout: archive
+layout: default
 title: "私人内容"
 permalink: /private/content.html
-author_profile: false
+lang: zh-CN
+sitemap: false
 ---
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <title>私人内容</title>
-  {% include head.html %}
-  {% include head/custom.html %}
-  <script>
+<script>
     document.addEventListener('DOMContentLoaded', () => {
       const isVerified = localStorage.getItem('isVerified');
       console.log("验证状态:", isVerified);
@@ -31,33 +25,11 @@ author_profile: false
       window.location.href = '/login.html';
     }
   </script>
-  <style>
-    /* 初始隐藏受保护内容 */
-    #protected-content {
-      display: none;
-    }
-  </style>
-</head>
-<body>
-  {% include browser-upgrade.html %}
-  {% include masthead.html %}
-  
-  <div id="content-container">
-    <div id="protected-content">
+<main id="main-content" class="private-page" tabindex="-1">
+<div id="protected-content" style="display:none">
       <h1>私人内容</h1>
       <p>这是只能通过验证码访问的内容。</p>
       <!-- 可选：添加注销按钮 -->
       <button onclick="logout()">注销</button>
     </div>
-  </div>
-
-  <div class="page__footer">
-    <footer>
-      {% include footer/custom.html %}
-      {% include footer.html %}
-    </footer>
-  </div>
-
-  {% include scripts.html %}
-</body>
-</html>
+</main>

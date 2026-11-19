@@ -2,11 +2,26 @@
 title: "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing"
 collection: publications
 permalink: /publication/2025-01-04-fd-magrpo-analog-ldo
-excerpt: 'This paper proposes a functionality-driven multi-agent GRPO framework for analog-LDO sizing.'
 date: 2025-01-04
-venue: 'Association for the Advancement of Artificial Intelligence (AAAI)'
-paperurl: '#'
-citation: 'Jiang, H.*, Wu, H.*, Wang, Z., Ou, Y., Chen, T., & Jiang, J. (2025). "FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing." in Association for the Advancement of Artificial Intelligence (AAAI). (Under review).'
+venue: "Association for the Advancement of Artificial Intelligence (AAAI)"
+venue_label: "AAAI 2026"
+section: conference
+list_order: 11
+authors: "H. Jiang*, H. Wu*, Y. Ou, Z. Wang, T. Chen, and J. Jiang†"
+resources:
+  - label: "Paper"
+    url: "https://ojs.aaai.org/index.php/AAAI/article/view/39388"
+  - label: "Poster"
+    url: "/files/AAAI26_FD_MAGRPO_Poster.pdf"
+figure:
+  path: "/images/fd-magrpo-ldo.webp"
+  alt: "LDO schematic with functional groups shown in color."
+  width: 766
+  height: 365
+  caption: "Regulator topology 3 · AAAI poster"
+  source: "/files/AAAI26_FD_MAGRPO_Poster.pdf"
+  source_label: "AAAI poster"
+excerpt: "This paper proposes a functionality-driven multi-agent GRPO framework for analog-LDO sizing."
 ---
 
 This paper introduces a functionality-driven multi-agent group relative policy optimization framework specifically designed for analog-LDO circuit sizing optimization.

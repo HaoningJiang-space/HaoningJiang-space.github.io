@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<main class="academic-home" id="main-content">
+<main class="academic-home" id="main-content" tabindex="-1">
   <header class="profile-summary" aria-labelledby="profile-name">
     <div class="profile-heading">
       <div class="portrait"><img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" width="609" height="916" alt="Haoning Jiang" fetchpriority="high"></div>
@@ -31,7 +31,7 @@ redirect_from:
   <section class="work-index" id="research" tabindex="-1" aria-labelledby="research-title">
     <div class="index-heading">
       <h2 id="research-title">Selected research</h2>
-      <a href="/publications/">All publications <span aria-hidden="true">↗</span></a>
+      <a href="/publications/">All publications <span aria-hidden="true">→</span></a>
     </div>
     <article class="work-row">
       <div class="work-description">

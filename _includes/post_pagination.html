@@ -1,16 +1,6 @@
-{% include base_path %}
-
 {% if page.previous or page.next %}
-  <nav class="pagination">
-    {% if page.previous %}
-      <a href="{{ base_path }}{{ page.previous.url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
-    {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
-    {% endif %}
-    {% if page.next %}
-      <a href="{{ base_path }}{{ page.next.url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
-    {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
-    {% endif %}
+  <nav class="adjacent-pages" aria-label="More in this collection">
+    {% if page.previous %}<a rel="prev" href="{{ page.previous.url | relative_url }}"><small>Previous</small>{{ page.previous.title | escape }}</a>{% endif %}
+    {% if page.next %}<a rel="next" href="{{ page.next.url | relative_url }}"><small>Next</small>{{ page.next.title | escape }}</a>{% endif %}
   </nav>
 {% endif %}

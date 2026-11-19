@@ -1,0 +1,5 @@
+{% if include.paper.resources %}
+  <ul class="paper-resources" aria-label="Research materials">
+    {% for item in include.paper.resources %}<li><a href="{{ item.url | escape }}">{{ item.label | escape }}</a></li>{% endfor %}
+  </ul>
+{% endif %}

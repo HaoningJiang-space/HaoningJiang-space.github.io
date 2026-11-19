@@ -2,11 +2,14 @@
 title: "A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data"
 collection: publications
 permalink: /publication/2025-01-05-brain-tumor-foundation-model
-excerpt: 'This paper presents a vision-language foundation model for precise and comprehensive brain tumor diagnosis from preoperative multimodal data.'
 date: 2026-08-01
-venue: 'Lancet Digital Life'
 status: accepted
-citation: 'Wang, Y.*, Chen, J.*, Chen, Z.*, Kuang, S.*, Jiang, H., Shi, Y., Yuan, H., Wang, Y., Wang, B., Wu, L., Tang, B., Meng, L., Luo, B., Zhou, B., Ding, W., Zhong, W., Hou, W., Chen, Y., Wan, Z., Wang, W., Xiao, Z., Wan, W., He, A., Zhou, Y., Zhang, L., Wang, F., Liu, Z., Iv, M., Gong, X., & Qu, L. "A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data." Lancet Digital Life.'
+venue: "Lancet Digital Life"
+venue_label: "Lancet Digital Life"
+section: journal
+list_order: 2
+authors: "Y. Wang*, J. Chen*, Z. Chen*, S. Kuang*, H. Jiang, Y. Shi, H. Yuan, Yan-ran (Joyce) Wang, B. Wang, L. Wu, B. Tang, L. Meng, B. Luo, B. Zhou, W. Ding, W. Zhong, W. Hou, Y. Chen, Z. Wan, W. Wang, Z. Xiao, W. Wan, A. He, Y. Zhou, L. Zhang, F. Wang, Z. Liu, M. Iv, X. Gong†, and L. Qu†"
+excerpt: "This paper presents a vision-language foundation model for precise and comprehensive brain tumor diagnosis from preoperative multimodal data."
 ---
 
 This work develops a foundation model that combines multimodal medical imaging with diagnostic reports for presurgical brain tumor diagnosis and MRI interpretation, leveraging vision-language pretraining techniques.

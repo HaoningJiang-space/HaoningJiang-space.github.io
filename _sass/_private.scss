@@ -1,0 +1,24 @@
+.private-page {
+  max-width: 760px; width: calc(100% - var(--gutter) * 2); margin: 40px auto 64px;
+  h1, h2 { font-family: $serif; font-weight: 550; }
+  h1 { font-size: 2em; }
+  h2 { font-size: 1.4em; }
+  #protected-content { display: none; }
+  #login-container { max-width: 40ch; margin-inline: auto; }
+  .content-section { padding-block: 18px; border-top: 1px solid var(--home-rule); }
+  .content-section h2 { margin-top: 0; }
+  textarea { width: 100%; min-height: 100px; resize: vertical; padding: 10px; }
+  .button-group { display: flex; flex-wrap: wrap; gap: 12px; }
+  button, .redirect-link, .download-link {
+    display: inline-block; padding: 8px 16px; font: inherit; color: var(--home-paper);
+    background: var(--home-link); border: 0; border-radius: 2px; cursor: pointer; text-decoration: none;
+  }
+  .file-explorer { overflow-x: auto; padding: 10px; border: 1px solid var(--home-rule); }
+  .tree, .tree ul { list-style: none; padding-left: 16px; }
+  .tree ul { display: none; }
+  .tree li { cursor: pointer; }
+  .expanded > ul { display: block; }
+  .modal { display: none; position: fixed; inset: 0; padding: 48px 20px; background: rgba(0,0,0,.9); z-index: 30; }
+  .modal-content { display: block; max-width: 100%; max-height: 88vh; margin: auto; }
+  .close-modal { position: absolute; top: 0; right: 18px; color: white; font-size: 32px; cursor: pointer; }
+}

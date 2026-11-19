@@ -1,37 +1,24 @@
 ---
 layout: compress
 ---
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ page.lang | default: site.locale | replace: '_', '-' }}">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-
-  <body{% if page.url == "/" %} class="profile-page"{% endif %}>
-
-    {% include browser-upgrade.html %}
+  <body class="academic-site{% if page.url == '/' %} profile-page{% endif %}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     {% include masthead.html %}
-
-    <div id="content-container">
-      {{ content }}
-    </div>
-
-    <div class="page__footer">
-      <footer>
-        {% if page.url == "/" %}
-          <div class="home-colophon"><span>&copy; {{ site.time | date: '%Y' }} {{ site.name }}</span><nav aria-label="Site resources"><a href="{{ '/sitemap/' | relative_url }}">Sitemap</a><a href="{{ '/feed.xml' | relative_url }}">Feed</a><a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a></nav></div>
-        {% else %}
-        {% include footer/custom.html %}
-        {% include footer.html %}
-        {% endif %}
-      </footer>
-    </div>
-
+    <div id="content-container">{{ content }}</div>
+    <footer class="site-footer">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.name }}</span>
+      <nav aria-label="Site resources">
+        <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
+        <a href="{{ '/feed.xml' | relative_url }}">Feed</a>
+        <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>
+      </nav>
+    </footer>
     {% include scripts.html %}
-
   </body>
 </html>

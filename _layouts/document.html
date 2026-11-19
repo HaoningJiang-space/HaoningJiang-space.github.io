@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<main class="document" id="main-content" tabindex="-1">
+  <nav class="document-index{% if page.sections %} section-index{% endif %}" aria-label="{% if page.sections %}On this page{% else %}Section navigation{% endif %}">
+    {% if page.sections %}
+      <span class="index-label">On this page</span>
+      {% include section-links.html %}
+    {% elsif page.collection == 'publications' %}
+      <a class="return-link" href="{{ '/publications/' | relative_url }}#{{ page.section }}-papers"><span aria-hidden="true">←</span> All publications</a>
+    {% elsif page.collection == 'posts' %}
+      <a class="return-link" href="{{ '/year-archive/' | relative_url }}"><span aria-hidden="true">←</span> Blog posts</a>
+    {% elsif page.collection %}
+      <a class="return-link" href="{{ '/collection-archive/' | relative_url }}#{{ page.collection }}"><span aria-hidden="true">←</span> {{ page.collection | capitalize }}</a>
+    {% elsif page.url == '/sitemap/' or page.url == '/404.html' %}
+      <a class="return-link" href="{{ '/' | relative_url }}"><span aria-hidden="true">←</span> Home</a>
+    {% else %}
+      <a class="return-link" href="{{ '/sitemap/' | relative_url }}"><span aria-hidden="true">←</span> Sitemap</a>
+    {% endif %}
+  </nav>
+  <div class="document-body">{{ content }}</div>
+</main>

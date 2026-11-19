@@ -1,11 +1,13 @@
 ---
 layout: archive
-title: "Page Archive"
+title: Page archive
 permalink: /page-archive/
-author_profile: false
 ---
-
-{% include base_path %}
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
+<ul class="directory-list">
+  {% assign entries = site.pages | sort: 'title' %}
+  {% for entry in entries %}
+    {% if entry.title and entry.sitemap != false and entry.layout and entry.layout != 'redirect' %}
+      <li><a href="{{ entry.url | relative_url }}">{% if entry.url == '/' %}Home{% else %}{{ entry.title | escape }}{% endif %}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
