@@ -1,13 +1,11 @@
 ---
 layout: default
 ---
-<main class="document" id="main-content" tabindex="-1">
+<main class="document{% unless page.sections %} document--reading{% endunless %}" id="main-content" tabindex="-1">
   <nav class="document-index{% if page.sections %} section-index{% endif %}" aria-label="{% if page.sections %}On this page{% else %}Section navigation{% endif %}">
     {% if page.sections %}
       <span class="index-label">On this page</span>
       {% include section-links.html %}
-    {% elsif page.collection == 'publications' %}
-      <a class="return-link" href="{{ '/publications/' | relative_url }}#{{ page.section }}-papers"><span aria-hidden="true">←</span> All publications</a>
     {% elsif page.collection == 'posts' %}
       <a class="return-link" href="{{ '/year-archive/' | relative_url }}"><span aria-hidden="true">←</span> Blog posts</a>
     {% elsif page.collection %}

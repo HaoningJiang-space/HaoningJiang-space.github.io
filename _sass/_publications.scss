@@ -1,0 +1,87 @@
+.bibliography, .publication-detail {
+  width: calc(100% - var(--gutter) * 2); max-width: 1120px; margin-inline: auto;
+  padding-block: clamp(28px, 4vw, 60px) clamp(48px, 6vw, 84px);
+  h1, h2, h3 { font-family: $serif; font-weight: 500; }
+}
+.bibliography-cover {
+  display: grid; grid-template-columns: 1fr minmax(260px, 37%); align-items: center;
+  gap: clamp(24px, 6vw, 88px); padding-bottom: clamp(24px, 3vw, 40px);
+}
+.bibliography-heading {
+  h1 { margin: 0; font-size: clamp(48px, 6.3vw, 88px); line-height: 1; letter-spacing: -.055em; }
+  p { max-width: 37ch; margin: 16px 0 14px; color: var(--home-muted); font: 400 clamp(18px, 1.6vw, 23px)/1.45 $serif; }
+  .scholar-link { display: inline-block; padding-block: 4px; font-size: 14px; font-weight: 600; }
+}
+.cover-art {
+  display: block; margin: 0; min-width: 0;
+  a { display: block; width: 100%; text-decoration: none; }
+  img { display: block; width: 100%; height: auto; margin: 0; border-radius: 0; }
+  a:hover strong { text-decoration: underline; }
+}
+.cover-caption {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+  padding: 5px 0; color: var(--home-ink);
+  strong { font: 600 17px/1.4 $serif; }
+  > span { color: var(--rust); font-size: 12px; font-weight: 650; }
+}
+.bibliography-nav {
+  display: flex; gap: 4px clamp(18px, 3vw, 42px); flex-wrap: wrap;
+  border-top: 2px solid var(--home-ink); border-bottom: 1px solid var(--home-rule);
+  a { display: inline-block; padding: 10px 0; color: var(--home-ink); font-size: 14px; font-weight: 650; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  span { font-weight: 450; color: var(--home-muted); }
+}
+.paper-section {
+  scroll-margin-top: 16px;
+  h2 { margin: clamp(28px, 4vw, 50px) 0 10px; font-size: clamp(28px, 3vw, 41px); line-height: 1.12; letter-spacing: -.045em; }
+}
+.paper-list {
+  margin: 0; padding: 0; list-style: none;
+  > li { display: grid; grid-template-columns: minmax(120px, 18%) minmax(0, 1fr); gap: 5px clamp(20px, 4vw, 60px);
+    margin: 0; padding-block: clamp(17px, 2vw, 25px); border-top: 1px solid var(--home-rule); scroll-margin-top: 18px; }
+  .venue-label { padding-top: 5px; margin: 0; }
+  h3 { max-width: 62ch; margin: 0; font-size: clamp(21px, 1.9vw, 28px); line-height: 1.22; letter-spacing: -.025em; }
+  h3 a { color: var(--home-ink); text-decoration: none; }
+  h3 a:hover { text-decoration: underline; }
+  .author-line { max-width: 90ch; margin: 7px 0 0; }
+}
+.bibliography > .contribution-note { margin: 12px 0 0; border-top: 1px solid var(--home-rule); padding-top: 14px; }
+.paper-back { display: inline-block; font-size: 14px; margin-bottom: clamp(20px, 3vw, 36px); }
+.paper-mast {
+  display: grid; grid-template-columns: minmax(120px, 18%) minmax(0, 1fr); gap: 12px clamp(20px, 4vw, 60px);
+  border-block: 1px solid var(--home-ink); padding-block: clamp(20px, 3vw, 38px);
+}
+.paper-imprint {
+  .venue-label { margin: 4px 0 5px; }
+  p:last-child { margin: 0; color: var(--home-muted); font-size: 13px; }
+}
+.paper-heading {
+  .document-title { margin: 0; font-size: clamp(32px, 3.7vw, 55px); line-height: 1.1; letter-spacing: -.045em; text-wrap: balance; }
+  .author-line { margin: 14px 0 0; font-size: 16px; }
+  .contribution-note { margin: 5px 0 0; }
+}
+.paper-reading { padding-top: clamp(24px, 3.5vw, 44px); }
+.paper-reading--illustrated { display: grid; grid-template-columns: 1fr minmax(250px, 45%); gap: clamp(24px, 5vw, 76px); align-items: start; }
+.paper-notes {
+  max-width: 68ch;
+  h2 { margin: 0 0 9px; font-size: clamp(24px, 2.4vw, 32px); letter-spacing: -.035em; }
+}
+.paper-summary p { margin: 0 0 10px; }
+.paper-citation { margin-top: 20px; padding-block: 8px; border-top: 1px solid var(--home-rule); font-size: 14px; }
+.paper-citation summary { color: var(--home-link); cursor: pointer; }
+.paper-citation p { margin: 8px 0 0; }
+.paper-figure {
+  display: block; margin: 0;
+  img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid var(--home-rule); border-radius: 0; }
+  figcaption { margin: 6px 0 0; color: var(--home-muted); font: italic 14px/1.45 $serif; }
+}
+@media (max-width: 640px) {
+  .bibliography-cover { grid-template-columns: 1fr; gap: 18px; }
+  .paper-list > li, .paper-mast, .paper-reading--illustrated { grid-template-columns: 1fr; }
+  .paper-list .venue-label { padding: 0; }
+  .paper-imprint { display: flex; flex-wrap: wrap; align-items: baseline; gap: 5px 14px; }
+}
+@media print {
+  .bibliography-nav, .paper-back { display: none; }
+  .bibliography, .publication-detail { width: 100%; padding: 0; }
+}

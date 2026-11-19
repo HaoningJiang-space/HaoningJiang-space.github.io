@@ -135,22 +135,8 @@
   [rel="next"] { margin-left: auto; text-align: right; }
 }
 
-.publication-intro, .cv-hero { max-width: 64ch; }
-.publication-intro p, .cv-hero p { margin: 0 0 10px; }
-.publication-intro > a, .cv-download, .text-link { font-size: 14px; font-weight: 650; }
-.paper-section > h2, .cv-section > h2 {
-  margin-bottom: 0;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--home-ink);
-}
-.paper-list {
-  margin: 0; padding: 0; list-style: none;
-  > li { padding-block: 19px 21px; margin: 0; border-bottom: 1px solid var(--home-rule); }
-  h3 { margin: 0; font-size: clamp(21px, 2vw, 26px); }
-  h3 a { color: var(--home-ink); text-decoration: none; }
-  h3 a:hover { text-decoration: underline; }
-  .author-line { margin: 7px 0 0; }
-}
+.cv-download, .text-link { font-size: 14px; font-weight: 650; }
+.cv-section > h2 { margin-bottom: 0; padding-bottom: 10px; border-bottom: 1px solid var(--home-ink); }
 .author-line { font: 400 14px/1.65 $sans-serif; }
 .author-line strong { color: var(--home-ink); }
 .paper-resources {
@@ -158,22 +144,6 @@
   li { margin: 0; }
   a { display: inline-block; padding-block: 2px; }
 }
-.paper-page {
-  .document-title { font-size: clamp(32px, 3.45vw, 50px); line-height: 1.12; }
-  .author-line { margin: 0; font-size: 16px; }
-  .contribution-note { margin: 8px 0 0; }
-  header { padding-bottom: 18px; border-bottom: 1px solid var(--home-rule); }
-}
-.paper-citation { margin-top: 24px; font-size: 14px; }
-.paper-citation p { margin: 8px 0 0; }
-.paper-summary { max-width: 68ch; margin-block: 20px 10px; }
-.paper-summary p { margin: 0; }
-.paper-figure {
-  display: block; margin: 28px 0 0;
-  img { display: block; width: auto; max-width: 100%; max-height: 350px; margin: 0; border: 1px solid var(--home-rule); border-radius: 0; }
-  figcaption { margin: 8px 0 0; color: var(--home-muted); font: italic 14px/1.45 $serif; }
-}
-
 .cv-entry, .cv-topic, .cv-skill-grid > div, .cv-awards-grid > div {
   padding-block: 14px; border-bottom: 1px solid var(--home-rule);
   p { margin: 5px 0 0; }
@@ -188,6 +158,33 @@
 .cv-section--split { display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; }
 .cv-section--split p { font-size: 15px; margin: 0 0 8px; }
 .talk-map { display: block; width: 100%; height: clamp(290px, 62vh, 570px); border: 1px solid var(--home-rule); }
+
+/* Contents and article pages share a title rule and a narrower reading measure. */
+.document--reading { display: block; max-width: 900px; }
+.document--reading .document-index { position: static; margin: 0 0 24px; }
+.document--reading .document-body { max-width: 100%; }
+.archive-heading, .reading-page > header { border-bottom: 1px solid var(--home-ink); padding-bottom: 14px; margin-bottom: 24px; }
+.archive-heading .document-title, .reading-page > header .document-title { margin-bottom: 0; }
+.reading-page > header .document-meta { margin: 10px 0 0; }
+
+.cv-hero { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: clamp(16px, 4vw, 44px); }
+.cv-hero p { margin: 0 0 12px; max-width: 55ch; }
+.cv-hero .cv-identity { color: var(--rust); font-size: 14px; font-weight: 650; }
+.cv-identity span { margin-left: 5px; font-weight: 400; }
+.cv-hero img { width: clamp(84px, 12vw, 135px); height: auto; border-radius: 2px; }
+.cv-download { display: inline-block; padding: 5px 0; }
+@media (min-width: 741px) {
+  .cv-entry:has(.cv-entry__heading) { display: grid; grid-template-columns: 140px 1fr; gap: 2px 18px; }
+  .cv-entry__heading { display: contents; }
+  .cv-entry__heading time { grid-column: 1; grid-row: 1; }
+  .cv-entry__heading h3, .cv-entry > p, .cv-entry > ul, .cv-entry > details { grid-column: 2; }
+}
+@media (max-width: 740px) { .cv-hero { margin-bottom: 20px; } }
+@media (max-width: 520px) {
+  .cv-hero { display: block; position: relative; }
+  .cv-hero img { position: absolute; right: 0; top: 0; width: 54px; height: 62px; object-fit: cover; object-position: 50% 25%; }
+  .cv-hero .document-title, .cv-hero .cv-identity { padding-right: 68px; }
+}
 
 @media (max-width: 740px) {
   .document { display: flex; flex-direction: column; gap: 18px; }

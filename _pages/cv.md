@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: document
 title: "Curriculum Vitae"
 permalink: /cv/
 sections:
@@ -15,10 +15,16 @@ redirect_from:
   - /resume
 ---
 
-<section class="cv-hero">
-  <p>I’m a Ph.D. student in Electronic and Computer Engineering at HKUST. I work on AI chips, computer architecture, and electronic design automation.</p>
-  <a class="cv-download" href="/HaoningJiang-Jiang-CV.pdf">Download CV (PDF) <span aria-hidden="true">↓</span></a>
-</section>
+<header class="cv-hero">
+  <div>
+    <p class="cv-identity">Haoning Jiang <span lang="zh-Hans">蒋浩宁</span></p>
+    <h1 class="document-title">{{ page.title }}</h1>
+    <p>Ph.D. student in Electronic and Computer Engineering at HKUST. I work on AI chips, computer architecture, and electronic design automation.</p>
+    <a class="cv-download" href="{{ '/HaoningJiang-Jiang-CV.pdf' | relative_url }}">Download CV (PDF) <span aria-hidden="true">↓</span></a>
+  </div>
+  <img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" width="609" height="916" alt="Portrait of Haoning Jiang">
+</header>
+{% include mobile-contents.html %}
 
 <section class="cv-section">
   <h2 id="education" tabindex="-1">Education</h2>
