@@ -72,20 +72,29 @@ redirect_from:
       <li><time datetime="2026-11">Nov 2026</time><span>My first-author paper <a href="/publication/hits-date-2027">HiTS</a> was accepted at <strong>DATE 2027</strong>.</span></li>
       <li><time datetime="2026-09">Sep 2026</time><span>My first-author paper <a href="{{ glare.url | relative_url }}">GLARE</a>, on reinforcement learning for analog sizing, was accepted at <strong>{{ glare.venue_label }}</strong>.</span></li>
       <li><time datetime="2026-08">Aug 2026</time><span>Our <a href="/publication/2025-01-05-brain-tumor-foundation-model">brain tumor diagnosis paper</a> was accepted by <em>The Lancet Digital Health</em>.</span></li>
+      <li><time datetime="2026-07">Jul 2026</time><span>I graduated from SUSTech. Our paper <a href="/publication/2026-01-01-hypckt-analog-topology-generation">HypCkt</a> was accepted at MLCAD 2026.</span></li>
+      <li><time datetime="2026-06">Jun 2026</time><span>My first-author paper <a href="/publication/2026-06-01-dentalpsam-miccai">DentalPSAM</a> was accepted at MICCAI 2026.</span></li>
     </ul>
     <details class="earlier-news">
       <summary>Earlier news</summary>
       <ul class="dated-list">
-        <li><time datetime="2026-07">Jul 2026</time><span>I graduated from SUSTech. Our paper <a href="/publication/2026-01-01-hypckt-analog-topology-generation">HypCkt</a> was accepted at MLCAD 2026.</span></li>
-        <li><time datetime="2026-06">Jun 2026</time><span>My first-author paper <a href="/publication/2026-06-01-dentalpsam-miccai">DentalPSAM</a> was accepted at MICCAI 2026.</span></li>
         <li><time datetime="2026-03">Mar 2026</time><span>Our paper <a href="/publication/2025-01-01-grain-analog-layout-migration">GRAIN</a> was accepted at ISEDA 2026.</span></li>
+        <li><time datetime="2026-01">Jan 2026</time><span>Our <a href="/publication/2025-01-02-rl-analog-ldo-sizing">paper on reinforcement learning for analog LDO sizing</a> was accepted at ISCAS 2026. Han Wu and I share first authorship.</span></li>
+        <li><time datetime="2025-12">Dec 2025</time><span>IEEE TPAMI accepted our <a href="/publication/2025-01-06-federated-learning-attacks">study of gradient inversion attacks in federated learning</a>.</span></li>
+        <li><time datetime="2025-11">Nov 2025</time><span><a href="/publication/2025-01-04-fd-magrpo-analog-ldo">FD-MAGRPO</a>, my paper with Han Wu and colleagues on sizing analog regulators, was accepted at AAAI 2026.</span></li>
+        <li><time datetime="2025-11">Nov 2025</time><span>DATE 2026 selected <a href="/publication/2025-01-03-acemarl-analog-circuit">ACEMARL</a> on analog circuit sizing and <a href="/publication/2025-01-01-grain-analog-layout-migration">GRAIN</a> on layout migration.</span></li>
+        <li><time datetime="2025-06">Jun 2025</time><span>I received a <a href="/cv/#awards">research grant from HKSTP</a>.</span></li>
+        <li><time datetime="2025-05">May 2025</time><span>Our team won an International Second Prize at the ASC25 World Supercomputing Competition.</span></li>
+        <li><time datetime="2025-01">Jan 2025</time><span>I joined the Ascend LLM team in Changsha for an <a href="/cv/#experience">AI algorithm internship</a>.</span></li>
+        <li><time datetime="2024-11">Nov 2024</time><span>Our team finished in the top eight at the APAC HPC-AI Competition and received an Excellence Award.</span></li>
+        <li><time datetime="2024-04">Apr 2024</time><span>Our team won an International Second Prize at the ASC24 World Supercomputing Competition.</span></li>
       </ul>
     </details>
   </section>
 
   <section class="academic-service" aria-labelledby="service-title">
     <h2 id="service-title">Academic service</h2>
-    <p>Program committee member and reviewer for AAAI 2026 and 2027. Reviewer for CVPR 2026 and IEEE TCAD.</p>
+    <p>Program committee member and reviewer for AAAI 2026 and 2027. Reviewer for CVPR 2026, DATE, and IEEE TCAD.</p>
     <a class="work-link" href="{{ '/cv/' | relative_url }}#service">Service in my CV <span aria-hidden="true">→</span></a>
   </section>
 </main>

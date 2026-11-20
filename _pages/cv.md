@@ -70,7 +70,7 @@ redirect_from:
 {% assign glare = site.publications | where: 'permalink', '/publication/2026-09-01-glare-analog-sizing' | first %}
 <section class="cv-section cv-section--split">
   <div><h2 id="publications" tabindex="-1">Publications</h2><p>My first-author paper <a href="/publication/hits-date-2027">HiTS</a> was accepted at DATE 2027. It models heat in air- and liquid-cooled 2.5D and 3D integrated systems.</p><p><a href="{{ glare.url | relative_url }}">GLARE</a>, my first-author paper on analog circuit sizing, was accepted at {{ glare.venue_label }}.</p><p>Our <a href="/publication/2025-01-05-brain-tumor-foundation-model">study on brain tumor diagnosis from preoperative multimodal data</a> was accepted by <em>The Lancet Digital Health</em>.</p><a class="text-link" href="/publications/">View all publications <span aria-hidden="true">→</span></a></div>
-  <div><h2 id="service" tabindex="-1">Academic service</h2><p>Program committee member and reviewer for AAAI 2026 and 2027. Reviewer for CVPR 2026 and IEEE TCAD.</p></div>
+  <div><h2 id="service" tabindex="-1">Academic service</h2><p>Program committee member and reviewer for AAAI 2026 and 2027. Reviewer for CVPR 2026, DATE, and IEEE TCAD.</p></div>
 </section>
 
 <section class="cv-section">
