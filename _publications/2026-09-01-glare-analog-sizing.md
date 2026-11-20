@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/2026-09-01-glare-analog-sizing
 date: 2026-09-01
 status: accepted
-venue: "Asia and South Pacific Design Automation Conference (ASP-DAC)"
-venue_label: "ASP-DAC"
+venue: "Asia and South Pacific Design Automation Conference (ASP-DAC 2027)"
+venue_label: "ASP-DAC 2027"
 section: conference
 list_order: 5
 authors: "H. Jiang, Z. Wang, H. Wu, X. Long, J. Liang, J. Wang, J. Wang, Z. Ouyang, W. An, J. Jiang, and W. Zhang"

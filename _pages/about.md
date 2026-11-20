@@ -12,6 +12,7 @@ redirect_from:
   - /about.html
 ---
 
+{% assign glare = site.publications | where: 'permalink', '/publication/2026-09-01-glare-analog-sizing' | first %}
 <main class="academic-home" id="main-content" tabindex="-1">
   <header class="profile-summary" aria-labelledby="profile-name">
     <div class="profile-heading">
@@ -62,14 +63,14 @@ redirect_from:
       </article>
     {% endfor %}
     <p class="contribution-note">* Equal contribution · † Corresponding author</p>
-    <p class="related-work">Related work on analog sizing · <a href="/publication/2026-09-01-glare-analog-sizing">GLARE (ASP-DAC)</a></p>
+    <p class="related-work">Related work on analog sizing · <a href="{{ glare.url | relative_url }}">GLARE ({{ glare.venue_label }})</a></p>
   </section>
 
   <section class="research-news" id="news" tabindex="-1" aria-labelledby="news-title">
     <div class="index-heading"><h2 id="news-title">News</h2></div>
     <ul class="dated-list">
       <li><time datetime="2026-11">Nov 2026</time><span>My first-author paper <a href="/publication/hits-date-2027">HiTS</a> was accepted at <strong>DATE 2027</strong>.</span></li>
-      <li><time datetime="2026-09">Sep 2026</time><span>My first-author paper <a href="/publication/2026-09-01-glare-analog-sizing">GLARE</a>, on reinforcement learning for analog sizing, was accepted at <strong>ASP-DAC</strong>.</span></li>
+      <li><time datetime="2026-09">Sep 2026</time><span>My first-author paper <a href="{{ glare.url | relative_url }}">GLARE</a>, on reinforcement learning for analog sizing, was accepted at <strong>{{ glare.venue_label }}</strong>.</span></li>
       <li><time datetime="2026-08">Aug 2026</time><span>Our <a href="/publication/2025-01-05-brain-tumor-foundation-model">brain tumor diagnosis paper</a> was accepted by <em>Lancet Digital Life</em>.</span></li>
     </ul>
     <details class="earlier-news">

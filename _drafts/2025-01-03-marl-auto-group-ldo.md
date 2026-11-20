@@ -1,12 +1,8 @@
 ---
 title: "Design Intent Driven Multi-Agent Reinforcement Learning With Current-Transient Automatic Clustering for Analog LDO Sizing"
-collection: publications
+published: false
 permalink: /publication/2025-01-03-marl-auto-group-ldo
 date: 2025-01-03
-venue: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)"
-venue_label: "IEEE TCAD 2026"
-section: journal
-list_order: 1
 authors: "H. Wu, H. Jiang, Z. Wang, Y. Ou, C. Hu, B. Yuan, Y. Lu, M. Huang, T. Chen, X. Liu, and J. Jiang†"
 excerpt: "This paper introduces a multi-agent reinforcement learning framework for optimizing power management ICs."
 ---
