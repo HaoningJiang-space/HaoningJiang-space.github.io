@@ -2,11 +2,11 @@
 layout: default
 permalink: /
 title: "About"
-featured_paper: /publication/2025-01-01-grain-analog-layout-migration
+featured_paper: /publication/hits-date-2027
 selected_papers:
-  - /publication/hits-date-2027
   - /publication/2026-09-01-glare-analog-sizing
   - /publication/2025-01-04-fd-magrpo-analog-ldo
+  - /publication/2026-06-01-dentalpsam-miccai
 description: "Haoning Jiang is a Ph.D. student at HKUST working on AI chips, computer architecture, and electronic design automation."
 redirect_from:
   - /about/
@@ -39,12 +39,12 @@ redirect_from:
     <article class="featured-work">
       <div class="featured-description">
         <p class="venue">{{ featured.venue_label | escape }}</p>
-        <h3><a href="{{ featured.url | relative_url }}">GRAIN</a></h3>
-        <p>With GRAIN, we use an existing analog layout as a guide when moving the circuit to a new process. The original layout helps us decide where devices go and how they connect.</p>
+        <h3><a href="{{ featured.url | relative_url }}">{{ featured.title | split: ': ' | first | escape }}</a></h3>
+        <p>{{ featured.excerpt | escape }}</p>
       </div>
-      <figure class="layout-study">
-        <a href="{{ featured.figure.source | escape }}" aria-label="View Figure 5 in the GRAIN paper"><img src="{{ featured.figure.path | relative_url }}" width="{{ featured.figure.width }}" height="{{ featured.figure.height }}" alt="{{ featured.figure.alt | escape }}"></a>
-        <figcaption><span>65 nm · Original layout</span><span>40 nm · Migrated layout</span></figcaption>
+      <figure class="featured-figure">
+        <img src="{{ featured.figure.path | relative_url }}" width="{{ featured.figure.width }}" height="{{ featured.figure.height }}" alt="{{ featured.figure.alt | escape }}">
+        <figcaption>{{ featured.figure.caption | escape }}</figcaption>
       </figure>
       <div class="featured-credit">
         {% include paper-byline.html paper=featured %}

@@ -46,11 +46,10 @@
 .featured-credit { grid-area: credit; align-self: start; }
 .featured-work h3 a, .work-row h3 a { color: var(--home-ink); text-decoration: none; }
 .featured-work h3 a:hover, .work-row h3 a:hover { color: var(--rust); text-decoration: underline; }
-.academic-home .layout-study {
+.academic-home .featured-figure {
   grid-area: plate; display: block; margin: 0;
-  a { display: block; padding: 5px; background: white; border: 1px solid var(--home-rule); }
-  img { display: block; width: 100%; height: auto; margin: 0; border-radius: 0; }
-  figcaption { display: grid; grid-template-columns: 1fr 1fr; width: 100%; margin: 6px 0 0; text-align: center; color: var(--home-muted); font: 400 12px/1.4 $sans-serif; }
+  img { display: block; width: 100%; height: auto; margin: 0; border: 1px solid var(--home-rule); border-radius: 0; }
+  figcaption { margin: 6px 0 0; color: var(--home-muted); font: 400 12px/1.4 $sans-serif; }
 }
 .work-row {
   display: grid; grid-template-columns: 130px minmax(0,1fr); align-items: baseline;
@@ -75,7 +74,7 @@
   .profile-copy p, .contact-links { grid-column: 1 / -1; }
   .featured-work { grid-template-columns: minmax(0, 1fr); grid-template-areas: "text" "plate" "credit"; gap: 12px; }
   .featured-credit .author-line { margin-top: 0; }
-  .layout-study { width: 100%; max-width: 410px; justify-self: center; }
+  .featured-figure { width: 100%; max-width: 410px; justify-self: center; }
   .work-row { grid-template-columns: 1fr; }
   .dated-list li { grid-template-columns: 66px 1fr; }
 }
