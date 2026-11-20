@@ -44,7 +44,7 @@ redirect_from:
       </div>
       <figure class="featured-figure">
         <img src="{{ featured.figure.path | relative_url }}" width="{{ featured.figure.width }}" height="{{ featured.figure.height }}" alt="{{ featured.figure.alt | escape }}">
-        <figcaption>{{ featured.figure.caption | escape }}</figcaption>
+        <figcaption>{{ featured.figure.caption | escape }}{% if featured.figure.source %} <a href="{{ featured.figure.source | escape }}">{{ featured.figure.source_label | escape }}</a>{% endif %}</figcaption>
       </figure>
       <div class="featured-credit">
         {% include paper-byline.html paper=featured %}
