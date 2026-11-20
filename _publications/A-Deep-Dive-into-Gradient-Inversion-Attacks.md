@@ -7,7 +7,7 @@ venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
 venue_label: "IEEE TPAMI 2026"
 section: journal
 list_order: 3
-authors: "P. Guo*, R. Wang*, S. Zeng, J. Zhu, H. Jiang, Y. Wang, Y. Zhou, F. Wang, H. Xiong, and L. Qu†"
+authors: "Pengxin Guo*, Runxi Wang*, Shuang Zeng, Jinjing Zhu, Haoning Jiang, Yanran Wang, Yuyin Zhou, Feifei Wang, Hui Xiong, and Liangqiong Qu†"
 resources:
   - label: "Paper"
     url: "https://doi.org/10.1109/TPAMI.2025.3646639"

@@ -7,7 +7,7 @@ venue: "IEEE International Symposium on Circuits and Systems (ISCAS)"
 venue_label: "ISCAS 2026"
 section: conference
 list_order: 9
-authors: "H. Wu*, H. Jiang*, Z. Wang, Y. Ou, B. Yuan, Y. Lu, and J. Jiang†"
+authors: "Han Wu*, Haoning Jiang*, Ziheng Wang, Zhuoli Ouyang, Chen Hu, Bo Yuan, Yan Lu, and Junmin Jiang†"
 resources:
   - label: "Paper"
     url: "https://doi.org/10.1109/iscas66217.2026.11562731"

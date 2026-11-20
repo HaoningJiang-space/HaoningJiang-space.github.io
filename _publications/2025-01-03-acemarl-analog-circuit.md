@@ -7,7 +7,7 @@ venue: "Design, Automation and Test in Europe (DATE)"
 venue_label: "DATE 2026"
 section: conference
 list_order: 10
-authors: "H. Wu*, H. Jiang*, Y. Ou, Z. Wang, Q. Shen, B. Yuan, Y. Lu, and J. Jiang†"
+authors: "Han Wu*, Haoning Jiang*, Zhuoli Ouyang, Ziheng Wang, Qi Shen, Bo Yuan, Yan Lu, and Junmin Jiang†"
 resources:
   - label: "Paper"
     url: "https://doi.org/10.23919/DATE69613.2026.11539706"

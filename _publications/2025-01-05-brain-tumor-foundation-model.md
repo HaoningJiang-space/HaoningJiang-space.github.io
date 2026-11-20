@@ -4,11 +4,16 @@ collection: publications
 permalink: /publication/2025-01-05-brain-tumor-foundation-model
 date: 2026-08-01
 status: accepted
-venue: "Lancet Digital Life"
-venue_label: "Lancet Digital Life"
+venue: "The Lancet Digital Health"
+venue_label: "The Lancet Digital Health"
 section: journal
 list_order: 2
-authors: "Y. Wang*, J. Chen*, Z. Chen*, S. Kuang*, H. Jiang, Y. Shi, H. Yuan, Yan-ran (Joyce) Wang, B. Wang, L. Wu, B. Tang, L. Meng, B. Luo, B. Zhou, W. Ding, W. Zhong, W. Hou, Y. Chen, Z. Wan, W. Wang, Z. Xiao, W. Wan, A. He, Y. Zhou, L. Zhang, F. Wang, Z. Liu, M. Iv, X. Gong†, and L. Qu†"
+authors: "Yinong Wang*, Jianwen Chen*, Zhou Chen*, Shuwen Kuang*, Haoning Jiang, Yanzhao Shi, Huichun Yuan, Yan-ran (Joyce) Wang, Bing Wang, Lei Wu, Bin Tang, Li Meng, Baihua Luo, Bin Zhou, Wei Ding, Weiming Zhong, Wei Hou, Yuanbing Chen, Zhiping Wan, Wei Wang, Zhenkun Xiao, Wenwu Wan, Allen He, Yuyin Zhou, Longbo Zhang, Feifei Wang, Zhixiong Liu, Michael Iv, Xuan Gong†, and Liangqiong Qu†"
+resources:
+  - label: "Paper"
+    url: "https://arxiv.org/abs/2609.16597"
+  - label: "Project"
+    url: "https://hku-healthai.github.io/brainvlm_project.github.io/"
 excerpt: "This paper presents a vision-language foundation model for precise and comprehensive brain tumor diagnosis from preoperative multimodal data."
 ---
 

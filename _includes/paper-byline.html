@@ -1,12 +1,6 @@
 {% assign names = include.paper.authors | split: ', ' %}
-{% if include.compact and names.size > 12 %}
-  {% assign preview = names | slice: 0, 5 %}
-  {% assign remaining = names | slice: 5, names.size %}
-  <p class="author-line">{% include paper-authors.html names=preview %}</p>
-  <details class="author-continuation">
-    <summary><span class="expand-label">Show {{ remaining.size }} more authors</span><span class="collapse-label">Hide additional authors</span></summary>
-    <p class="author-line">{% include paper-authors.html names=remaining %}</p>
-  </details>
-{% else %}
-  <p class="author-line">{% include paper-authors.html names=names %}</p>
-{% endif %}
+<p class="author-line">
+  {%- for name in names -%}
+    <span class="author-name">{{ name | escape | replace: 'Haoning Jiang', '<strong>Haoning Jiang</strong>' | replace: '*', '<sup>*</sup>' | replace: '†', '<sup>†</sup>' }}{% unless forloop.last %},{% endunless %}</span>{% unless forloop.last %}&#32;{% endunless %}
+  {%- endfor -%}
+</p>

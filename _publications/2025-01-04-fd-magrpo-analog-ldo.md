@@ -7,7 +7,7 @@ venue: "Association for the Advancement of Artificial Intelligence (AAAI)"
 venue_label: "AAAI 2026"
 section: conference
 list_order: 11
-authors: "H. Jiang*, H. Wu*, Y. Ou, Z. Wang, T. Chen, and J. Jiang†"
+authors: "Haoning Jiang*, Han Wu*, Zhuoli Ouyang, Ziheng Wang, Tinghuan Chen, and Junmin Jiang†"
 resources:
   - label: "Paper"
     url: "https://ojs.aaai.org/index.php/AAAI/article/view/39388"

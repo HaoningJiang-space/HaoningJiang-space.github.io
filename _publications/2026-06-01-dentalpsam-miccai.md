@@ -7,7 +7,7 @@ venue: "International Conference on Medical Image Computing and Computer-Assiste
 venue_label: "MICCAI 2026"
 section: conference
 list_order: 7
-authors: "H. Jiang, R. M. Fok, X. Zhang, R. Sun, J. H. K. Yeung, K. Deng, and L. Qu†"
+authors: "Haoning Jiang, Rachel Melissa Fok, Xiangcheng Zhang, Ruitong Sun, Jonathan Hok Kan Yeung, Ke Deng, and Liangqiong Qu†"
 resources:
   - label: "Paper"
     url: "https://papers.miccai.org/miccai-2026/0258-Paper4344.html"

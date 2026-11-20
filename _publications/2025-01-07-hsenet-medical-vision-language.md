@@ -7,7 +7,7 @@ venue: "Findings of CVPR 2026"
 venue_label: "CVPR Findings 2026"
 section: conference
 list_order: 13
-authors: "Y. Shi, X. Zhang, J. Ji, H. Jiang, C. Zheng, Y. Wang, and L. Qu†"
+authors: "Yanzhao Shi, Xiaodan Zhang, Junzhong Ji, Haoning Jiang, Chengxin Zheng, Yinong Wang, and Liangqiong Qu†"
 resources:
   - label: "arXiv"
     url: "https://arxiv.org/abs/2506.09634"

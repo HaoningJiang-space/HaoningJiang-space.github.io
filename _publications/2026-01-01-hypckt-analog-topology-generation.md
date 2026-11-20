@@ -7,7 +7,7 @@ venue: "International Symposium on Machine Learning for CAD (MLCAD)"
 venue_label: "MLCAD 2026"
 section: conference
 list_order: 6
-authors: "Y. Chen, H. Jiang, J. Wang, H. Wu, W. Zhang, and X. Yu"
+authors: "Yixin Chen, Haoning Jiang, Jiacheng Wang, Han Wu, Wei Zhang, and Xiaopeng Yu"
 excerpt: "This paper presents a hyperbolic variational framework for analog circuit topology generation."
 ---
 

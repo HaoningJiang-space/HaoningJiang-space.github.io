@@ -7,7 +7,7 @@ venue: "EExPolytech"
 venue_label: "EExPolytech 2025"
 section: conference
 list_order: 12
-authors: "J. Wang, H. Jiang, J. Wang, R. Chen, C. Zhuang, J. Song†"
+authors: "Jinyu Wang, Haoning Jiang, Jiachen Wang, Rui Chen, Chijie Zhuang, and Jian Song†"
 resources:
   - label: "Paper"
     url: "https://ieeexplore.ieee.org/document/11252000"

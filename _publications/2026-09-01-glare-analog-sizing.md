@@ -8,7 +8,10 @@ venue: "Asia and South Pacific Design Automation Conference (ASP-DAC 2027)"
 venue_label: "ASP-DAC 2027"
 section: conference
 list_order: 5
-authors: "H. Jiang, Z. Wang, H. Wu, X. Long, J. Liang, J. Wang, J. Wang, Z. Ouyang, W. An, J. Jiang, and W. Zhang"
+authors: "Haoning Jiang, Ziheng Wang, Han Wu, Xing Long, Jiawei Liang, Jiacheng Wang, Jianghan Wang, Zhuoli Ouyang, Wenbo An, Junmin Jiang, and Wei Zhang"
+resources:
+  - label: "Conference program"
+    url: "https://easychair.org/smart-program/ASP-DAC2027/2027-01-28.html#talk:329722"
 excerpt: "This paper presents a reinforcement-learning approach to generalizable large-scale analog sizing with covariance-guided exploration."
 ---
 

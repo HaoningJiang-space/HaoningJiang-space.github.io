@@ -15,9 +15,12 @@
 \hyphenpenalty=10000
 \emergencystretch=1.5em
 \newcommand{\heading}[1]{\par\addvspace{9pt}{\bfseries\underline{\MakeUppercase{#1}}}\par\nopagebreak\vspace{2pt}}
-\newcommand{\me}{\textbf{H.~Jiang}}
+\newcommand{\me}{\textbf{Haoning~Jiang}}
+\newcommand{\cor}{\textsuperscript{†}}
 \newcommand{\equal}{\textsuperscript{*}}
-\newcommand{\paper}[4]{\par\addvspace{7pt}\noindent[#1] #2, “\textit{#3},” \mbox{\textbf{#4}}.\par}
+\newcommand{\paper}[4]{%
+  \par\addvspace{7pt}%
+  {\raggedright\hangindent=2.8em\noindent\makebox[2.8em][l]{[#1]}#2, “\textit{#3},” \mbox{\textbf{#4}}.\par}}
 \begin{document}
 \fontsize{12}{16.25}\selectfont
 {\centering{\fontsize{22}{24}\selectfont\bfseries Haoning Jiang\par}
@@ -38,22 +41,22 @@ Ascend LLM Team, Hunan Kunpeng Ecological Innovation Research Center \hfill \tex
 2) Implemented tiled matrix computation and online softmax to avoid storing the full attention matrix, reducing GPU memory use by 45\% at the same accuracy.
 
 \heading{Publications}
-\paper{C.1}{\textbf{Haoning Jiang}, Hongbang Wu, Jian Peng, Darong Huang, Jiang Xu, and Wei Zhang}{\href{https://haoningjiang-space.github.io/publication/hits-date-2027}{HiTS: Unified High-Resolution Thermal Simulation for Air- and Liquid-Cooled 2.5D and 3D Integrated Systems}}{DATE 2027}
-\paper{C.2}{\me, Z. Wang, H. Wu, X. Long, J. Liang, J. Wang, J. Wang, Z. Ouyang, W. An, J. Jiang, and W. Zhang}{GLARE: Generalizable Large-scale Analog Sizing via Reinforcement Learning with Covariance-Guided Exploration}{ASP-DAC 2027}
-\paper{C.3}{\me, R. M. Fok, X. Zhang, R. Sun, J. H. K. Yeung, K. Deng, and L. Qu}{DentalPSAM: Lifting SAM to Dental Plaque Segmentation with Hybrid 2D-3D Knowledge Fusion}{MICCAI 2026}
-\paper{C.4}{Y. Chen, \me, J. Wang, H. Wu, W. Zhang, and X. Yu}{HypCkt: A Hyperbolic Variational Framework for Analog Circuit Topology Generation}{MLCAD 2026}
-\paper{C.5}{\me\equal, H. Wu\equal, Y. Ou, Z. Wang, T. Chen, and J. Jiang}{\href{https://ojs.aaai.org/index.php/AAAI/article/view/39388}{FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing}}{AAAI 2026}
-\paper{C.6}{H. Wu\equal, \me\equal, Z. Wang, Y. Ou, B. Yuan, Y. Lu, and J. Jiang}{\href{https://doi.org/10.1109/iscas66217.2026.11562731}{Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing}}{ISCAS 2026}
-\paper{C.7}{H. Wu\equal, \me\equal, Y. Ou, Z. Wang, Q. Shen, B. Yuan, Y. Lu, and J. Jiang}{\href{https://doi.org/10.23919/DATE69613.2026.11539706}{ACEMARL: Adaptive Clustering Enhanced Multi-Agent Reinforcement Learning for Analog Circuit Sizing}}{DATE 2026}
+\paper{C.1}{\me, Hongbang Wu, Jian Peng, Darong Huang, Jiang Xu, and Wei Zhang}{\href{https://haoningjiang-space.github.io/publication/hits-date-2027}{HiTS: Unified High-Resolution Thermal Simulation for Air- and Liquid-Cooled 2.5D and 3D Integrated Systems}}{DATE 2027}
+\paper{C.2}{\me, Ziheng Wang, Han Wu, Xing Long, Jiawei Liang, Jiacheng Wang, Jianghan Wang, Zhuoli Ouyang, Wenbo An, Junmin Jiang, and Wei Zhang}{GLARE: Generalizable Large-scale Analog Sizing via Reinforcement Learning with Covariance-Guided Exploration}{ASP-DAC 2027}
+\paper{C.3}{\me, Rachel Melissa Fok, Xiangcheng Zhang, Ruitong Sun, Jonathan Hok Kan Yeung, Ke Deng, and Liangqiong Qu\cor}{DentalPSAM: Lifting SAM to Dental Plaque Segmentation with Hybrid 2D-3D Knowledge Fusion}{MICCAI 2026}
+\paper{C.4}{Yixin Chen, \me, Jiacheng Wang, Han Wu, Wei Zhang, and Xiaopeng Yu}{HypCkt: A Hyperbolic Variational Framework for Analog Circuit Topology Generation}{MLCAD 2026}
+\paper{C.5}{\me\equal, Han Wu\equal, Zhuoli Ouyang, Ziheng Wang, Tinghuan Chen, and Junmin Jiang\cor}{\href{https://ojs.aaai.org/index.php/AAAI/article/view/39388}{FD-MAGRPO: Functionality-Driven Multi-Agent Group Relative Policy Optimization for Analog-LDO Sizing}}{AAAI 2026}
+\paper{C.6}{Han Wu\equal, \me\equal, Ziheng Wang, Zhuoli Ouyang, Chen Hu, Bo Yuan, Yan Lu, and Junmin Jiang\cor}{\href{https://doi.org/10.1109/iscas66217.2026.11562731}{Parallel Critic-Free Reinforcement Learning with Direct Parameter Space Mapping for Large-Scale Analog LDO Sizing}}{ISCAS 2026}
+\paper{C.7}{Han Wu\equal, \me\equal, Zhuoli Ouyang, Ziheng Wang, Qi Shen, Bo Yuan, Yan Lu, and Junmin Jiang\cor}{\href{https://doi.org/10.23919/DATE69613.2026.11539706}{ACEMARL: Adaptive Clustering Enhanced Multi-Agent Reinforcement Learning for Analog Circuit Sizing}}{DATE 2026}
 \newpage
 \heading{Publications (continued)}
-\paper{C.8}{B. Liu, \me, H. Zhang, X. Gao, Z. Kong, X. Tang, D. Z. Pan, and Y. Lin}{\href{https://yibolin.com/publications/papers/ANALOG_DATE2026_Liu.pdf}{GRAIN: A Design-Intent-Driven Analog Layout Migration Framework}}{DATE 2026}
-\paper{C.9}{B. Liu, \me, H. Zhang, X. Gao, Z. Kong, X. Tang, D. Z. Pan, and Y. Lin}{\href{https://yibolin.com/publications/papers/ANALOG_ISEDA2026_Liu.pdf}{GRAIN: A Design-Intent-Driven Analog Layout Migration Framework}}{ISEDA 2026}
-\paper{C.10}{Y. Shi, X. Zhang, J. Ji, \me, C. Zheng, Y. Wang, and L. Qu}{\href{https://arxiv.org/abs/2506.09634}{HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding}}{CVPR Findings 2026}
-\paper{C.11}{J. Wang, \me, J. Wang, R. Chen, C. Zhuang, and J. Song}{\href{https://ieeexplore.ieee.org/document/11252000}{SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor (IGBT) Datasheet}}{EExPolytech 2025}
-\paper{J.1}{Y. Wang\equal, J. Chen\equal, Z. Chen\equal, S. Kuang\equal, \me, Y. Shi, H. Yuan, Yan-ran (Joyce) Wang, B. Wang, L. Wu, B. Tang, L. Meng, B. Luo, B. Zhou, W. Ding, W. Zhong, W. Hou, Y. Chen, Z. Wan, W. Wang, Z. Xiao, W. Wan, A. He, Y. Zhou, L. Zhang, F. Wang, Z. Liu, M. Iv, X. Gong, and L. Qu}{A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data}{Lancet Digital Life}
-\paper{J.2}{P. Guo\equal, R. Wang\equal, S. Zeng, J. Zhu, \me, Y. Wang, Y. Zhou, F. Wang, H. Xiong, and L. Qu}{\href{https://arxiv.org/abs/2503.11514}{Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks}}{IEEE TPAMI}
-{\small * Equal contribution.}\par
+\paper{C.8}{Bingyang Liu, \me, Haoyi Zhang, Xiaohan Gao, Zichen Kong, Xiyuan Tang, David Z. Pan, and Yibo Lin\cor}{\href{https://yibolin.com/publications/papers/ANALOG_DATE2026_Liu.pdf}{GRAIN: A Design-Intent-Driven Analog Layout Migration Framework}}{DATE 2026}
+\paper{C.9}{Bingyang Liu, \me, Haoyi Zhang, Xiaohan Gao, Zichen Kong, Xiyuan Tang, David Z. Pan, and Yibo Lin\cor}{\href{https://yibolin.com/publications/papers/ANALOG_ISEDA2026_Liu.pdf}{GRAIN: A Design-Intent-Driven Analog Layout Migration Framework}}{ISEDA 2026}
+\paper{C.10}{Yanzhao Shi, Xiaodan Zhang, Junzhong Ji, \me, Chengxin Zheng, Yinong Wang, and Liangqiong Qu\cor}{\href{https://arxiv.org/abs/2506.09634}{HSENet: Hybrid Spatial Encoding Network for 3D Medical Vision-Language Understanding}}{CVPR Findings 2026}
+\paper{C.11}{Jinyu Wang, \me, Jiachen Wang, Rui Chen, Chijie Zhuang, and Jian Song\cor}{\href{https://ieeexplore.ieee.org/document/11252000}{SPECTRUM: Synergistic Precision Extraction and Chart Transformation Tool for Robust Unified Power SeMiconductor (IGBT) Datasheet}}{EExPolytech 2025}
+\paper{J.1}{Yinong Wang\equal, Jianwen Chen\equal, Zhou Chen\equal, Shuwen Kuang\equal, \me, Yanzhao Shi, Huichun Yuan, Yan-ran (Joyce) Wang, Bing Wang, Lei Wu, Bin Tang, Li Meng, Baihua Luo, Bin Zhou, Wei Ding, Weiming Zhong, Wei Hou, Yuanbing Chen, Zhiping Wan, Wei Wang, Zhenkun Xiao, Wenwu Wan, Allen He, Yuyin Zhou, Longbo Zhang, Feifei Wang, Zhixiong Liu, Michael Iv, Xuan Gong\cor, and Liangqiong Qu\cor}{\href{https://arxiv.org/abs/2609.16597}{A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data}}{The Lancet Digital Health}
+\paper{J.2}{Pengxin Guo\equal, Runxi Wang\equal, Shuang Zeng, Jinjing Zhu, \me, Yanran Wang, Yuyin Zhou, Feifei Wang, Hui Xiong, and Liangqiong Qu\cor}{\href{https://arxiv.org/abs/2503.11514}{Exploring the Vulnerabilities of Federated Learning: A Deep Dive into Gradient Inversion Attacks}}{IEEE TPAMI}
+{\small * Equal contribution.\quad † Corresponding author.}\par
 \heading{Service}
 Program committee member and reviewer for AAAI 2026 and 2027. Reviewer for CVPR 2026 and IEEE TCAD.
 \heading{Patent}

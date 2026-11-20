@@ -43,7 +43,7 @@ sections:
             <p class="venue-label">{{ paper.venue_label | escape }}</p>
             <div class="paper-list-text">
               <h3><a href="{{ paper.url | relative_url }}">{{ paper.title | escape }}</a></h3>
-              {% include paper-byline.html paper=paper compact=true %}
+              {% include paper-byline.html paper=paper %}
               {% include paper-resources.html paper=paper %}
             </div>
           </li>

@@ -7,7 +7,7 @@ venue: "Design, Automation and Test in Europe (DATE) and International Symposium
 venue_label: "DATE 2026 · ISEDA 2026"
 section: conference
 list_order: 8
-authors: "B. Liu, H. Jiang, H. Zhang, X. Gao, Z. Kong, X. Tang, D. Z. Pan, and Y. Lin†"
+authors: "Bingyang Liu, Haoning Jiang, Haoyi Zhang, Xiaohan Gao, Zichen Kong, Xiyuan Tang, David Z. Pan, and Yibo Lin†"
 resources:
   - label: "DATE paper"
     cite_as: "DATE 2026"

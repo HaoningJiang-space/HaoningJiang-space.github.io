@@ -1,3 +1,0 @@
-{%- for name in include.names -%}
-  <span class="author-name">{{ name | escape | replace: 'H. Jiang', '<strong>H. Jiang</strong>' | replace: 'Haoning Jiang', '<strong>Haoning Jiang</strong>' | replace: '*', '<sup>*</sup>' | replace: '†', '<sup>†</sup>' }}{% unless forloop.last %},{% endunless %}</span>{% unless forloop.last %}&#32;{% endunless %}
-{%- endfor -%}

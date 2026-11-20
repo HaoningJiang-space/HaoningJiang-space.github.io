@@ -71,7 +71,7 @@ redirect_from:
     <ul class="dated-list">
       <li><time datetime="2026-11">Nov 2026</time><span>My first-author paper <a href="/publication/hits-date-2027">HiTS</a> was accepted at <strong>DATE 2027</strong>.</span></li>
       <li><time datetime="2026-09">Sep 2026</time><span>My first-author paper <a href="{{ glare.url | relative_url }}">GLARE</a>, on reinforcement learning for analog sizing, was accepted at <strong>{{ glare.venue_label }}</strong>.</span></li>
-      <li><time datetime="2026-08">Aug 2026</time><span>Our <a href="/publication/2025-01-05-brain-tumor-foundation-model">brain tumor diagnosis paper</a> was accepted by <em>Lancet Digital Life</em>.</span></li>
+      <li><time datetime="2026-08">Aug 2026</time><span>Our <a href="/publication/2025-01-05-brain-tumor-foundation-model">brain tumor diagnosis paper</a> was accepted by <em>The Lancet Digital Health</em>.</span></li>
     </ul>
     <details class="earlier-news">
       <summary>Earlier news</summary>
