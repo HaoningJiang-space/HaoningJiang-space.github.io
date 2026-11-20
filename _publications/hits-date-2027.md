@@ -17,6 +17,23 @@ figure:
   caption: "Temperature on a powered layer of the EV6 stack. The right panel shows HiTS minus the 3D-ICE reference."
   source: "/files/hits-thermal-fields.pdf"
   source_label: "Full figure (PDF)"
+thermal_cases:
+  - id: ev6
+    label: "EV6"
+    title: "A 3D processor stack"
+    description: "Several hotspots appear on the same powered layer. The coolest and warmest regions are nearly 28 °C apart."
+    image: "/images/hits-ev6-layer.webp"
+    alt: "Stacked square dies with several warm patches on the powered layer."
+    low: "33.50"
+    high: "61.15"
+  - id: mfit
+    label: "MFIT"
+    title: "A 2.5D chiplet package"
+    description: "The small chiplet on the right runs hottest. Across the powered regions, the temperature varies by less than 2 °C."
+    image: "/images/hits-mfit-layer.webp"
+    alt: "Three chiplets on a shared package. The right-hand chiplet is warmer than the other two."
+    low: "79.63"
+    high: "81.46"
 excerpt: "HiTS models heat in 2.5D and 3D integrated systems with air or liquid cooling."
 ---
 
